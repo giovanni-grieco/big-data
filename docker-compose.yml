@@ -4,6 +4,10 @@ services:
     container_name: hadoop-namenode
     hostname: namenode
     command: ["hdfs", "namenode"]
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     ports:
       - 9870:9870
       - 8020:8020
@@ -24,6 +28,10 @@ services:
     image: apache/hadoop:3.4
     container_name: hadoop-datanode1
     command: ["hdfs", "datanode"]
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     environment: *environment
     networks:
       - hadoop-net
@@ -38,6 +46,10 @@ services:
     image: apache/hadoop:3.4
     container_name: hadoop-datanode2
     command: ["hdfs", "datanode"]
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     environment: *environment
     networks:
       - hadoop-net
@@ -53,6 +65,10 @@ services:
     container_name: hadoop-resourcemanager
     hostname: resourcemanager
     command: ["yarn", "resourcemanager"]
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     ports:
       - 8088:8088
     networks:
@@ -65,6 +81,10 @@ services:
     image: apache/hadoop:3.4
     container_name: hadoop-nodemanager
     command: ["yarn", "nodemanager"]
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     environment:
       - YARN-SITE.XML_yarn.resourcemanager.hostname="resourcemanager"
     networks:

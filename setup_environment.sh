@@ -1,8 +1,6 @@
 #!/bin/bash
 # as argument, specify version. Default is 3.4.1
 # Example: ./install_hadoop.sh 3.4.1
-
-
 # Check if a version argument is provided
 if [ -z "$1" ]; then
     VERSION="3.4.1"
@@ -13,6 +11,7 @@ fi
 #check for java 11
 if ! java --version 2>&1 | grep -q "11"; then
     echo "Java 11 is required. Please install Java 11 and try again."
+    echo "Visit https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Java+Versions for more information."
     echo "Make sure to set JAVA_HOME environment variable to point to your Java 11 installation."
     echo "You can set JAVA_HOME in your ~/.bashrc or ~/.bash_profile file."
     echo "For example, add the following line to your ~/.bashrc or ~/.bash_profile:"

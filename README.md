@@ -1,4 +1,4 @@
-# Big Data (Università degli Studi Roma Tre)
+# Big Data Hadoop (Università degli Studi Roma Tre)
 ## What's inside this repository?
 Helper scripts to setup the environment and a docker compose to launch cluster running HDFS
 

@@ -13,6 +13,11 @@ fi
 #check for java 11
 if ! java --version 2>&1 | grep -q "11"; then
     echo "Java 11 is required. Please install Java 11 and try again."
+    echo "Make sure to set JAVA_HOME environment variable to point to your Java 11 installation."
+    echo "You can set JAVA_HOME in your ~/.bashrc or ~/.bash_profile file."
+    echo "For example, add the following line to your ~/.bashrc or ~/.bash_profile:"
+    echo "export JAVA_HOME=/path/to/your/java11"
+    echo "Then, run 'source ~/.bashrc' or 'source ~/.bash_profile' to apply the changes."
     exit 1
 fi
 # Check if wget is installed

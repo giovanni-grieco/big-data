@@ -1,6 +1,6 @@
 # Big Data (Università degli Studi Roma Tre)
 ## What's inside this repository?
-Helper scripts to setup the environment and a docker compose to setup a hdfs cluster
+Helper scripts to setup the environment and a docker compose to launch cluster running HDFS
 
 ## Requirements
 - Docker engine and docker compose

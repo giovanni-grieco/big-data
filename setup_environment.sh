@@ -41,22 +41,34 @@ else
     echo "Hadoop version $VERSION already downloaded."
 fi
 
-# Extract the downloaded tarball
-tar -xzf "hadoop-$VERSION.tar.gz"
-#check if the extraction was successful
-if [ $? -ne 0 ]; then
-    echo "Failed to extract Hadoop version $VERSION"
-    exit 1
-fi
+echo "Don't delete the hadoop-$VERSION directory, as it contains the hadoop tarball."
+echo "The download will remain cached in this directory."
 
-# Move the extracted directory to the desired location
-mv "hadoop-$VERSION" "$HOME/hadoop-$VERSION"
-#check if the move was successful
-if [ $? -ne 0 ]; then
-    echo "Failed to move Hadoop version $VERSION to $HOME"
-    exit 1
+
+# Check if the tarball was already extracted, if the directory exists
+if [ -d "$HOME/hadoop-$VERSION" ]; then
+    echo "Hadoop version $VERSION is already extracted."
+else
+    # Extract the tarball
+    tar -xzf "hadoop-$VERSION.tar.gz"
+    #check if the extraction was successful
+    if [ $? -ne 0 ]; then
+        echo "Failed to extract Hadoop version $VERSION"
+        exit 1
+    fi
+fi
+# Check if the extracted directory already exists in $HOME
+if [ -d "$HOME/hadoop-$VERSION" ]; then
+    echo "Hadoop version $VERSION is already in $HOME."
+else
+    # Move the extracted directory to $HOME
+    mv "hadoop-$VERSION" "$HOME"
 fi
 
 # Set environment variables
 export HADOOP_BASE="$HOME/hadoop-$VERSION"
-export PATH="$HADOOP_BASE/bin:$PATH"
+
+#check if PATH already has HADOOP_BASE/bin
+if [[ ":$PATH:" != *":$HADOOP_BASE/bin:"* ]]; then
+    export PATH="$HADOOP_BASE/bin:$PATH"
+fi

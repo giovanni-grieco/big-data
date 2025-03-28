@@ -46,7 +46,7 @@ else
     echo "Hadoop version $VERSION already downloaded."
 fi
 
-echo "Don't delete the hadoop-$VERSION directory, as it contains the hadoop tarball."
+echo "Don't delete the hadoop-$VERSION.tar.gz, as it contains the hadoop tarball."
 echo "The download will remain cached in this directory."
 
 
@@ -77,3 +77,22 @@ export HADOOP_BASE="$HOME/hadoop-$VERSION"
 if [[ ":$PATH:" != *":$HADOOP_BASE/bin:"* ]]; then
     export PATH="$HADOOP_BASE/bin:$PATH"
 fi
+
+echo "Environment variables are set."
+echo "HADOOP_BASE is set to $HADOOP_BASE"
+
+
+echo "Configuring Hadoop core-site.xml"
+
+cat <<EOL > "$HADOOP_BASE/etc/hadoop/core-site.xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://localhost:8020</value>
+    </property>
+</configuration>
+EOL
+
+echo "All done!"

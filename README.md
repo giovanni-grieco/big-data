@@ -12,3 +12,10 @@ Helper scripts to setup the environment and a docker compose to launch cluster r
 - Run setup_environment.sh to download hadoop (we're interested in hdfs client to be used from CLI)
 - Run start.sh to launch cluster via docker compose
 - Run stop.sh to stop cluster
+
+## Setup Environment
+Important thing to know is that the script will setup environment variables to use hadoop locally. The environment variables live only inside the current terminal session where the script was run.
+If the terminal is closed and re-opened, you need to re-run setup_environment.sh.
+You can edit your .bashrc (or equivalent) to have everything already setup from the start of your terminal.
+Hadoop folder will be put in your $HOME folder (for example /home/yourusername/hadoop-3.4.1).
+If you want to edit .bashrc you need to "export HADOOP_BASE="$HOME/hadoop-3.4.1" (assuming 3.4.1 is the version of the example) and then "export PATH="$HADOOP_BASE/bin:$PATH"

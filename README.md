@@ -11,6 +11,7 @@ Helper scripts to setup the environment and a docker compose to launch cluster r
 ## How to use?
 To setup the environment (installing hadoop and declaring environment variables) run:
 ```bash
+# yes, '.' included
 . ./setup_environment.sh
 ```
 

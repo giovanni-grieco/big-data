@@ -53,6 +53,7 @@ echo "The download will remain cached in this directory."
 if [ -d "$HOME/hadoop-$VERSION" ]; then
     echo "Hadoop version $VERSION is already extracted."
 else
+    echo "Extracting hadoop from tarball..."
     # Extract the tarball
     tar -xzf "hadoop-$VERSION.tar.gz"
     #check if the extraction was successful

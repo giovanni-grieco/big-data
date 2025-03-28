@@ -9,6 +9,11 @@ Helper scripts to setup the environment and a docker compose to launch cluster r
 - tar (should be available by default on most distros)
 
 ## How to use?
+Download the repository
+```bash
+git clone https://github.com/giovanni-grieco/big-data-hadoop.git
+```
+
 To setup the environment (installing hadoop and declaring environment variables) run:
 ```bash
 # yes, '.' included

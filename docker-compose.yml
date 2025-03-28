@@ -11,16 +11,20 @@ services:
     ports:
       - 9870:9870
       - 8020:8020
+      - 9000:9000
     environment: &environment
       - ENSURE_NAMENODE_DIR="/tmp/hadoop-root/dfs/name"
-      - CORE-SITE.XML_fs.defaultFS="hdfs://hadoop-namenode.shared-net"
-      - CORE-SITE.XML_fs.default.name="hdfs://hadoop-namenode.shared-net"
-      - HDFS-SITE.XML_dfs.namenode.rpc-address="hadoop-namenode.shared-net:8020"
+      - CORE-SITE.XML_fs.defaultFS="hdfs://hadoop-namenode"
+      - CORE-SITE.XML_fs.default.name="hdfs://hadoop-namenode"
+      - HDFS-SITE.XML_dfs.namenode.rpc-address="hadoop-namenode:8020"
       - HDFS-SITE.XML_dfs.replication="2"
       - MAPRED-SITE.XML_mapreduce.framework.name="yarn"
+      - HDFS-SITE.XML_dfs.permissions.enabled="false"
+      - HDFS-SITE.XML_dfs.permissions.superusergroup="supergroup"
+      - CORE-SITE.XML_hadoop.http.staticuser.user="${USER:-hdfs}"
+      - HDFS-SITE.XML_hadoop.user.name="${USER:-hdfs}"
     networks:
       - hadoop-net
-      - shared-net
     volumes:
       - namenode-data:/tmp/hadoop-root/dfs/name
 
@@ -35,7 +39,6 @@ services:
     environment: *environment
     networks:
       - hadoop-net
-      - shared-net
     depends_on:
       - namenode
       - resourcemanager
@@ -53,7 +56,6 @@ services:
     environment: *environment
     networks:
       - hadoop-net
-      - shared-net
     depends_on:
       - namenode
       - resourcemanager
@@ -73,7 +75,6 @@ services:
       - 8088:8088
     networks:
       - hadoop-net
-      - shared-net
     depends_on:
       - namenode
 
@@ -89,15 +90,12 @@ services:
       - YARN-SITE.XML_yarn.resourcemanager.hostname="resourcemanager"
     networks:
       - hadoop-net
-      - shared-net
     depends_on:
       - resourcemanager
 
 networks:
   hadoop-net:
     driver: bridge
-  shared-net:
-    external: true
 
 volumes:
   namenode-data:

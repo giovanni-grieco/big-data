@@ -34,7 +34,7 @@ Important thing to know is that the script will setup environment variables to u
 
 The environment variables live only inside the current terminal session where the script was run.
 
-If the terminal is closed and re-opened, you need to re-run setup_environment.sh.
+If the terminal is closed and re-opened, you need to re-run ```source setup_environment.sh.```
 
 You can edit your .bashrc (or equivalent) to have everything already setup from the start of your terminal.
 

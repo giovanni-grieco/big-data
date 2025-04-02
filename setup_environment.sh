@@ -71,20 +71,38 @@ else
 fi
 
 # Set environment variables
-export HADOOP_BASE="$HOME/hadoop-$VERSION"
+export HADOOP_HOME="$HOME/hadoop-$VERSION"
 
-#check if PATH already has HADOOP_BASE/bin
-if [[ ":$PATH:" != *":$HADOOP_BASE/bin:"* ]]; then
-    export PATH="$HADOOP_BASE/bin:$PATH"
+#check if PATH already has HADOOP_HOME/bin
+if [[ ":$PATH:" != *":$HADOOP_HOME/bin:"* ]]; then
+    export PATH="$HADOOP_HOME/bin:$PATH"
+fi
+echo "Environment variables are set."
+echo "HADOOP_HOME is set to $HADOOP_HOME"
+
+echo "Checking hadoop-streaming"
+if [ ! -f "$HADOOP_HOME/streaming/hadoop-streaming.jar" ]; then
+    echo "Hadoop streaming jar not found. Please check your Hadoop installation."
+    echo "Downloading hadoop-streaming.jar..."
+    wget "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-streaming/3.3.1/hadoop-streaming-3.3.1.jar"
+    #check if the download was successful
+    if [ $? -ne 0 ]; then
+        echo "Failed to download hadoop-streaming.jar"
+        exit 1
+    fi
+    # Move the jar to the streaming directory
+    mkdir -p "$HADOOP_HOME/streaming/"
+    mv "hadoop-streaming-3.3.1.jar" "$HADOOP_HOME/streaming/hadoop-streaming.jar"
+else
+    echo "Hadoop streaming jar already exists."
 fi
 
-echo "Environment variables are set."
-echo "HADOOP_BASE is set to $HADOOP_BASE"
+
 
 
 echo "Configuring Hadoop core-site.xml"
 
-cat <<EOL > "$HADOOP_BASE/etc/hadoop/core-site.xml"
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
@@ -94,5 +112,17 @@ cat <<EOL > "$HADOOP_BASE/etc/hadoop/core-site.xml"
     </property>
 </configuration>
 EOL
+
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+</configuration>
+EOL
+
 
 echo "All done!"

@@ -1,1 +1,1 @@
-docker compose up -d
+$HADOOP_HOME/sbin/start-dfs.sh

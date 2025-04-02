@@ -1,1 +1,1 @@
-docker compose down
+$HADOOP_HOME/sbin/stop-dfs.sh

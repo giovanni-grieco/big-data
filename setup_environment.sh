@@ -108,7 +108,7 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
 <configuration>
     <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://localhost:8020</value>
+        <value>hdfs://localhost:9000</value>
     </property>
 </configuration>
 EOL
@@ -123,6 +123,8 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
     </property>
 </configuration>
 EOL
+
+hdfs namenode -format
 
 
 echo "All done!"

@@ -1,6 +1,6 @@
 # Big Data Hadoop (Università degli Studi Roma Tre)
 ## What's inside this repository?
-Helper scripts to setup the environment and a docker compose to launch cluster running HDFS
+Helper scripts to setup the environment and run hdfs (and in the future Spark) on your machine
 
 ## Requirements
 - Docker engine and docker compose
@@ -11,7 +11,7 @@ Helper scripts to setup the environment and a docker compose to launch cluster r
 ## How to use?
 Download the repository
 ```bash
-git clone https://github.com/giovanni-grieco/big-data-hadoop.git
+[git clone https://github.com/giovanni-grieco/big-data-hadoop.git](https://github.com/giovanni-grieco/big-data.git)
 ```
 
 To setup the environment (installing hadoop and declaring environment variables) run:

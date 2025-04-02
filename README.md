@@ -16,7 +16,7 @@ git clone https://github.com/giovanni-grieco/big-data-hadoop.git
 
 To setup the environment (installing hadoop and declaring environment variables) run:
 ```bash
-source ./setup_environment.sh
+source setup_environment.sh
 ```
 
 To start hadoop services

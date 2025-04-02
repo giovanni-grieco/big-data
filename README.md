@@ -19,14 +19,14 @@ To setup the environment (installing hadoop and declaring environment variables)
 source ./setup_environment.sh
 ```
 
-To start the cluster
+To start hadoop services
 ```bash
-docker compose up -d
+./start.sh
 ```
 
-To stop the cluster
+To stop hadoop services
 ```
-docker compose down
+./stop.sh
 ```
 
 ## Setup Environment

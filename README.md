@@ -11,7 +11,7 @@ Helper scripts to setup the environment and run hdfs (and in the future Spark) o
 ## How to use?
 Download the repository
 ```bash
-[git clone https://github.com/giovanni-grieco/big-data-hadoop.git](https://github.com/giovanni-grieco/big-data.git)
+https://github.com/giovanni-grieco/big-data.git
 ```
 
 To setup the environment (installing hadoop and declaring environment variables) run:

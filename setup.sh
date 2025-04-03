@@ -1,6 +1,6 @@
 #!/bin/bash
 # as argument, specify version. Default is 3.4.1
-# Example: ./install_hadoop.sh 3.4.1
+# Example: ./setup.sh 3.4.1
 # Check if a version argument is provided
 if [ -z "$1" ]; then
     VERSION="3.4.1"
@@ -131,6 +131,5 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
 EOL
 
 hdfs namenode -format
-
 
 echo "All done!"

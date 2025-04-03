@@ -33,42 +33,48 @@ fi
 #check if hadoop has already been downloaded
 #if not, then download, otherwise avoid redownloading
 
-if [ ! -f "hadoop-$VERSION.tar.gz" ]; then
-    # Download Hadoop
-    wget "https://archive.apache.org/dist/hadoop/common/hadoop-$VERSION/hadoop-$VERSION.tar.gz"
-    #check if the download was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to download Hadoop version $VERSION"
-        exit 1
-    fi
-else
+if [ -d "$HOME/hadoop-$VERSION" ]; then
     echo "Hadoop version $VERSION already downloaded."
-fi
-
-echo "Don't delete the hadoop-$VERSION.tar.gz, as it contains the hadoop tarball."
-echo "The download will remain cached in this directory."
-
-
-# Check if the tarball was already extracted, if the directory exists
-if [ -d "$HOME/hadoop-$VERSION" ]; then
-    echo "Hadoop version $VERSION is already extracted."
 else
-    echo "Extracting hadoop from tarball..."
-    # Extract the tarball
-    tar -xzf "hadoop-$VERSION.tar.gz"
-    #check if the extraction was successful
-    if [ $? -ne 0 ]; then
-        echo "Failed to extract Hadoop version $VERSION"
-        exit 1
+    echo "Hadoop not found in $HOME"
+    if [ ! -f "hadoop-$VERSION.tar.gz" ]; then
+        # Download Hadoop
+        wget "https://archive.apache.org/dist/hadoop/common/hadoop-$VERSION/hadoop-$VERSION.tar.gz"
+        #check if the download was successful
+        if [ $? -ne 0 ]; then
+            echo "Failed to download Hadoop version $VERSION"
+            exit 1
+        fi
+    else
+        echo "Hadoop version $VERSION already downloaded."
+    fi
+
+    echo "Don't delete the hadoop-$VERSION.tar.gz, as it contains the hadoop tarball."
+    echo "The download will remain cached in this directory."
+
+
+    # Check if the tarball was already extracted, if the directory exists
+    if [ -d "$HOME/hadoop-$VERSION" ]; then
+        echo "Hadoop version $VERSION is already extracted."
+    else
+        echo "Extracting hadoop from tarball..."
+        # Extract the tarball
+        tar -xzf "hadoop-$VERSION.tar.gz"
+        #check if the extraction was successful
+        if [ $? -ne 0 ]; then
+            echo "Failed to extract Hadoop version $VERSION"
+            exit 1
+        fi
+    fi
+    # Check if the extracted directory already exists in $HOME
+    if [ -d "$HOME/hadoop-$VERSION" ]; then
+        echo "Hadoop version $VERSION is already in $HOME."
+    else
+        # Move the extracted directory to $HOME
+        mv "hadoop-$VERSION" "$HOME"
     fi
 fi
-# Check if the extracted directory already exists in $HOME
-if [ -d "$HOME/hadoop-$VERSION" ]; then
-    echo "Hadoop version $VERSION is already in $HOME."
-else
-    # Move the extracted directory to $HOME
-    mv "hadoop-$VERSION" "$HOME"
-fi
+
 
 # Set environment variables
 export HADOOP_HOME="$HOME/hadoop-$VERSION"

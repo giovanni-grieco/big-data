@@ -1,4 +1,4 @@
-# Big Data Hadoop (Università degli Studi Roma Tre)
+# Big Data (Università degli Studi Roma Tre)
 ## What's inside this repository?
 Helper scripts to setup the environment and run hdfs (and in the future Spark) on your machine
 

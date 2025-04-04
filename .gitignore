@@ -1,2 +1,4 @@
 *.tar.gz
+metastore_db/
+derby.log
 hadoop*/

@@ -34,7 +34,7 @@ fi
 #if not, then download, otherwise avoid redownloading
 
 if [ -d "$HOME/hadoop-$VERSION" ]; then
-    echo "Hadoop version $VERSION already downloaded."
+    echo "Hadoop version $VERSION already in $HOME."
 else
     echo "Hadoop not found in $HOME"
     if [ ! -f "hadoop-$VERSION.tar.gz" ]; then
@@ -76,12 +76,59 @@ else
 fi
 
 
+if [ ! -d "$HOME/hive" ]; then
+    echo "Hive not found in $HOME/hive"
+    #check if targz file already exists
+    hive_archive_file_name="apache-hive-2.3.9-bin.tar.gz"
+    if [ ! -f "$hive_archive_file_name" ]; then
+        # Download Hive
+        wget "https://archive.apache.org/dist/hive/hive-2.3.9/apache-hive-2.3.9-bin.tar.gz"
+        #check if the download was successful
+        if [ $? -ne 0 ]; then
+            echo "Failed to download Hive version 2.3.9"
+            exit 1
+        fi
+    else
+        echo "Hive version 2.3.9 already downloaded."
+    fi
+    # Check if the tarball was already extracted, if the directory exists
+    if [ -d "$HOME/hive" ]; then
+        echo "Hive version 2.3.9 is already extracted."
+    else
+        echo "Extracting hive from tarball..."
+        # Extract the tarball
+        tar -xzf "$hive_archive_file_name"
+        #check if the extraction was successful
+        if [ $? -ne 0 ]; then
+            echo "Failed to extract Hive version 2.3.9"
+            exit 1
+        fi
+    fi
+    # Check if the extracted directory already exists in $HOME
+    if [ -d "$HOME/hive" ]; then
+        echo "Hive version 2.3.9 is already in $HOME."
+    else
+        # Move the extracted directory to $HOME
+        mv "apache-hive-2.3.9-bin" "$HOME/hive"
+        rm $HIVE_HOME/lib/guava-14.0.1.jar
+        cp $HADOOP_HOME/share/hadoop/common/lib/guava-27.0-jre.jar $HIVE_HOME/lib/
+    fi
+else
+    echo "Hive version 2.3.9 already in $HOME."
+fi
+
 # Set environment variables
 export HADOOP_HOME="$HOME/hadoop-$VERSION"
+
+export HIVE_HOME="$HOME/hive"
 
 #check if PATH already has HADOOP_HOME/bin
 if [[ ":$PATH:" != *":$HADOOP_HOME/bin:"* ]]; then
     export PATH="$HADOOP_HOME/bin:$PATH"
+fi
+
+if [[ ":$PATH" != *":$HIVE_HOME/bin:"* ]]; then
+    export PATH="$HIVE_HOME/bin:$PATH"
 fi
 echo "Environment variables are set."
 echo "HADOOP_HOME is set to $HADOOP_HOME"
@@ -129,7 +176,23 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
     </property>
 </configuration>
 EOL
+echo "HADOOP config done"
+
+echo "Configuring Hive"
+cp "$HIVE_HOME/conf/hive-env.sh.template" "$HIVE_HOME/conf/hive-env.sh"
+
+cat <<EOL >> "$HIVE_HOME/conf/hive-env.sh"
+HADOOP_HOME=$HADOOP_HOME
+export HIVE_CONF_DIR=$HIVE_HOME
+export JAVA_HOME=$JAVA_HOME
+EOL
+
+echo "HIVE config done"
 
 hdfs namenode -format
+
+current_path=$(pwd)
+
+schematool -dbType derby -initSchema
 
 echo "All done!"

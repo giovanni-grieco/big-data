@@ -1,6 +1,6 @@
 # Big Data (Università degli Studi Roma Tre)
 ## What's inside this repository?
-Helper scripts to setup the environment and run hdfs (and in the future Spark) on your machine
+Helper scripts to setup the environment and run HDFS, Hive and Spark (Not Yet Implemented) on your machine
 
 ## Requirements
 - Docker engine and docker compose
@@ -29,8 +29,12 @@ To stop hadoop services
 ./stop.sh
 ```
 
+## Big Data Project
+Head over to the 'progetto' folder to have further information on how to run jobs, what were the design choices and technological solutions used to tackle the tasks given.
+
+
 ## Setup Environment
-Important thing to know is that the script will setup environment variables to use hadoop locally. 
+Important thing to know is that the script will setup environment variables to use hadoop, hive and spark locally. 
 
 The environment variables live only inside the current terminal session where the script was run.
 

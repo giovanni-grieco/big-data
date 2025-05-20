@@ -8,7 +8,7 @@ Per ciascun modello, la casa produttrice, il costo medio, massimo e minimo, quan
 ```
 manufacturer    model   amount  min_prica   max_price   avg_price   years_range
 
-Toyota	        ECHO	1	    3599.0	    3599.0	    3599.0	    1
+Toyota	        ECHO	  1	      3599.0	    3599.0	    3599.0	    1
 Volkswagen	    Tiguan	170	    5550.0	    41464.0	    25134.1	    11
 ```
 

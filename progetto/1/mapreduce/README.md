@@ -6,10 +6,10 @@ In questo task viene chiesto di raggruppare per modello tutte le auto del datase
 Per ciascun modello, la casa produttrice, il costo medio, massimo e minimo, quante volte appare il modello all'interno del dataset e gli in cui è esistito nel dataset.
 
 ```
-manufacturer  model   amount  min_prica   max_price   avg_price   years_range
+manufacturer  model   amount  min_prica   max_price   avg_price   years
 
-Toyota        ECHO    1       3599.0      3599.0      3599.0      1
-Volkswagen    Tiguan  170     5550.0      41464.0     25134.1     11
+Aston Martin  Rapide  1       89668.0     89668.0     89668.0     {2016}
+Audi          S7      3       26942.0     59999.0     41146.7	  {2016, 2014, 2015}
 ```
 
 ## Mapper
@@ -42,12 +42,12 @@ Il reducer prende in input i dati emessi dal mapper e li aggrega per modello di 
 3. Prezzo minimo (min_price)
 4. Prezzo massimo (max_price)
 5. Prezzo medio (avg_price)
-6. Intervallo di anni in cui il modello appare nel dataset (years_range)
+6. Un insieme ordinato di anni in cui il modello appare nel dataset (years)
 
 Il reducer calcola queste statistiche mantenendo varie strutture dati per tracciare le informazioni necessarie durante l'elaborazione. L'output finale viene formattato come:
 
 ```
-manufacturer\tmodel\tcount\tmin_price\tmax_price\tavg_price\tyears_range
+manufacturer\tmodel\tcount\tmin_price\tmax_price\tavg_price\t{year1,year2,...yearN}
 ```
 
 Questo output presenta un riepilogo completo delle statistiche per ogni modello di auto presente nel dataset.

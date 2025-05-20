@@ -10,9 +10,9 @@ model_2_min_price = {}
 
 model_2_manufacturer = {}
 
+# SBAGLIATO, deve essere un elenco di anni
 
-model_2_max_year = {}
-model_2_min_year = {}
+model_2_years_set = {}
 
 
 for line in sys.stdin:
@@ -51,17 +51,11 @@ for line in sys.stdin:
     else:
         model_2_min_price[model] = price
 
-    if model in model_2_max_year:
-        if year > model_2_max_year[model]:
-            model_2_max_year[model] = year
+    if model in model_2_years_set:
+        model_2_years_set[model].add(year)
     else:
-        model_2_max_year[model] = year
-
-    if model in model_2_min_year:
-        if year < model_2_min_year[model]:
-            model_2_min_year[model] = year
-    else:
-        model_2_min_year[model] = year
+        model_2_years_set[model] = {year}
+        
 
 model_2_avg_price = {}
 
@@ -75,10 +69,8 @@ for model in model_2_price_sum.keys():
     min_price = model_2_min_price[model]
     max_price = model_2_max_price[model]
     count = model_2_count[model]
-    years_range = model_2_max_year[model] - model_2_min_year[model]
-    if years_range == 0:
-        years_range = 1
-    print(f"{manufacturer}\t{model}\t{count}\t{min_price}\t{max_price}\t{avg_price}\t{years_range}")
+    years = model_2_years_set[model]
+    print(f"{manufacturer}\t{model}\t{count}\t{min_price}\t{max_price}\t{avg_price}\t{years}")
     
 
 

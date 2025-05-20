@@ -9,3 +9,5 @@ hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
     -output /user/$USER/output/bigram_output \
     -mapper mapper.py \
     -reducer reducer.py \
+
+hdfs dfs -cat /user/$USER/output/bigram_output/part*

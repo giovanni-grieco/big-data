@@ -1,24 +1,28 @@
 import sys
+import csv
 
-
-# Remove columns, keep certain columns
 def main():
     input_file = sys.argv[1]
     columns_to_keep = sys.argv[2].split(",")
     # Convert the column indices to integers
     columns_to_keep = [int(i) for i in columns_to_keep]
-    with open(input_file, 'r') as f:
-        with open(f"pruned_{input_file}", 'w') as pruned_file:
-            # Get the indices of the columns to keep
-            # Write the data lines to the output file
-            for line in f:
-                line = line.strip()
-                # Split the line into columns
-                columns = line.split(",")
-                # Keep only the specified columns
-                pruned_columns = [columns[i] for i in columns_to_keep]
-                # Write the pruned line to the output file
-                pruned_file.write(",".join(pruned_columns) + "\n")
+    
+    with open(input_file, 'r', newline='') as f_in:
+        with open(f"pruned_{input_file}", 'w', newline='') as f_out:
+            reader = csv.reader(f_in)
+            writer = csv.writer(f_out)
+            
+            # Process each row
+            for row in reader:
+                try:
+                    # Keep only the specified columns
+                    pruned_row = [row[i] for i in columns_to_keep]
+                    # Write the pruned row
+                    writer.writerow(pruned_row)
+                except Exception as e:
+                    print(f"Error processing row: {row}")
+                    print(f"Exception: {e}")
+                    continue
 
 if __name__ == "__main__":
     # Check if the script is being run directly

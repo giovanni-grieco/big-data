@@ -1,20 +1,16 @@
 #!/usr/bin/env python3
 """mapper.py"""
 import sys
-import csv
 # Read each line from standard input
-
-first_line = True
 for line in sys.stdin:
-    # Skip the first line (header)
-    if first_line:
-        first_line = False
-        continue
+    # Remove leading and trailing whitespace
     try:
         line = line.strip()
-        csv 
-        
-
+        cols = line.split(",") 
+        manufacturer = cols[5].strip().strip('\t')
+        model = cols[6].strip().strip('\t')
+        price = cols[7].strip().strip('\t')
+        year = cols[8].strip().strip('\t')
         print(f"{manufacturer}\t{model}\t{price}\t{year}")
     except Exception as e:
         sys.stderr.write(f"Error processing line: {line}\n")

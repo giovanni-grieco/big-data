@@ -1,17 +1,25 @@
 import sys
-import csv
+import re
 
 def main():
     input_file = sys.argv[1]
     with open(input_file, 'r', newline='') as f_in:
         with open(f"cleaned_{input_file}", 'w', newline='') as f_out:
-            reader = csv.reader(f_in)
-            writer = csv.writer(f_out)
-            # Skip header
-            next(reader, None)
-            # Process and write each row
-            for row in reader:
-                writer.writerow(row)
+            # remove illegal characters inside quotes, and then remove quotes
+            # from the first line (header)
+            first_line = True
+            for line in f_in:
+                if first_line:
+                    first_line = False
+                    # Remove illegal characters inside quotes
+                    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9_.,-]', '', m.group(1)) + '"', line)
+                    # Remove quotes from the header
+                    line = line.replace('"', '')
+                else:
+                    # Remove illegal characters inside quotes
+                    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9_.,-]', '', m.group(1)) + '"', line)
+                f_out.write(line)
+
 
 
 if __name__ == "__main__":

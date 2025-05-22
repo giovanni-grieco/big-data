@@ -1,0 +1,5 @@
+dataset,status,execution_time_seconds
+cleaned_pruned_used_cars_data_1percent,SUCCESSO,2.40
+cleaned_pruned_used_cars_data_5percent,SUCCESSO,3.48
+cleaned_pruned_used_cars_data_20percent,SUCCESSO,5.46
+cleaned_pruned_used_cars_data,SUCCESSO,16.47

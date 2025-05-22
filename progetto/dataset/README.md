@@ -6,14 +6,14 @@
 
 ## Colonne utilizzate
 ```
-name                col  pruned_col
-city                7    0
-daysonmarket        10   1
-description         12   2
-engine_displacement 14   3
-horsepower          27   4
-make_name           42   5
-model_name          45   6
-price               48   7
-year                65   8
+type     name                col  pruned_col
+string   city                7    0
+int      daysonmarket        10   1
+string   description         12   2
+float    engine_displacement 14   3
+float    horsepower          27   4
+string   make_name           42   5
+string   model_name          45   6
+float(?) price               48   7
+int      year                65   8
 ```

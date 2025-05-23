@@ -10,8 +10,6 @@ model_2_min_price = {}
 
 model_2_manufacturer = {}
 
-# SBAGLIATO, deve essere un elenco di anni
-
 model_2_years_set = {}
 
 

@@ -2,8 +2,15 @@
 """mapper.py"""
 import sys
 # Read each line from standard input
+
+skip_header = True
+
 for line in sys.stdin:
     # Remove leading and trailing whitespace
+
+    if skip_header:
+        skip_header = False
+        continue
     try:
         line = line.strip()
         cols = line.split(",") 

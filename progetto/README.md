@@ -1,6 +1,6 @@
 # Progetto da svolgere individualmente Big Data
 
-Nella cartella dataset, oltre al dataset stesso, si possono trovare degli script di pulizia del dataset e script di porzionamento del dataset
+Nella cartella dataset si possono trovare degli script di pulizia e porzionamento del dataset
 
 ## Prima di eseguire
 Assicurarsi di aver a disposizione in locale il [dataset](https://www.kaggle.com/datasets/ananaymital/us-used-cars-dataset) e di averlo pulito, porzionato e caricato su HDFS

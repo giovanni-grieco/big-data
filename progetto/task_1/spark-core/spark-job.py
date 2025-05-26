@@ -8,18 +8,32 @@ price_col = 7
 year_col = 8
 
 def reducer(a, b):
-    manufacturer_a, price_a, year_set_a = a
-    manufacturer_b, price_b, year_set_b = b
+    manufacturer_a, count_a, min_price_a, max_price_a, price_a, year_set_a = a
+    manufacturer_b, count_b, min_price_b, max_price_b, price_b, year_set_b = b
     
     manufacturer = manufacturer_a if manufacturer_a else manufacturer_b
-    avg_price = (float(price_a) + float(price_b)) / 2
+
+    min_price = min(min_price_a, min_price_b)
+    max_price = max(max_price_a, max_price_b)
+
+    if price_a < min_price :
+        min_price = price_a
+    if price_b < min_price :
+        min_price = price_b
+    if price_a > max_price :
+        max_price = price_a
+    if price_b > max_price :
+        max_price = price_b
+
+    sums_price = float(price_a) + float(price_b)
     years_set = year_set_a.union(year_set_b)
 
-    return (manufacturer, avg_price, years_set)
+    return (manufacturer, count_a+count_b ,min_price, max_price, sums_price, years_set)
 
 def format_output(reduced_data):
-    model, (manufacturer, avg_price, years_set) = reduced_data
-    return f"{manufacturer}\t{model}\t{avg_price:.2f}\t{years_set}"
+    model, (manufacturer, count, min_price, max_price, sums_price, years_set) = reduced_data
+    avg_price= sums_price / count if count > 0 else 0
+    return f"{manufacturer}\t{model}\t{count}\t{min_price}\t{max_price}\t{avg_price}\t{years_set}"
 
 def parse_line(line):
     try:
@@ -29,9 +43,11 @@ def parse_line(line):
         model = cols[model_col]
         manufacturer = cols[manufacturer_col]
         price = float(cols[price_col])
+        max_price = price
+        min_price = price
         year = int(cols[year_col])
         
-        return (model, (manufacturer, price, {year}))
+        return (model, (manufacturer, 1, min_price, max_price, price, {year}))
     except (ValueError, IndexError):
         # If any error occurs during parsing, return None
         return None

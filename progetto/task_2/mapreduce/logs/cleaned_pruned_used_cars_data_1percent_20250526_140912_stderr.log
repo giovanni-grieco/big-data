@@ -1,0 +1,1175 @@
+2025-05-26 14:09:15,481 INFO impl.MetricsConfig: Loaded properties from hadoop-metrics2.properties
+2025-05-26 14:09:15,593 INFO impl.MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+2025-05-26 14:09:15,593 INFO impl.MetricsSystemImpl: JobTracker metrics system started
+2025-05-26 14:09:15,610 WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+2025-05-26 14:09:15,927 INFO mapred.FileInputFormat: Total input files to process : 1
+2025-05-26 14:09:15,966 INFO mapreduce.JobSubmitter: number of splits:1
+2025-05-26 14:09:16,090 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local464263535_0001
+2025-05-26 14:09:16,090 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2025-05-26 14:09:16,167 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+2025-05-26 14:09:16,169 INFO mapreduce.Job: Running job: job_local464263535_0001
+2025-05-26 14:09:16,169 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+2025-05-26 14:09:16,172 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2025-05-26 14:09:16,178 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2025-05-26 14:09:16,178 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2025-05-26 14:09:16,229 INFO mapred.LocalJobRunner: Waiting for map tasks
+2025-05-26 14:09:16,232 INFO mapred.LocalJobRunner: Starting task: attempt_local464263535_0001_m_000000_0
+2025-05-26 14:09:16,266 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2025-05-26 14:09:16,266 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2025-05-26 14:09:16,283 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2025-05-26 14:09:16,288 INFO mapred.MapTask: Processing split: hdfs://localhost:9000/user/giovanni/input/cleaned_pruned_used_cars_data_1percent.csv:0+82131930
+2025-05-26 14:09:16,299 INFO mapred.MapTask: numReduceTasks: 1
+2025-05-26 14:09:16,336 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2025-05-26 14:09:16,336 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2025-05-26 14:09:16,336 INFO mapred.MapTask: soft limit at 83886080
+2025-05-26 14:09:16,336 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2025-05-26 14:09:16,336 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+2025-05-26 14:09:16,338 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2025-05-26 14:09:16,343 INFO streaming.PipeMapRed: PipeMapRed exec [/home/giovanni/Projects/big-data/progetto/task_2/mapreduce/./mapper.py]
+2025-05-26 14:09:16,347 INFO Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2025-05-26 14:09:16,348 INFO Configuration.deprecation: mapred.local.dir is deprecated. Instead, use mapreduce.cluster.local.dir
+2025-05-26 14:09:16,348 INFO Configuration.deprecation: map.input.file is deprecated. Instead, use mapreduce.map.input.file
+2025-05-26 14:09:16,348 INFO Configuration.deprecation: map.input.length is deprecated. Instead, use mapreduce.map.input.length
+2025-05-26 14:09:16,348 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+2025-05-26 14:09:16,348 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+2025-05-26 14:09:16,349 INFO Configuration.deprecation: map.input.start is deprecated. Instead, use mapreduce.map.input.start
+2025-05-26 14:09:16,349 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+2025-05-26 14:09:16,349 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2025-05-26 14:09:16,349 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+2025-05-26 14:09:16,350 INFO Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2025-05-26 14:09:16,350 INFO Configuration.deprecation: user.name is deprecated. Instead, use mapreduce.job.user.name
+2025-05-26 14:09:16,421 INFO streaming.PipeMapRed: R/W/S=1/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:16,421 INFO streaming.PipeMapRed: R/W/S=10/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:16,426 INFO streaming.PipeMapRed: R/W/S=100/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:16,427 INFO streaming.PipeMapRed: Records R/W=121/1
+2025-05-26 14:09:16,472 INFO streaming.PipeMapRed: R/W/S=1000/946/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:16,564 INFO streaming.PipeMapRed: R/W/S=10000/9949/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:16,706 INFO streaming.PipeMapRed: MRErrorThread done
+2025-05-26 14:09:16,707 INFO streaming.PipeMapRed: mapRedFinished
+2025-05-26 14:09:16,709 INFO mapred.LocalJobRunner: 
+2025-05-26 14:09:16,709 INFO mapred.MapTask: Starting flush of map output
+2025-05-26 14:09:16,709 INFO mapred.MapTask: Spilling map output
+2025-05-26 14:09:16,709 INFO mapred.MapTask: bufstart = 0; bufend = 81376796; bufvoid = 104857600
+2025-05-26 14:09:16,709 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26094384(104377536); length = 120013/6553600
+2025-05-26 14:09:16,813 INFO mapred.MapTask: Finished spill 0
+2025-05-26 14:09:16,821 INFO mapred.Task: Task:attempt_local464263535_0001_m_000000_0 is done. And is in the process of committing
+2025-05-26 14:09:16,823 INFO mapred.LocalJobRunner: Records R/W=121/1
+2025-05-26 14:09:16,823 INFO mapred.Task: Task 'attempt_local464263535_0001_m_000000_0' done.
+2025-05-26 14:09:16,827 INFO mapred.Task: Final Counters for attempt_local464263535_0001_m_000000_0: Counters: 23
+	File System Counters
+		FILE: Number of bytes read=141441
+		FILE: Number of bytes written=82358546
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=82131930
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=5
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1
+		HDFS: Number of bytes read erasure-coded=0
+	Map-Reduce Framework
+		Map input records=30005
+		Map output records=30004
+		Map output bytes=81376796
+		Map output materialized bytes=81494602
+		Input split bytes=136
+		Combine input records=0
+		Spilled Records=30004
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=324009984
+	File Input Format Counters 
+		Bytes Read=82131930
+2025-05-26 14:09:16,827 INFO mapred.LocalJobRunner: Finishing task: attempt_local464263535_0001_m_000000_0
+2025-05-26 14:09:16,828 INFO mapred.LocalJobRunner: map task executor complete.
+2025-05-26 14:09:16,830 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+2025-05-26 14:09:16,830 INFO mapred.LocalJobRunner: Starting task: attempt_local464263535_0001_r_000000_0
+2025-05-26 14:09:16,835 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 2
+2025-05-26 14:09:16,835 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2025-05-26 14:09:16,835 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2025-05-26 14:09:16,837 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@54a981df
+2025-05-26 14:09:16,838 WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
+2025-05-26 14:09:16,848 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=2877292544, maxSingleShuffleLimit=719323136, mergeThreshold=1899013120, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2025-05-26 14:09:16,849 INFO reduce.EventFetcher: attempt_local464263535_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2025-05-26 14:09:16,875 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local464263535_0001_m_000000_0 decomp: 81494598 len: 81494602 to MEMORY
+2025-05-26 14:09:16,918 INFO reduce.InMemoryMapOutput: Read 81494598 bytes from map-output for attempt_local464263535_0001_m_000000_0
+2025-05-26 14:09:16,919 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 81494598, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->81494598
+2025-05-26 14:09:16,920 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2025-05-26 14:09:16,921 INFO mapred.LocalJobRunner: 1 / 1 copied.
+2025-05-26 14:09:16,921 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2025-05-26 14:09:16,925 INFO mapred.Merger: Merging 1 sorted segments
+2025-05-26 14:09:16,925 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 81494588 bytes
+2025-05-26 14:09:16,995 INFO reduce.MergeManagerImpl: Merged 1 segments, 81494598 bytes to disk to satisfy reduce memory limit
+2025-05-26 14:09:16,995 INFO reduce.MergeManagerImpl: Merging 1 files, 81494602 bytes from disk
+2025-05-26 14:09:16,996 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2025-05-26 14:09:16,996 INFO mapred.Merger: Merging 1 sorted segments
+2025-05-26 14:09:16,996 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 81494588 bytes
+2025-05-26 14:09:16,997 INFO mapred.LocalJobRunner: 1 / 1 copied.
+2025-05-26 14:09:16,999 INFO streaming.PipeMapRed: PipeMapRed exec [/home/giovanni/Projects/big-data/progetto/task_2/mapreduce/./reducer.py]
+2025-05-26 14:09:17,001 INFO Configuration.deprecation: mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2025-05-26 14:09:17,002 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+2025-05-26 14:09:17,032 INFO streaming.PipeMapRed: R/W/S=1/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:17,033 INFO streaming.PipeMapRed: R/W/S=10/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:17,034 INFO streaming.PipeMapRed: R/W/S=100/0/0 in:NA [rec/s] out:NA [rec/s]
+2025-05-26 14:09:17,048 INFO streaming.PipeMapRed: R/W/S=1000/0/0 in:NA [rec/s] out:NA [rec/s]
+Error processing line: Center Line	2017	19995.0	80, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18000.0	28, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	25500.0	37, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	22500.0	74, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	18000.0	14, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	24000.0	37, Error: name 'errors' is not defined
+Error processing line: Center Line	2016	16995.0	84, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18000.0	37, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	32595.0	335, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	23695.0	32, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	23000.0	36, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	26000.0	17, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	36000.0	39, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	25000.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	28000.0	17, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	21995.0	102, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	35995.0	441, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	30190.0	80, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	29000.0	63, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	32000.0	17, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	30350.0	80, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	27000.0	63, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	24500.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	36000.0	60, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18500.0	14, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18000.0	36, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	20000.0	77, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	19000.0	4, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	31650.0	95, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	18000.0	36, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	28195.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	29395.0	95, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	21000.0	74, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	30250.0	227, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	21500.0	14, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	21500.0	67, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	27695.0	80, Error: name 'errors' is not defined
+Error processing line: Center Line	2016	23500.0	299, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	35500.0	63, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	29995.0	356, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	27000.0	185, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	36500.0	60, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	19500.0	25, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	22000.0	132, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	15695.0	110, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	16995.0	91, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	19500.0	39, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	17995.0	32, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	22495.0	77, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	33500.0	21, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	32695.0	70, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	23000.0	25, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	20000.0	55, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	17500.0	11, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	30500.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	29500.0	299, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	23995.0	74, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	32000.0	17, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	35500.0	67, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	56000.0	494, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	20000.0	25, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	24000.0	34, Error: name 'errors' is not defined
+Error processing line: Center Line	2020	54000.0	7, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	23000.0	25, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	19000.0	181, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	17000.0	36, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	33500.0	14, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	30999.0	403, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18000.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	39500.0	17, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	17500.0	21, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	41000.0	14, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	33150.0	174, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	20500.0	25, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	17595.0	95, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	27500.0	39, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	45500.0	60, Error: name 'errors' is not defined
+Error processing line: Center Line	2019	24000.0	277, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	23000.0	39, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	21500.0	40, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	19000.0	34, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	18500.0	36, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	35500.0	37, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	19295.0	74, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	37500.0	37, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	21250.0	70, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	25000.0	39, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	24000.0	60, Error: name 'errors' is not defined
+Error processing line: Center Line	2017	18500.0	60, Error: name 'errors' is not defined
+Error processing line: Center Line	2018	32000.0	67, Error: name 'errors' is not defined
+Error processing line: Coldwater	2021	65650.0	39, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	63096.0	13, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	76495.0	6, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	59675.0	11, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	79005.0	10, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	40305.0	11, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	40305.0	13, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	39630.0	13, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	39517.0	11, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	39214.0	19, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	33550.0	28, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	38959.0	49, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	38959.0	49, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	24371.0	34, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	37995.0	11, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	37579.0	5, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	45149.0	27, Error: name 'errors' is not defined
+Error processing line: Colonia	2020	22540.0	13, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26710.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26980.0	84, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26680.0	169, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	23495.0	740, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20750.0	208, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17590.0	19, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29170.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29155.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26925.0	84, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28795.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28920.0	169, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17785.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28460.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27215.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25305.0	22, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25300.0	13, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22460.0	28, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28395.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28160.0	92, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28350.0	14, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28355.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20990.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29160.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26610.0	91, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26250.0	369, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20990.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29140.0	245, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29570.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28770.0	193, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	18805.0	43, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26610.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23320.0	19, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28670.0	288, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26250.0	369, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	18775.0	213, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25265.0	36, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	91, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	19750.0	386, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26600.0	84, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28530.0	273, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29525.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27690.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28125.0	104, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28645.0	260, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26995.0	92, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26580.0	180, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25265.0	62, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27035.0	151, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	29255.0	36, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26710.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27120.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26245.0	308, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	29110.0	4, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20185.0	42, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21240.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21470.0	342, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	19610.0	658, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20715.0	36, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26710.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28620.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	28830.0	438, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21535.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28920.0	185, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25055.0	4, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28905.0	193, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	19750.0	382, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21625.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28465.0	509, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26740.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27040.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29200.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27040.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	29565.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28640.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21625.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	28320.0	281, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28295.0	63, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29165.0	235, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27120.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28620.0	190, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29135.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26245.0	312, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26770.0	209, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	24770.0	14, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26710.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28665.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22395.0	39, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28670.0	380, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21840.0	365, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26770.0	208, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28285.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20185.0	54, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28665.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21545.0	54, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26730.0	180, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27380.0	365, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	26580.0	518, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28855.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	24780.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	19890.0	54, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25845.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26565.0	189, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	88, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27975.0	209, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23095.0	40, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29265.0	63, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21925.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23320.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	22370.0	495, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25845.0	365, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	24770.0	266, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	19890.0	49, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27040.0	132, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21925.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22420.0	47, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20045.0	386, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	25550.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26240.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27220.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27040.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	24770.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	169, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26770.0	196, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22450.0	46, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27690.0	14, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26805.0	125, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28945.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26565.0	195, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21890.0	49, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27140.0	138, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28530.0	273, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28665.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29470.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20275.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27415.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27200.0	103, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	19890.0	43, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26240.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27835.0	279, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25815.0	131, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29020.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28430.0	179, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27380.0	365, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26270.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28920.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	24730.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27045.0	42, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28665.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20045.0	336, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27080.0	49, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26240.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29370.0	210, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	24410.0	243, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25600.0	13, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28285.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28870.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29215.0	223, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26565.0	208, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27205.0	366, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27520.0	120, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27135.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22180.0	89, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	21925.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26240.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27220.0	91, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	75, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28895.0	187, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27965.0	84, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22285.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	92, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28810.0	235, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26805.0	103, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22295.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28235.0	181, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28920.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27140.0	138, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28100.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27220.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28530.0	273, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28620.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28920.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29355.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28620.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28625.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25600.0	14, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23665.0	19, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23665.0	15, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28620.0	84, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	23175.0	123, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28665.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22385.0	92, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27995.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27150.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28645.0	243, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26135.0	243, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22540.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27100.0	103, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20115.0	250, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	28355.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	74, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26070.0	190, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29255.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23665.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27200.0	125, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27690.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25310.0	14, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28465.0	502, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	16810.0	232, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27120.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	23585.0	126, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26665.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20525.0	77, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26340.0	222, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20545.0	342, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29205.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26340.0	222, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	147, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26370.0	209, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	169, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29195.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27160.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	178, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26635.0	105, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23240.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26370.0	209, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	183, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	62, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28465.0	502, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20505.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27975.0	113, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20460.0	551, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	132, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26340.0	232, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20665.0	92, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26825.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	132, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20665.0	11, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25980.0	369, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26545.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26740.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26540.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20390.0	15, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20390.0	91, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20715.0	63, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26290.0	336, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20685.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17450.0	232, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29175.0	95, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	23240.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26370.0	181, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20250.0	342, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26670.0	252, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26670.0	421, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26680.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20390.0	19, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29295.0	187, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26740.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20390.0	124, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26286.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26380.0	273, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	22460.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	29305.0	28, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20275.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20390.0	126, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	27135.0	28, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	61, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20990.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25610.0	4, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26680.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17525.0	305, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20990.0	32, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27220.0	103, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26700.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26745.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	25305.0	4, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26900.0	29, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26615.0	120, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26675.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27140.0	152, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26850.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26255.0	369, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26615.0	232, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	20245.0	349, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26255.0	369, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	25640.0	204, Error: name 'errors' is not defined
+Error processing line: Danbury	2019	20240.0	505, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17590.0	68, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	29590.0	63, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	20275.0	0, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	27945.0	211, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26765.0	6, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	17590.0	71, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26265.0	308, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	28940.0	260, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26915.0	336, Error: name 'errors' is not defined
+Error processing line: Danbury	2021	26955.0	4, Error: name 'errors' is not defined
+Error processing line: Danbury	2020	26710.0	169, Error: name 'errors' is not defined
+Error processing line: Darien	2021	110945.0	6, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	65280.0	46, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	65280.0	54, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	23074.0	11, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	34439.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32261.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	28580.0	21, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	43975.0	74, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	19627.0	19, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	42305.0	20, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	28580.0	21, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	42622.0	19, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	7, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32292.0	54, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	45665.0	25, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	25994.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	71380.0	75, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21445.0	32, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21445.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32292.0	27, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21926.0	13, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21233.0	92, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	31375.0	27, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	31609.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	22440.0	1, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	45425.0	20, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	42305.0	20, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	7, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32292.0	28, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	33765.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	14, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	34439.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	78, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	45805.0	0, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	45425.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21926.0	11, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32046.0	34, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26049.0	1, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	39395.0	56, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	32292.0	35, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	36640.0	0, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	26363.0	19, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	65280.0	39, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	22440.0	68, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21745.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	21926.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	20949.0	12, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	45425.0	20, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	20983.0	19, Error: name 'errors' is not defined
+Error processing line: Detroit	2020	22745.0	18, Error: name 'errors' is not defined
+Error processing line: Detroit	2021	36640.0	0, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	74080.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17372.0	21, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17372.0	19, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17372.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17372.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	25, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	58345.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	61290.0	25, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	58890.0	33, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	65650.0	34, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	17984.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	26, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	25, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	25, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	21, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	15, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	74625.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19369.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	27375.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	37550.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	26888.0	27, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	39700.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	19896.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	27385.0	32, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	27385.0	29, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	20745.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	29990.0	1, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	20874.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	29425.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	20874.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	22391.0	33, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	58095.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	20874.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	53075.0	26, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	43795.0	33, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	61590.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	31640.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	20874.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	26025.0	41, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	31595.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	37170.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	31640.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	37170.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	23313.0	19, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	19, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	25730.0	1, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	41515.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	51885.0	35, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	34515.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	24140.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	46535.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	34515.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	24129.0	40, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	38420.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	21, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	39700.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	78795.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	37595.0	41, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	78950.0	36, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60795.0	18, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	43795.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60795.0	35, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	34515.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	42395.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	24129.0	41, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	38420.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	36040.0	18, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60795.0	12, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	40050.0	8, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	24129.0	41, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	45285.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	21953.0	1, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	23045.0	11, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60795.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	38420.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	81200.0	28, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	50290.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36420.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	22306.0	35, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	42395.0	6, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60495.0	25, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36420.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	36520.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	23313.0	1, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	23313.0	18, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	39700.0	7, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	75195.0	4, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	38420.0	20, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	42560.0	8, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	43795.0	13, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	60795.0	28, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	22391.0	32, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	45095.0	14, Error: name 'errors' is not defined
+Error processing line: Douglaston	2021	77050.0	22, Error: name 'errors' is not defined
+Error processing line: Douglaston	2020	23313.0	19, Error: name 'errors' is not defined
+Error processing line: Guaynabo	2016	46995.0	1233, Error: name 'errors' is not defined
+2025-05-26 14:09:17,117 INFO streaming.PipeMapRed: R/W/S=10000/0/0 in:NA [rec/s] out:NA [rec/s]
+Error processing line: Huntington	2021	63325.0	38, Error: name 'errors' is not defined
+Error processing line: Huntington	2021	53655.0	19, Error: name 'errors' is not defined
+Error processing line: Huntington	2021	52715.0	36, Error: name 'errors' is not defined
+Error processing line: Huntington	2021	52715.0	19, Error: name 'errors' is not defined
+Error processing line: Islip Terrace	2012	9995.0	3, Error: name 'errors' is not defined
+Error processing line: Islip Terrace	2004	5495.0	3, Error: name 'errors' is not defined
+Error processing line: Islip Terrace	2015	27995.0	3, Error: name 'errors' is not defined
+Error processing line: Islip Terrace	2012	10495.0	3, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	20516.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	20516.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31241.0	300, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31227.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	19301.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31227.0	181, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31193.0	232, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	29968.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	28801.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	29014.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	28485.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	28465.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	28209.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	27363.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	27363.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	27363.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	26596.0	117, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	26379.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	41207.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	41195.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	25991.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	38900.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	25991.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	36886.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	25991.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	36886.0	19, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	25991.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	25242.0	26, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	35886.0	173, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	24989.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	35877.0	19, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	24645.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	24989.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	35508.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	35489.0	33, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	24235.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	24225.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	24024.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	23814.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2021	23851.0	13, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	33954.0	221, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	22476.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	32192.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31349.0	6, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	20892.0	11, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	31349.0	26, Error: name 'errors' is not defined
+Error processing line: Lakewood	2020	20892.0	6, Error: name 'errors' is not defined
+Error processing line: Linden	2007	4499.0	153, Error: name 'errors' is not defined
+Error processing line: Linden	2001	3499.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2006	2999.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2001	2499.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2012	9999.0	353, Error: name 'errors' is not defined
+Error processing line: Linden	2009	12499.0	589, Error: name 'errors' is not defined
+Error processing line: Linden	2007	7499.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2010	7499.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2004	9999.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2013	5499.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2010	4499.0	286, Error: name 'errors' is not defined
+Error processing line: Linden	2007	3999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2005	3499.0	39, Error: name 'errors' is not defined
+Error processing line: Linden	2006	5999.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2004	3499.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2009	7999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2008	6999.0	40, Error: name 'errors' is not defined
+Error processing line: Linden	2007	12999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2007	8999.0	76, Error: name 'errors' is not defined
+Error processing line: Linden	2007	4999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2009	5499.0	255, Error: name 'errors' is not defined
+Error processing line: Linden	2008	4999.0	444, Error: name 'errors' is not defined
+Error processing line: Linden	2007	6999.0	255, Error: name 'errors' is not defined
+Error processing line: Linden	2002	4999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2006	4999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2005	4999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2011	4999.0	47, Error: name 'errors' is not defined
+Error processing line: Linden	2006	3999.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2006	4499.0	48, Error: name 'errors' is not defined
+Error processing line: Linden	2005	4499.0	24, Error: name 'errors' is not defined
+Error processing line: Linden	2006	4999.0	24, Error: name 'errors' is not defined
+Error processing line: Little Ferry	1978	9250.0	57, Error: name 'errors' is not defined
+Error processing line: Lodi	2014	18000.0	39, Error: name 'errors' is not defined
+Error processing line: Lodi	2003	9900.0	32, Error: name 'errors' is not defined
+Error processing line: Lodi	2007	12800.0	10, Error: name 'errors' is not defined
+Error processing line: Lynbrook	2021	74840.0	4, Error: name 'errors' is not defined
+Error processing line: Lynbrook	2020	48295.0	40, Error: name 'errors' is not defined
+Error processing line: Lynbrook	2020	54720.0	6, Error: name 'errors' is not defined
+Error processing line: New Hudson	2018	19995.0	5, Error: name 'errors' is not defined
+Error processing line: New Hudson	2019	44007.0	78, Error: name 'errors' is not defined
+Error processing line: New Hudson	2019	61686.0	432, Error: name 'errors' is not defined
+2025-05-26 14:09:17,176 INFO mapreduce.Job: Job job_local464263535_0001 running in uber mode : false
+Error processing line: Paramus	2013	18273.0	6, Error: name 'errors' is not defined
+2025-05-26 14:09:17,177 INFO mapreduce.Job:  map 100% reduce 0%
+Error processing line: Paramus	2012	14058.0	6, Error: name 'errors' is not defined
+Error processing line: Ringwood	2016	17999.0	209, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	41032.0	3, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	62255.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	42638.0	46, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	61880.0	29, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	92805.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	57750.0	3, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	24965.0	21, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	48155.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	57750.0	3, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	92205.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54745.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	40218.0	34, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	99860.0	187, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	47340.0	28, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54660.0	21, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55244.0	11, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	62165.0	4, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43975.0	25, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	61550.0	26, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	56270.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54445.0	28, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	91580.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43198.0	10, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	59395.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54145.0	77, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	56720.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	60705.0	47, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55325.0	211, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48165.0	41, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48355.0	19, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	54230.0	1, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29447.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43532.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43412.0	19, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54085.0	49, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	53980.0	21, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	47544.0	28, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	24965.0	21, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55310.0	82, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	57370.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62175.0	14, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54710.0	28, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	91580.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	48460.0	3, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55670.0	41, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43915.0	228, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	57345.0	27, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55070.0	15, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	24978.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	59285.0	33, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	50765.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43915.0	238, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	71245.0	270, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38788.0	30, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54140.0	7, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48355.0	81, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	59245.0	14, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	46113.0	11, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43915.0	244, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	69960.0	21, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55070.0	13, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38238.0	207, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	37215.0	50, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29447.0	12, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29842.0	37, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	58660.0	53, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54085.0	88, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	44572.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38187.0	172, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38062.0	221, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55070.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62310.0	49, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38052.0	200, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	44206.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	43915.0	244, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	44398.0	12, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	59230.0	0, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54070.0	15, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38052.0	202, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	52105.0	61, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	66335.0	22, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	58100.0	11, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29328.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	69020.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	66335.0	22, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	37718.0	209, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55070.0	18, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	38052.0	202, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	58225.0	14, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48355.0	84, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	57255.0	15, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	41175.0	49, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54070.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54070.0	19, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39090.0	181, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48215.0	176, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	66275.0	13, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	44009.0	17, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	58045.0	182, Error: name 'errors' is not defined
+Error processing line: Smithtown	2019	35072.0	237, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	57945.0	35, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29362.0	11, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	34627.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	41175.0	53, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48815.0	176, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48215.0	56, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	57945.0	29, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	66320.0	0, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	58045.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29117.0	74, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	56440.0	6, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39775.0	12, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29117.0	80, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54070.0	40, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62505.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62775.0	15, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	65710.0	35, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	33292.0	30, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	53980.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39715.0	159, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55670.0	41, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	32928.0	12, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	51960.0	33, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	65350.0	7, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	40315.0	81, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	53980.0	40, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	64405.0	14, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	64405.0	39, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	27917.0	74, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	63175.0	53, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62935.0	29, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	30058.0	10, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39715.0	88, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	40315.0	81, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	27788.0	61, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39715.0	89, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55245.0	253, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	63540.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	63535.0	53, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	26022.0	17, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39715.0	41, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	51485.0	259, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	56720.0	27, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	23802.0	20, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29717.0	72, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48215.0	176, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29717.0	74, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	49305.0	252, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	23377.0	3, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29677.0	16, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	64165.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29743.0	18, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	40315.0	91, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29622.0	27, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	64405.0	39, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	39715.0	29, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	63540.0	183, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	47710.0	7, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54710.0	36, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	55070.0	14, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	47590.0	176, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	94580.0	176, Error: name 'errors' is not defined
+Error processing line: Smithtown	2021	42034.0	5, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48215.0	77, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	48215.0	62, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	29786.0	169, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	40637.0	10, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54745.0	88, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	54710.0	34, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	96590.0	221, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	62175.0	18, Error: name 'errors' is not defined
+Error processing line: Smithtown	2020	94055.0	154, Error: name 'errors' is not defined
+Error processing line: South Hackensack	2007	11995.0	11, Error: name 'errors' is not defined
+Error processing line: Spring Valley	2021	60735.0	6, Error: name 'errors' is not defined
+Error processing line: Teterboro	2020	37499.0	235, Error: name 'errors' is not defined
+Error processing line: Wallingford	2015	7995.0	40, Error: name 'errors' is not defined
+Error processing line: Wallingford	2020	16495.0	67, Error: name 'errors' is not defined
+Error processing line: Wallingford	2020	15432.0	67, Error: name 'errors' is not defined
+Error processing line: Wallingford	2019	13995.0	83, Error: name 'errors' is not defined
+Error processing line: Wallingford	2014	11645.0	41, Error: name 'errors' is not defined
+Error processing line: Wallingford	2010	9595.0	50, Error: name 'errors' is not defined
+Error processing line: Wallingford	2017	14995.0	76, Error: name 'errors' is not defined
+Error processing line: Wallingford	2019	13995.0	76, Error: name 'errors' is not defined
+Error processing line: Wallingford	2008	3995.0	76, Error: name 'errors' is not defined
+Error processing line: Wallingford	2019	14495.0	76, Error: name 'errors' is not defined
+Error processing line: Wallingford	2015	25415.0	24, Error: name 'errors' is not defined
+Error processing line: Wallingford	2010	8495.0	24, Error: name 'errors' is not defined
+Error processing line: Wallingford	2015	7344.0	236, Error: name 'errors' is not defined
+Error processing line: Wallingford	2009	6695.0	131, Error: name 'errors' is not defined
+Error processing line: Warren	2020	43848.0	6, Error: name 'errors' is not defined
+Error processing line: Warren	2020	38546.0	85, Error: name 'errors' is not defined
+Error processing line: Warren	2020	45232.0	43, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44412.0	47, Error: name 'errors' is not defined
+Error processing line: Warren	2020	49110.0	57, Error: name 'errors' is not defined
+Error processing line: Warren	2020	42747.0	48, Error: name 'errors' is not defined
+Error processing line: Warren	2020	81460.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	56016.0	36, Error: name 'errors' is not defined
+Error processing line: Warren	2020	55191.0	29, Error: name 'errors' is not defined
+Error processing line: Warren	2020	55325.0	32, Error: name 'errors' is not defined
+Error processing line: Warren	2020	39086.0	81, Error: name 'errors' is not defined
+Error processing line: Warren	2020	48305.0	96, Error: name 'errors' is not defined
+Error processing line: Warren	2020	50250.0	76, Error: name 'errors' is not defined
+Error processing line: Warren	2020	41861.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	41861.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2019	86550.0	563, Error: name 'errors' is not defined
+Error processing line: Warren	2020	45124.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44277.0	21, Error: name 'errors' is not defined
+Error processing line: Warren	2020	79097.0	224, Error: name 'errors' is not defined
+Error processing line: Warren	2020	46661.0	176, Error: name 'errors' is not defined
+Error processing line: Warren	2020	55782.0	236, Error: name 'errors' is not defined
+Error processing line: Warren	2020	86070.0	57, Error: name 'errors' is not defined
+Error processing line: Warren	2017	28999.0	4, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44258.0	215, Error: name 'errors' is not defined
+Error processing line: Warren	2019	27999.0	14, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44498.0	46, Error: name 'errors' is not defined
+Error processing line: Warren	2020	48845.0	70, Error: name 'errors' is not defined
+Error processing line: Warren	2020	47964.0	347, Error: name 'errors' is not defined
+Error processing line: Warren	2020	42116.0	26, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44606.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44606.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	42097.0	6, Error: name 'errors' is not defined
+Error processing line: Warren	2020	43893.0	256, Error: name 'errors' is not defined
+Error processing line: Warren	2020	45124.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	92554.0	348, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44606.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	64692.0	21, Error: name 'errors' is not defined
+Error processing line: Warren	2020	47147.0	113, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44258.0	252, Error: name 'errors' is not defined
+Error processing line: Warren	2020	86695.0	57, Error: name 'errors' is not defined
+Error processing line: Warren	2020	54789.0	228, Error: name 'errors' is not defined
+Error processing line: Warren	2020	40374.0	186, Error: name 'errors' is not defined
+Error processing line: Warren	2020	56794.0	32, Error: name 'errors' is not defined
+Error processing line: Warren	2020	46376.0	209, Error: name 'errors' is not defined
+Error processing line: Warren	2020	41342.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	63353.0	32, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44606.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2020	53532.0	82, Error: name 'errors' is not defined
+Error processing line: Warren	2020	49364.0	53, Error: name 'errors' is not defined
+Error processing line: Warren	2020	40426.0	39, Error: name 'errors' is not defined
+Error processing line: Warren	2020	58703.0	19, Error: name 'errors' is not defined
+Error processing line: Warren	2020	43848.0	6, Error: name 'errors' is not defined
+Error processing line: Warren	2020	86594.0	185, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44606.0	20, Error: name 'errors' is not defined
+Error processing line: Warren	2017	59838.0	1264, Error: name 'errors' is not defined
+Error processing line: Warren	2020	54012.0	27, Error: name 'errors' is not defined
+Error processing line: Warren	2020	64117.0	6, Error: name 'errors' is not defined
+Error processing line: Warren	2020	85541.0	230, Error: name 'errors' is not defined
+Error processing line: Warren	2020	51698.0	81, Error: name 'errors' is not defined
+Error processing line: Warren	2020	47409.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	81191.0	384, Error: name 'errors' is not defined
+Error processing line: Warren	2020	42097.0	6, Error: name 'errors' is not defined
+Error processing line: Warren	2020	80790.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	41917.0	46, Error: name 'errors' is not defined
+Error processing line: Warren	2020	48464.0	160, Error: name 'errors' is not defined
+Error processing line: Warren	2020	51698.0	76, Error: name 'errors' is not defined
+Error processing line: Warren	2020	78128.0	244, Error: name 'errors' is not defined
+Error processing line: Warren	2020	84070.0	57, Error: name 'errors' is not defined
+Error processing line: Warren	2020	81992.0	183, Error: name 'errors' is not defined
+Error processing line: Warren	2020	50410.0	273, Error: name 'errors' is not defined
+Error processing line: Warren	2020	48305.0	70, Error: name 'errors' is not defined
+Error processing line: Warren	2020	52716.0	32, Error: name 'errors' is not defined
+Error processing line: Warren	2020	52887.0	17, Error: name 'errors' is not defined
+Error processing line: Warren	2020	44435.0	200, Error: name 'errors' is not defined
+Error processing line: West Nyack	2020	21245.0	335, Error: name 'errors' is not defined
+Error processing line: Westport	2021	50510.0	41, Error: name 'errors' is not defined
+Error processing line: Westport	2021	50510.0	20, Error: name 'errors' is not defined
+Error processing line: Westport	2021	50510.0	41, Error: name 'errors' is not defined
+Error processing line: Westport	2021	50510.0	20, Error: name 'errors' is not defined
+2025-05-26 14:09:17,240 INFO streaming.PipeMapRed: Records R/W=30004/1
+2025-05-26 14:09:17,255 INFO streaming.PipeMapRed: MRErrorThread done
+2025-05-26 14:09:17,255 INFO streaming.PipeMapRed: mapRedFinished
+2025-05-26 14:09:17,277 INFO mapred.Task: Task:attempt_local464263535_0001_r_000000_0 is done. And is in the process of committing
+2025-05-26 14:09:17,279 INFO mapred.LocalJobRunner: 1 / 1 copied.
+2025-05-26 14:09:17,279 INFO mapred.Task: Task attempt_local464263535_0001_r_000000_0 is allowed to commit now
+2025-05-26 14:09:17,292 INFO output.FileOutputCommitter: Saved output of task 'attempt_local464263535_0001_r_000000_0' to hdfs://localhost:9000/user/giovanni/output/cleaned_pruned_used_cars_data_1percent_task2_mapreduce_result
+2025-05-26 14:09:17,293 INFO mapred.LocalJobRunner: Records R/W=30004/1 > reduce
+2025-05-26 14:09:17,293 INFO mapred.Task: Task 'attempt_local464263535_0001_r_000000_0' done.
+2025-05-26 14:09:17,293 INFO mapred.Task: Final Counters for attempt_local464263535_0001_r_000000_0: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=163130677
+		FILE: Number of bytes written=163853148
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=82131930
+		HDFS: Number of bytes written=243508
+		HDFS: Number of read operations=10
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=3
+		HDFS: Number of bytes read erasure-coded=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=186
+		Reduce shuffle bytes=81494602
+		Reduce input records=30004
+		Reduce output records=6012
+		Spilled Records=30004
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=324009984
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=243508
+2025-05-26 14:09:17,293 INFO mapred.LocalJobRunner: Finishing task: attempt_local464263535_0001_r_000000_0
+2025-05-26 14:09:17,293 INFO mapred.LocalJobRunner: reduce task executor complete.
+2025-05-26 14:09:18,178 INFO mapreduce.Job:  map 100% reduce 100%
+2025-05-26 14:09:18,178 INFO mapreduce.Job: Job job_local464263535_0001 completed successfully
+2025-05-26 14:09:18,183 INFO mapreduce.Job: Counters: 36
+	File System Counters
+		FILE: Number of bytes read=163272118
+		FILE: Number of bytes written=246211694
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=164263860
+		HDFS: Number of bytes written=243508
+		HDFS: Number of read operations=15
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+		HDFS: Number of bytes read erasure-coded=0
+	Map-Reduce Framework
+		Map input records=30005
+		Map output records=30004
+		Map output bytes=81376796
+		Map output materialized bytes=81494602
+		Input split bytes=136
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=186
+		Reduce shuffle bytes=81494602
+		Reduce input records=30004
+		Reduce output records=6012
+		Spilled Records=60008
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=648019968
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=82131930
+	File Output Format Counters 
+		Bytes Written=243508
+2025-05-26 14:09:18,183 INFO streaming.StreamJob: Output directory: /user/giovanni/output/cleaned_pruned_used_cars_data_1percent_task2_mapreduce_result

@@ -11,6 +11,8 @@ files = [
     "cleaned_pruned_used_cars_data"
 ]
 
+result_file_suffix="task1_sparkcore_result"
+
 def generate_command(file):
     """Generate spark-submit command for the given file."""
     command = f"""
@@ -18,7 +20,7 @@ def generate_command(file):
         --master local[8] \
         spark-job.py \
         -i hdfs://localhost:9000/user/$USER/input/{file}.csv \
-        -o hdfs://localhost:9000/user/$USER/output/{file}_task1_sparkcore_result
+        -o hdfs://localhost:9000/user/$USER/output/{file}_{result_file_suffix}
     """
     return command
 
@@ -42,10 +44,10 @@ def run_and_time(command, file_name):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     stdout_log = f"logs/{file_name}_{timestamp}_stdout.log"
     stderr_log = f"logs/{file_name}_{timestamp}_stderr.log"
-    result_file = f"results/{file_name}_{timestamp}_result.txt"
+    result_file = f"results/{file_name}_{timestamp}_{result_file_suffix}.txt"
     
     # Delete previous output if exists
-    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/spark_{file_name}_result", shell=True)
+    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/{file_name}_{result_file_suffix}", shell=True)
     
     # Measure execution time
     start_time = time.time()
@@ -70,7 +72,7 @@ def run_and_time(command, file_name):
         # Save results from HDFS
         print("Retrieving results from HDFS...")
         hdfs_cat = subprocess.run(
-            f"hdfs dfs -cat /user/$USER/output/spark_{file_name}_result/part-*",
+            f"hdfs dfs -cat /user/$USER/output/spark_{file_name}_{result_file_suffix}/part-*",
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         

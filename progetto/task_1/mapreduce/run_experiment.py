@@ -11,11 +11,13 @@ files = [
     "cleaned_pruned_used_cars_data"
 ]
 
+result_suffix = "task1_mapreduce_result"
+
 def generate_command(file):
     command = f"""
         hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
         -input /user/$USER/input/{file}.csv\
-        -output /user/$USER/output/{file}_task1_mapreduce_result \
+        -output /user/$USER/output/{file}_{result_suffix} \
         -mapper mapper.py \
         -reducer reducer.py \
     """
@@ -41,10 +43,10 @@ def run_and_time(command, file_name):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     stdout_log = f"logs/{file_name}_{timestamp}_stdout.log"
     stderr_log = f"logs/{file_name}_{timestamp}_stderr.log"
-    result_file = f"results/{file_name}_{timestamp}_result.txt"
+    result_file = f"results/{file_name}_{timestamp}_{result_suffix}.txt"
     
     # Cancella l'output precedente se esiste
-    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/{file_name}_result", shell=True)
+    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/{file_name}_{result_suffix}", shell=True)
     
     # Misura il tempo di esecuzione
     start_time = time.time()
@@ -69,7 +71,7 @@ def run_and_time(command, file_name):
         # Salva i risultati dal HDFS
         print("Recupero risultati da HDFS...")
         hdfs_cat = subprocess.run(
-            f"hdfs dfs -cat /user/$USER/output/{file_name}_result/part-*",
+            f"hdfs dfs -cat /user/$USER/output/{file_name}_{result_suffix}/part-*",
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         

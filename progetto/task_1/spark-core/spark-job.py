@@ -10,24 +10,11 @@ year_col = 8
 def reducer(a, b):
     manufacturer_a, count_a, min_price_a, max_price_a, price_a, year_set_a = a
     manufacturer_b, count_b, min_price_b, max_price_b, price_b, year_set_b = b
-    
     manufacturer = manufacturer_a if manufacturer_a else manufacturer_b
-
     min_price = min(min_price_a, min_price_b)
     max_price = max(max_price_a, max_price_b)
-
-    if price_a < min_price :
-        min_price = price_a
-    if price_b < min_price :
-        min_price = price_b
-    if price_a > max_price :
-        max_price = price_a
-    if price_b > max_price :
-        max_price = price_b
-
     sums_price = float(price_a) + float(price_b)
     years_set = year_set_a.union(year_set_b)
-
     return (manufacturer, count_a+count_b ,min_price, max_price, sums_price, years_set)
 
 def format_output(reduced_data):
@@ -46,7 +33,6 @@ def parse_line(line):
         max_price = price
         min_price = price
         year = int(cols[year_col])
-        
         return (model, (manufacturer, 1, min_price, max_price, price, {year}))
     except (ValueError, IndexError):
         # If any error occurs during parsing, return None
@@ -57,15 +43,10 @@ def main():
     parser.add_argument("-i", help="Path to the input file")
     parser.add_argument("-o", help="Path to the output file")
     args = parser.parse_args()
-
-    spark :SparkSession = SparkSession.builder \
-        .appName("task 1") \
-        .getOrCreate()
+    spark :SparkSession = SparkSession.builder.appName("task 1").getOrCreate()
     input_file = args.i
     output_file = args.o
-
     dataset = spark.sparkContext.textFile(input_file)
-    
     dataset = dataset.map(lambda line: parse_line(line)) \
                     .filter(lambda x: x is not None) \
                     .reduceByKey(reducer) \

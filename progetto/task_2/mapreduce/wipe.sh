@@ -1,0 +1,1 @@
+hdfs dfs -rm -r /user/$USER/output/*used_cars*

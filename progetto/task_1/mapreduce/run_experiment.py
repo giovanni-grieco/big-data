@@ -15,7 +15,7 @@ def generate_command(file):
     command = f"""
         hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
         -input /user/$USER/input/{file}.csv\
-        -output /user/$USER/output/{file}_result \
+        -output /user/$USER/output/{file}_task1_mapreduce_result \
         -mapper mapper.py \
         -reducer reducer.py \
     """

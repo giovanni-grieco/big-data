@@ -12,86 +12,85 @@ files = [
 ]
 
 def generate_command(file):
-    """Generate spark-submit command for the given file."""
     command = f"""
-        spark-submit \
-        --master local[8] \
-        spark-job.py \
-        -i hdfs://localhost:9000/user/$USER/input/{file}.csv \
-        -o hdfs://localhost:9000/user/$USER/output/{file}_task1_sparkcore_result
+        hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
+        -input /user/$USER/input/{file}.csv\
+        -output /user/$USER/output/{file}_task2_mapreduce_result \
+        -mapper mapper.py \
+        -reducer reducer.py \
     """
     return command
 
 def run_and_time(command, file_name):
-    """Executes the command and measures execution time."""
+    """Esegue il comando e misura il tempo di esecuzione."""
     print(f"\n{'=' * 50}")
-    print(f"Starting Spark experiment with file {file_name}")
-    print(f"Start date and time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Command: {command}")
+    print(f"Avvio esperimento con file {file_name}")
+    print(f"Data e ora di inizio: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Comando: {command}")
     print(f"{'=' * 50}\n")
     
-    # Create logs directory if it doesn't exist
+    # Crea directory logs se non esiste
     if not os.path.exists("logs"):
         os.makedirs("logs")
     
-    # Create results directory if it doesn't exist
+    # Crea directory results se non esiste
     if not os.path.exists("results"):
         os.makedirs("results")
     
-    # Create names for log files and results
+    # Crea nomi per i file di log e risultati
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     stdout_log = f"logs/{file_name}_{timestamp}_stdout.log"
     stderr_log = f"logs/{file_name}_{timestamp}_stderr.log"
     result_file = f"results/{file_name}_{timestamp}_result.txt"
     
-    # Delete previous output if exists
-    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/spark_{file_name}_result", shell=True)
+    # Cancella l'output precedente se esiste
+    subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/{file_name}_result", shell=True)
     
-    # Measure execution time
+    # Misura il tempo di esecuzione
     start_time = time.time()
     
-    # Execute command and wait for completion
+    # Esegue il comando in modo bloccante (attende il completamento)
     process = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     
     end_time = time.time()
     execution_time = end_time - start_time
     
-    # Save output to log files
+    # Salva l'output in file di log
     with open(stdout_log, "wb") as f:
         f.write(process.stdout)
     
     with open(stderr_log, "wb") as f:
         f.write(process.stderr)
     
-    # Check if command executed successfully
+    # Verifica se il comando è stato eseguito con successo
     if process.returncode == 0:
-        status = "SUCCESS"
+        status = "SUCCESSO"
         
-        # Save results from HDFS
-        print("Retrieving results from HDFS...")
+        # Salva i risultati dal HDFS
+        print("Recupero risultati da HDFS...")
         hdfs_cat = subprocess.run(
-            f"hdfs dfs -cat /user/$USER/output/spark_{file_name}_result/part-*",
+            f"hdfs dfs -cat /user/$USER/output/{file_name}_result/part-*",
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         
         if hdfs_cat.returncode == 0:
             with open(result_file, "wb") as f:
                 f.write(hdfs_cat.stdout)
-            print(f"Spark results saved to: {result_file}")
+            print(f"Risultati MapReduce salvati in: {result_file}")
         else:
-            print(f"Warning: Unable to retrieve results from HDFS")
+            print(f"Attenzione: Impossibile recuperare i risultati da HDFS")
             result_file = "N/A"
     else:
-        status = "FAILED"
-        print(f"Error: check log at {stderr_log}")
+        status = "FALLITO"
+        print(f"Errore: controlla il log in {stderr_log}")
         result_file = "N/A"
     
     print(f"\n{'=' * 50}")
-    print(f"Experiment with file {file_name} completed with status: {status}")
-    print(f"Execution time: {execution_time:.2f} seconds ({datetime.timedelta(seconds=int(execution_time))})")
-    print(f"End date and time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Output saved to: {stdout_log}")
-    print(f"Errors saved to: {stderr_log}")
+    print(f"Esperimento con file {file_name} completato con {status}")
+    print(f"Tempo di esecuzione: {execution_time:.2f} secondi ({datetime.timedelta(seconds=int(execution_time))})")
+    print(f"Data e ora di fine: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Output salvato in: {stdout_log}")
+    print(f"Errori salvati in: {stderr_log}")
     print(f"{'=' * 50}\n")
     
     return {
@@ -106,18 +105,18 @@ def run_and_time(command, file_name):
     }
 
 def main():
-    # Determine output file name
-    output_file = "spark_results.csv"  # Default
+    # Determina nome file output
+    output_file = "mapreduce_results.csv"  # Default
     if len(sys.argv) > 1:
         output_file = sys.argv[1]
     else:
-        print("You can specify the output filename as an argument.")
-        print(f"Example: python {sys.argv[0]} <output_filename>\n")
+        print("Puoi specificare il nome del file di output come argomento.")
+        print(f"Esempio: python {sys.argv[0]} <nome_file_output>\n")
     
     results = []
     overall_start = time.time()
     
-    print(f"Starting Spark experiments on datasets of different sizes (results will be saved to {output_file})")
+    print(f"Avvio esperimenti MapReduce su dataset di dimensioni diverse (risultati saranno salvati in {output_file})")
     
     for file in files:
         command = generate_command(file)
@@ -127,29 +126,29 @@ def main():
     overall_end = time.time()
     overall_time = overall_end - overall_start
     
-    # Print summary results
+    # Stampa risultati riassuntivi
     print("\n\n" + "="*50)
-    print("OVERALL RESULTS")
+    print("RISULTATI COMPLESSIVI")
     print("="*50)
-    print(f"{'Dataset':<35} {'Status':<10} {'Time (s)':<15}")
+    print(f"{'Dataset':<35} {'Stato':<10} {'Tempo (s)':<15}")
     print("-"*65)
     
     for result in results:
         print(f"{result['file_name']:<35} {result['status']:<10} {result['execution_time']:.2f}")
     
     print("-"*65)
-    print(f"Total execution time: {overall_time:.2f} seconds ({datetime.timedelta(seconds=int(overall_time))})")
+    print(f"Tempo totale di esecuzione: {overall_time:.2f} secondi ({datetime.timedelta(seconds=int(overall_time))})")
     print("="*50)
     
-    # Save results to the specified CSV file
+    # Salva i risultati nel file CSV specificato
     with open(output_file, "w") as f:
         f.write("dataset,status,execution_time_seconds,stdout_log,stderr_log,result_file\n")
         for result in results:
             f.write(f"{result['file_name']},{result['status']},{result['execution_time']:.2f},{result['stdout_log']},{result['stderr_log']},{result['result_file']}\n")
     
-    print(f"\nResults saved to {output_file}")
-    print(f"Detailed logs are available in the 'logs/' directory")
-    print(f"Spark job results are available in the 'results/' directory")
+    print(f"\nRisultati salvati in {output_file}")
+    print(f"I log dettagliati sono disponibili nella directory 'logs/'")
+    print(f"I risultati dei job MapReduce sono disponibili nella directory 'results/'")
 
 if __name__ == "__main__":
     main()

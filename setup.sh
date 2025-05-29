@@ -150,7 +150,23 @@ else
     echo "Hadoop streaming jar already exists."
 fi
 
+# ask if $home/hdfs wants to be wiped
+read -p "Do you want to wipe the $HOME/hdfs directory? (y/n): " wipe_hdfs
+if [[ $wipe_hdfs == "y" || $wipe_hdfs == "Y" ]]; then
+    echo "Wiping $HOME/hdfs directory..."
+    rm -rf "$HOME/hdfs"
+else
+    echo "Not wiping $HOME/hdfs directory."
+fi
 
+# Create necessary directories
+NAMENODE_DIR="$HOME/hdfs/namenode"
+DATANODE_DIR="$HOME/hdfs/datanode"
+MAPRED_LOCAL_DIR="$HOME/hdfs/mapred"
+
+mkdir -p "$NAMENODE_DIR"
+mkdir -p "$DATANODE_DIR"
+mkdir -p "$MAPRED_LOCAL_DIR"
 
 
 echo "Configuring Hadoop core-site.xml"
@@ -168,11 +184,32 @@ EOL
 
 cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
     <property>
         <name>dfs.replication</name>
         <value>1</value>
+    </property>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file://$NAMENODE_DIR</value>
+    </property>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>file://$DATANODE_DIR</value>
+    </property>
+</configuration>
+EOL
+
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>mapreduce.cluster.local.dir</name>
+        <value>file://$MAPRED_LOCAL_DIR</value>
+    </property>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
     </property>
 </configuration>
 EOL

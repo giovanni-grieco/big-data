@@ -1,0 +1,1 @@
+hive -hivevar input_path=/user/$USER/input/cleaned_pruned_used_cars_data_1percent.csv -f ./task.hql

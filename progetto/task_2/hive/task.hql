@@ -46,29 +46,22 @@ GROUP BY city, year, price_range;
 -- Use ADD FILE to make the Python script available to the cluster
 ADD FILE /home/giovanni/Projects/big-data/progetto/task_2/hive/extract_top_words.py;
 
--- Use the TRANSFORM function with MapReduce syntax
-SELECT 
-    t.city,
-    t.year,
-    t.price_range,
-    t.num_cars,
-    t.avg_daysonmarket,
-    transformed.top_words AS top_3_words
-FROM (
-    SELECT 
-        city, 
-        year, 
-        price_range, 
-        num_cars, 
-        avg_daysonmarket, 
-        descriptions
-    FROM aggregated_data
-) t
-LATERAL VIEW 
-TRANSFORM(t.descriptions) AS top_words
-USING 'python extract_top_words.py';
+-- Create a final table with the results using the correct TRANSFORM syntax
+CREATE TABLE IF NOT EXISTS report 
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+AS
+SELECT
+  TRANSFORM(city, year, price_range, num_cars, avg_daysonmarket, descriptions)
+  USING 'python extract_top_words.py'
+  AS city, year, price_range, num_cars, avg_daysonmarket, top_3_words
+FROM aggregated_data;
+
+-- Output the final report
+SELECT * FROM report;
 
 -- Clean up temporary tables
 DROP TABLE categorized_cars;
 DROP TABLE aggregated_data;
 DROP TABLE used_cars;
+DROP TABLE report;

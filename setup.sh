@@ -168,9 +168,6 @@ mkdir -p "$NAMENODE_DIR"
 mkdir -p "$DATANODE_DIR"
 mkdir -p "$MAPRED_LOCAL_DIR"
 
-
-echo "Configuring Hadoop core-site.xml"
-
 cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
@@ -181,6 +178,8 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
     </property>
 </configuration>
 EOL
+
+echo "HADOOP core-site.xml config done"
 
 cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
@@ -200,6 +199,8 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
 </configuration>
 EOL
 
+echo "HADOOP hdfs-site.xml config done"
+
 cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
@@ -209,10 +210,13 @@ cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
     </property>
     <property>
         <name>mapreduce.framework.name</name>
-        <value>yarn</value>
+        <value>local</value>
     </property>
 </configuration>
 EOL
+
+echo "HADOOP mapred-site.xml config done"
+
 echo "HADOOP config done"
 
 echo "Configuring Hive"

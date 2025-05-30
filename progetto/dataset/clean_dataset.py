@@ -2,10 +2,14 @@ import sys
 import re
 
 def clean_line(line):
-    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9_.,-]', '', m.group(1)) + '"', line)
+    #Remove [!@@Additional Info@@!]
+    line = re.sub(r'\[!@@Additional Info@@!\]', '', line)
+    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9_.,-]', ' ', m.group(1)) + '"', line)
     line = re.sub(r'"([^"]*)"', lambda m: m.group(0).replace(',', ' '), line)
     # Remove quotes from the header
     line = line.replace('"', '')
+    line = line.replace("  ", " ")  # Replace multiple spaces with a single space
+    line = line.lower()  # Convert to lowercase
     return line
 
 def main():

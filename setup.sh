@@ -220,6 +220,7 @@ echo "HADOOP mapred-site.xml config done"
 echo "HADOOP config done"
 
 echo "Configuring Hive"
+
 cp "$HIVE_HOME/conf/hive-env.sh.template" "$HIVE_HOME/conf/hive-env.sh"
 
 cat <<EOL >> "$HIVE_HOME/conf/hive-env.sh"

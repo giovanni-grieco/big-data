@@ -72,7 +72,7 @@ def run_and_time(command, file_name):
         # Save results from HDFS
         print("Retrieving results from HDFS...")
         hdfs_cat = subprocess.run(
-            f"hdfs dfs -cat /user/$USER/output/spark_{file_name}_{result_file_suffix}/part-*",
+            f"hdfs dfs -cat /user/$USER/output/{file_name}_{result_file_suffix}/part-*",
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         

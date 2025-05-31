@@ -1,6 +1,6 @@
 # Big Data (Università degli Studi Roma Tre)
 ## What's inside this repository?
-Helper scripts to setup the environment and run HDFS, Hive and Spark (Not Yet Implemented) on your machine
+Helper scripts to setup the environment and run HDFS, Mapreduce, Hive and Spark on your machine
 
 ## Requirements
 - Docker engine and docker compose
@@ -16,7 +16,7 @@ https://github.com/giovanni-grieco/big-data.git
 
 To setup the environment (installing hadoop and declaring environment variables) run:
 ```bash
-source setup.sh
+source setup-local.sh
 ```
 
 To start hadoop services
@@ -25,7 +25,7 @@ To start hadoop services
 ```
 
 To stop hadoop services
-```
+```bash
 ./stop.sh
 ```
 

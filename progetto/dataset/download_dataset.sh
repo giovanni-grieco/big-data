@@ -1,3 +1,3 @@
 #!/bin/bash
-curl -L -o ~/Downloads/us-used-cars-dataset.zip\
+curl -L -o ./used_cars.zip \
   https://www.kaggle.com/api/v1/datasets/download/ananaymital/us-used-cars-dataset

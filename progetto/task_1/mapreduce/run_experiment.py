@@ -3,6 +3,7 @@ import subprocess
 import datetime
 import sys
 import os
+import argparse
 
 files = [
     "cleaned_pruned_used_cars_data_1percent",
@@ -13,14 +14,26 @@ files = [
 
 result_suffix = "task1_mapreduce_result"
 
-def generate_command(file):
-    command = f"""
-        hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
-        -input /user/$USER/input/{file}.csv\
-        -output /user/$USER/output/{file}_{result_suffix} \
-        -mapper mapper.py \
-        -reducer reducer.py \
-    """
+def generate_command(file, execution_mode):
+    """Generate the appropriate Hadoop command based on execution mode."""
+    if execution_mode == "local":
+        command = f"""
+            hadoop jar $HADOOP_HOME/streaming/hadoop-streaming.jar \
+            -input /user/$USER/input/{file}.csv \
+            -output /user/$USER/output/{file}_{result_suffix} \
+            -mapper mapper.py \
+            -reducer reducer.py
+        """
+    else:  # remote mode for AWS EMR
+        command = f"""
+            hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+            -input /user/$USER/input/{file}.csv \
+            -output /user/$USER/output/{file}_{result_suffix} \
+            -file ./mapper.py \
+            -file ./reducer.py \
+            -mapper mapper.py \
+            -reducer reducer.py
+        """
     return command
 
 def run_and_time(command, file_name):
@@ -107,21 +120,32 @@ def run_and_time(command, file_name):
     }
 
 def main():
-    # Determina nome file output
-    output_file = "mapreduce_results.csv"  # Default
-    if len(sys.argv) > 1:
-        output_file = sys.argv[1]
-    else:
-        print("Puoi specificare il nome del file di output come argomento.")
-        print(f"Esempio: python {sys.argv[0]} <nome_file_output>\n")
+    # Setup command line argument parsing
+    parser = argparse.ArgumentParser(description='Run MapReduce experiments on different dataset sizes')
+    
+    # Add mutually exclusive group for local/remote mode (one must be specified)
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument('-l', '--local', action='store_true', help='Run in local mode')
+    mode_group.add_argument('-r', '--remote', action='store_true', help='Run in remote mode on AWS EMR')
+    
+    # Output file option
+    parser.add_argument('-o', '--output', default='mapreduce_results.csv',
+                      help='Output CSV file to store results (default: mapreduce_results.csv)')
+    
+    args = parser.parse_args()
+    
+    # Set execution mode based on arguments
+    execution_mode = "local" if args.local else "remote"
+    output_file = args.output
+    
+    print(f"Running in {execution_mode.upper()} mode")
+    print(f"Results will be saved to {output_file}")
     
     results = []
     overall_start = time.time()
     
-    print(f"Avvio esperimenti MapReduce su dataset di dimensioni diverse (risultati saranno salvati in {output_file})")
-    
     for file in files:
-        command = generate_command(file)
+        command = generate_command(file, execution_mode)
         result = run_and_time(command, file)
         results.append(result)
     

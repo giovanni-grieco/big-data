@@ -20,7 +20,7 @@ def main():
                     # Write the pruned row
                     writer.writerow(pruned_row)
                 except Exception as e:
-                    print(f"Error processing row: {row}")
+                    #print(f"Error processing row: {row}")
                     print(f"Exception: {e}")
                     continue
 

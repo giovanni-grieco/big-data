@@ -1,4 +1,5 @@
 #Check if .venv exists, if not, create it and install requirements
+sudo -v
 
 HADOOP_HOME="/usr/lib/hadoop"
 

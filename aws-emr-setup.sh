@@ -12,8 +12,8 @@ if [ ! -f "$HADOOP_HOME/streaming/hadoop-streaming.jar" ]; then
         echo "Failed to download hadoop-streaming.jar"
         exit 1
     fi
-    mkdir -p "$HADOOP_HOME/streaming/"
-    mv "hadoop-streaming-3.3.1.jar" "$HADOOP_HOME/streaming/hadoop-streaming.jar"
+    sudo mkdir -p "$HADOOP_HOME/streaming/"
+    sudo mv "hadoop-streaming-3.3.1.jar" "$HADOOP_HOME/streaming/hadoop-streaming.jar"
 else
     echo "Hadoop streaming jar already exists."
 fi

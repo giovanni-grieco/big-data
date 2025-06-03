@@ -8,7 +8,12 @@ Helper scripts to setup the environment and run HDFS, Mapreduce, Hive and Spark 
 - wget (should be available by default on most distros)
 - tar (should be available by default on most distros)
 
-## How to use?
+
+## Big Data Project
+Head over to the 'progetto' folder to have further information on how to run jobs, what were the design choices and technological solutions used to tackle the tasks given.
+
+## Local Execution
+### How to use?
 Download the repository
 ```bash
 https://github.com/giovanni-grieco/big-data.git
@@ -28,12 +33,7 @@ To stop hadoop services
 ```bash
 ./stop.sh
 ```
-
-## Big Data Project
-Head over to the 'progetto' folder to have further information on how to run jobs, what were the design choices and technological solutions used to tackle the tasks given.
-
-
-## Setup Environment
+### Setup Environment
 Important thing to know is that the script will setup environment variables to use hadoop, hive and spark locally. 
 
 The environment variables live only inside the current terminal session where the script was run.
@@ -46,5 +46,8 @@ Hadoop folder will be put in your $HOME folder (for example /home/yourusername/h
 
 If you want to edit .bashrc you need to "export HADOOP_BASE="$HOME/hadoop-3.4.1" (assuming 3.4.1 is the version of the example) and then "export PATH="$HADOOP_BASE/bin:$PATH"
 
-## Delete hadoop
+### Delete hadoop
 Simply go to $HOME and remove the hadoop-$VERSION folder. You can also remove the hadoop-$VERSION.tar.gz
+
+## AWS EMR Execution
+WIP

@@ -1,0 +1,1 @@
+packageJobJar: [./mapper.py, ./reducer.py] [/usr/lib/hadoop/hadoop-streaming-3.4.1-amzn-1.jar] /tmp/streamjob6914934972546434.jar tmpDir=null

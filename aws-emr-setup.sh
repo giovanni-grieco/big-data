@@ -3,6 +3,7 @@ sudo -v
 
 HADOOP_HOME="/usr/lib/hadoop"
 
+export HADOOP_HOME
 echo "Checking hadoop-streaming"
 if [ ! -f "$HADOOP_HOME/streaming/hadoop-streaming.jar" ]; then
     echo "Hadoop streaming jar not found. Please check your Hadoop installation."

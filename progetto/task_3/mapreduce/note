@@ -1,0 +1,7 @@
+Questo task richiede vari map reduce messi in cascata. 
+Una strategia di risoluzione è quella dei bucket
+
+Bisogna stare attenti a parallelizzare altrimenti tutto viene eseguito su un singolo reducer e non ha molto senso.
+L'idea è quella di individuare i bucket tramite un job MR (calcolando gli HP e displacement minimi e max) e poi suddividere la computazione
+in job MR paralleli basati sui bucket stessi, cioè assegnando a ciascuna macchina un bucket_id che finirrano nel loro corrispettivo reducer
+e quindi saranno paralleli.

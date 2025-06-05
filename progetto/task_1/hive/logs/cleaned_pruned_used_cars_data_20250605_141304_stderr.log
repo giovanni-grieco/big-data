@@ -1,0 +1,34 @@
+Hive Session ID = d78f9cb4-e54c-47ca-a26c-fa34b9e04501
+
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j2.properties Async: true
+OK
+Time taken: 0.606 seconds
+OK
+Time taken: 0.202 seconds
+Loading data to table default.used_cars
+OK
+Time taken: 0.612 seconds
+Query ID = hadoop_20250605141316_16142400-501b-4968-91b9-b8ebd1d05278
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1749131589170_0008)
+
+Map 1: -/-	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 0/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 0/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 0(+2)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 0(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 1(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 2(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 4(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 6(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 7(+6)/13	Reducer 2: 0/2	Reducer 3: 0/1	
+Map 1: 9(+4)/13	Reducer 2: 0(+2)/2	Reducer 3: 0/1	
+Map 1: 10(+3)/13	Reducer 2: 0(+2)/2	Reducer 3: 0/1	
+Map 1: 13/13	Reducer 2: 0(+2)/2	Reducer 3: 0/1	
+Map 1: 13/13	Reducer 2: 2/2	Reducer 3: 0(+1)/1	
+Map 1: 13/13	Reducer 2: 2/2	Reducer 3: 1/1	
+OK
+Time taken: 22.275 seconds, Fetched: 1554 row(s)
+OK
+Time taken: 0.097 seconds

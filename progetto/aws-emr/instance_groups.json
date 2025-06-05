@@ -1,0 +1,14 @@
+[
+    {
+        "Name": "Master",
+        "InstanceGroupType": "MASTER",
+        "InstanceType": "m5.xlarge",
+        "InstanceCount": 1
+    },
+    {
+        "Name": "Core",
+        "InstanceGroupType": "CORE",
+        "InstanceType": "m5.xlarge",
+        "InstanceCount": 2
+    }
+]

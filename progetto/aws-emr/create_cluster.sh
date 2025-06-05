@@ -10,10 +10,10 @@ aws emr create-cluster \
     --applications Name=Hadoop Name=Spark Name=Hive \
     --use-default-roles \
     --ec2-attributes KeyName=desktop-fedora \
-    --instance-type m5.xlarge \
-    --instance-count 3 \
-    --log-uri ${BUCKET_S3}/logs/ \
-    --auto-terminate > $tmp_output
+    --ebs-root-volume-size 30 \
+    --instance-groups "$(cat instance_groups.json)" \
+    --auto-termination-policy IdleTimeout=3600 \
+    --log-uri ${BUCKET_S3}/logs/ > $tmp_output
 
 # Extract the ClusterId from the JSON output
 cluster_id=$(cat $tmp_output | jq -r '.ClusterId')

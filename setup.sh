@@ -1,23 +1,5 @@
 #!/bin/bash
 
-# Default to local mode
-MODE="local"
-
-# Parse arguments
-for arg in "$@"; do
-    case $arg in
-        --local)
-            MODE="local"
-            ;;
-        --remote)
-            MODE="remote"
-            ;;
-        *)
-            VERSION="$arg"
-            ;;
-    esac
-done
-
 if [ -z "$VERSION" ]; then
     VERSION="3.4.1"
 fi
@@ -54,25 +36,24 @@ else
     echo "Hadoop streaming jar already exists."
 fi
 
-if [ "$MODE" = "local" ]; then
-    # ask if $home/hdfs wants to be wiped
-    read -p "Do you want to wipe the $HOME/hdfs directory? (y/n): " wipe_hdfs
-    if [[ $wipe_hdfs == "y" || $wipe_hdfs == "Y" ]]; then
-        echo "Wiping $HOME/hdfs directory..."
-        rm -rf "$HOME/hdfs"
-    else
-        echo "Not wiping $HOME/hdfs directory."
-    fi
 
-    # Create necessary directories
-    NAMENODE_DIR="$HOME/hdfs/namenode"
-    DATANODE_DIR="$HOME/hdfs/datanode"
-    MAPRED_LOCAL_DIR="$HOME/hdfs/mapred"
-
-    mkdir -p "$NAMENODE_DIR"
-    mkdir -p "$DATANODE_DIR"
-    mkdir -p "$MAPRED_LOCAL_DIR"
+# ask if $home/hdfs wants to be wiped
+read -p "Do you want to wipe the $HOME/hdfs directory? (y/n): " wipe_hdfs
+if [[ $wipe_hdfs == "y" || $wipe_hdfs == "Y" ]]; then
+    echo "Wiping $HOME/hdfs directory..."
+    rm -rf "$HOME/hdfs"
+else
+    echo "Not wiping $HOME/hdfs directory."
 fi
+
+# Create necessary directories
+NAMENODE_DIR="$HOME/hdfs/namenode"
+DATANODE_DIR="$HOME/hdfs/datanode"
+MAPRED_LOCAL_DIR="$HOME/hdfs/mapred"
+
+mkdir -p "$NAMENODE_DIR"
+mkdir -p "$DATANODE_DIR"
+mkdir -p "$MAPRED_LOCAL_DIR"
 
 
 # ========= CORE-SITE.XML =========
@@ -81,9 +62,9 @@ CACHE_FILE="$CACHE_DIR/emr_master_dns"
 
 mkdir -p "$CACHE_DIR"
 
-if [ "$MODE" = "local" ]; then
-    # ...existing local setup code...
-    cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
+
+# ...existing local setup code...
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
@@ -93,39 +74,10 @@ if [ "$MODE" = "local" ]; then
     </property>
 </configuration>
 EOL
-else
-    # Check for cached EMR master DNS
-    if [ -f "$CACHE_FILE" ]; then
-        OLD_EMR_MASTER=$(cat "$CACHE_FILE")
-        read -p "Reuse last EMR master DNS ($OLD_EMR_MASTER)? [Y/n]: " reuse_dns
-        if [[ "$reuse_dns" =~ ^[Nn]$ ]]; then
-            read -p "Enter your EMR master node DNS (e.g., ec2-xx-xx-xx-xx.compute-1.amazonaws.com): " EMR_MASTER
-            echo "$EMR_MASTER" > "$CACHE_FILE"
-        else
-            EMR_MASTER="$OLD_EMR_MASTER"
-        fi
-    else
-        read -p "Enter your EMR master node DNS (e.g., ec2-xx-xx-xx-xx.compute-1.amazonaws.com): " EMR_MASTER
-        echo "$EMR_MASTER" > "$CACHE_FILE"
-    fi
-
-    cat <<EOL > "$HADOOP_HOME/etc/hadoop/core-site.xml"
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
-<configuration>
-    <property>
-        <name>fs.defaultFS</name>
-        <value>hdfs://$EMR_MASTER:8020</value>
-    </property>
-</configuration>
-EOL
-fi
 echo "HADOOP core-site.xml config done"
 
 # ========= HDFS-SITE.XML =========
-
-if [ "$MODE" = "local" ]; then
-    cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property>
@@ -143,9 +95,9 @@ if [ "$MODE" = "local" ]; then
 </configuration>
 EOL
 
-    echo "HADOOP hdfs-site.xml config done"
+echo "HADOOP hdfs-site.xml config done"
 
-    cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
+cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property>
@@ -175,27 +127,26 @@ EOL
 
 echo "HIVE config done"
 
-if [ "$MODE" = "local" ]; then
-    hdfs namenode -format
-fi
+hdfs namenode -format
+
 
 #Ask user if they want to wipe the metastore_db folder
-if [ "$MODE" = "local" ]; then
-    echo "Checking for metastore_db folder..."
-    if [ -d "metastore_db/" ]; then
-        read -p "Do you want to wipe the metastore_db folder? (y/n): " wipe_metastore
-        if [[ $wipe_metastore == "y" || $wipe_metastore == "Y" ]]; then
-            echo "Wiping metastore_db folder..."
-            rm -rf "metastore_db/"
-            schematool -dbType derby -initSchema
-        else
-            echo "Not wiping metastore_db folder."
-        fi
-    else
-        echo "metastore_db folder not found. Initializing schema..."
+
+echo "Checking for metastore_db folder..."
+if [ -d "metastore_db/" ]; then
+    read -p "Do you want to wipe the metastore_db folder? (y/n): " wipe_metastore
+    if [[ $wipe_metastore == "y" || $wipe_metastore == "Y" ]]; then
+        echo "Wiping metastore_db folder..."
+        rm -rf "metastore_db/"
         schematool -dbType derby -initSchema
+    else
+        echo "Not wiping metastore_db folder."
     fi
+else
+    echo "metastore_db folder not found. Initializing schema..."
+    schematool -dbType derby -initSchema
 fi
+
 
 #Check if .venv exists, if not, create it and install requirements
 if [ ! -d ".venv" ]; then

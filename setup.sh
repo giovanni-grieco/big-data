@@ -159,29 +159,7 @@ EOL
 </configuration>
 EOL
 
-    echo "HADOOP mapred-site.xml config done"
-else
-cat <<EOL > "$HADOOP_HOME/etc/hadoop/hdfs-site.xml"
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <property>
-        <name>dfs.replication</name>
-        <value>1</value>
-    </property>
-</configuration>
-EOL
-    # For remote, only set mapreduce.framework.name to yarn
-    cat <<EOL > "$HADOOP_HOME/etc/hadoop/mapred-site.xml"
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <property>
-        <name>mapreduce.framework.name</name>
-        <value>yarn</value>
-    </property>
-</configuration>
-EOL
-    echo "HADOOP mapred-site.xml config done"
-fi
+echo "HADOOP mapred-site.xml config done"
 
 echo "HADOOP config done"
 
@@ -228,18 +206,6 @@ if [ ! -d ".venv" ]; then
 else
     echo "Virtual environment already exists."
     source .venv/bin/activate
-fi
-
-#SETUP permissions for $USER to create directories in HDFS
-if [ "$MODE" = "remote" ]; then
-    ssh "hadoop@$EMR_MASTER" "sudo -u hadoop hdfs dfs -mkdir -p /user/$USER/input"
-    ssh "hadoop@$EMR_MASTER" "sudo -u hadoop hdfs dfs -chmod 777 /user/$USER/input"
-    ssh "hadoop@$EMR_MASTER" "sudo -u hadoop hdfs dfs -mkdir -p /user/$USER/output"
-    ssh "hadoop@$EMR_MASTER" "sudo -u hadoop hdfs dfs -chmod 777 /user/$USER/output"
-    echo "HDFS directories created and permissions set for user $USER on remote EMR cluster."
-    #setup tunnel
-    ssh -N -D 9866 hadoop@$EMR_MASTER > ssh_tunnel.log 2>&1 &
-    echo "SSH tunnel started in background (PID $!). Output is logged to ssh_tunnel.log"
 fi
 
 echo "All done!"

@@ -138,7 +138,7 @@ def main():
     # Add mutually exclusive group for local/remote mode (one must be specified)
     mode_group = parser.add_mutually_exclusive_group(required=True)
     mode_group.add_argument('-l', '--local', action='store_true', help='Run in local mode')
-    mode_group.add_argument('-c', '--cluster', action='store_true', help='Run in cluster mode on AWS EMR')
+    mode_group.add_argument('-c', '--remote', action='store_true', help='Run in cluster mode on AWS EMR')
     
     # Output file option
     parser.add_argument('-o', '--output', default='spark_results.csv',
@@ -151,7 +151,7 @@ def main():
     args = parser.parse_args()
     
     # Set execution mode based on arguments
-    execution_mode = "local" if args.local else "cluster"
+    execution_mode = "local" if args.local else "remote"
     output_file = args.output
     
     # Use specified files or all files

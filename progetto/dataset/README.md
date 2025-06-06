@@ -4,6 +4,11 @@
 - Rimozione di colonne inutilizzate con ```drop_columns.py```
 - Genera porzioni con ```generate_portions.py```
 
+## Script di utilità
+
+- Download del dataset da huggingface con ```get_dataset.sh```
+- Download del dataset intero e sue sottoporzioni già pulite con ```get_cleaned_pruned_portioned_dataset.sh```
+
 ## Colonne utilizzate
 ```
 type     name                col  pruned_col

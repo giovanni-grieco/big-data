@@ -1,8 +1,8 @@
 import time
 import subprocess
 import datetime
-import sys
 import os
+import argparse
 
 files = [
     "cleaned_pruned_used_cars_data_1percent",
@@ -13,21 +13,35 @@ files = [
 
 result_file_suffix="task2_sparkcore_result"
 
-def generate_command(file):
-    """Generate spark-submit command for the given file."""
-    command = f"""
-        spark-submit \
-        --master local[8] \
-        spark-job.py \
-        -i hdfs://localhost:9000/user/$USER/input/{file}.csv \
-        -o hdfs://localhost:9000/user/$USER/output/{file}_{result_file_suffix}
-    """
+def generate_command(file, execution_mode):
+    """Generate spark-submit command for the given file based on execution mode."""
+    if execution_mode == "local":
+        command = f"""
+            spark-submit \
+            --master local[8] \
+            spark-job.py \
+            -i hdfs://localhost:9000/user/$USER/input/{file}.csv \
+            -o hdfs://localhost:9000/user/$USER/output/{file}_{result_file_suffix}
+        """
+    else:  # cluster mode for AWS EMR
+        command = f"""
+            HDFS_NODE=$(hdfs getconf -namenodes | awk '{"{print $1}"}' | cut -d':' -f1)
+            spark-submit \
+            --master yarn \
+            --deploy-mode cluster \
+            --driver-memory 4g \
+            --executor-memory 4g \
+            --executor-cores 4 \
+            spark-job.py \
+            -i hdfs://${"{HDFS_NODE}"}:8020/user/$USER/input/{file}.csv \
+            -o hdfs://${"{HDFS_NODE}"}:8020/user/$USER/output/{file}_{result_file_suffix}
+        """
     return command
 
-def run_and_time(command, file_name):
+def run_and_time(command, file_name, execution_mode):
     """Executes the command and measures execution time."""
     print(f"\n{'=' * 50}")
-    print(f"Starting Spark experiment with file {file_name}")
+    print(f"Starting Spark experiment with file {file_name} in {execution_mode} mode")
     print(f"Start date and time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Command: {command}")
     print(f"{'=' * 50}\n")
@@ -47,6 +61,12 @@ def run_and_time(command, file_name):
     result_file = f"results/{file_name}_{timestamp}_{result_file_suffix}.txt"
     
     # Delete previous output if exists
+    if execution_mode == "local":
+        hdfs_path = f"hdfs://localhost:9000/user/$USER/output/{file_name}_{result_file_suffix}"
+    else:
+        # For cluster mode, use the HDFS namenode to construct the path
+        hdfs_path = f"$(hdfs getconf -namenodes | awk '{{print $1}}' | cut -d':' -f1):8020/user/$USER/output/{file_name}_{result_file_suffix}"
+    
     subprocess.run(f"hdfs dfs -rm -r -f /user/$USER/output/{file_name}_{result_file_suffix}", shell=True)
     
     # Measure execution time
@@ -69,10 +89,12 @@ def run_and_time(command, file_name):
     if process.returncode == 0:
         status = "SUCCESS"
         
-        # Save results from HDFS
+        # Save results from HDFS - adjust path based on mode
         print("Retrieving results from HDFS...")
+        hdfs_cat_command = f"hdfs dfs -cat /user/$USER/output/{file_name}_{result_file_suffix}/part-*"
+        
         hdfs_cat = subprocess.run(
-            f"hdfs dfs -cat /user/$USER/output/{file_name}_{result_file_suffix}/part-*",
+            hdfs_cat_command,
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
         )
         
@@ -82,10 +104,12 @@ def run_and_time(command, file_name):
             print(f"Spark results saved to: {result_file}")
         else:
             print(f"Warning: Unable to retrieve results from HDFS")
+            print(f"HDFS cat error: {hdfs_cat.stderr.decode()}")
             result_file = "N/A"
     else:
         status = "FAILED"
         print(f"Error: check log at {stderr_log}")
+        print(f"Error message: {process.stderr.decode()}")
         result_file = "N/A"
     
     print(f"\n{'=' * 50}")
@@ -108,22 +132,41 @@ def run_and_time(command, file_name):
     }
 
 def main():
-    # Determine output file name
-    output_file = "spark_results.csv"  # Default
-    if len(sys.argv) > 1:
-        output_file = sys.argv[1]
-    else:
-        print("You can specify the output filename as an argument.")
-        print(f"Example: python {sys.argv[0]} <output_filename>\n")
+    # Setup command line argument parsing
+    parser = argparse.ArgumentParser(description='Run Spark experiments on different dataset sizes')
+    
+    # Add mutually exclusive group for local/remote mode (one must be specified)
+    mode_group = parser.add_mutually_exclusive_group(required=True)
+    mode_group.add_argument('-l', '--local', action='store_true', help='Run in local mode')
+    mode_group.add_argument('-c', '--cluster', action='store_true', help='Run in cluster mode on AWS EMR')
+    
+    # Output file option
+    parser.add_argument('-o', '--output', default='spark_results.csv',
+                      help='Output CSV file to store results (default: spark_results.csv)')
+    
+    # File selection options
+    parser.add_argument('-f', '--files', nargs='+', choices=files,
+                      help='Specific file(s) to process (default: all files)')
+    
+    args = parser.parse_args()
+    
+    # Set execution mode based on arguments
+    execution_mode = "local" if args.local else "cluster"
+    output_file = args.output
+    
+    # Use specified files or all files
+    files_to_process = args.files if args.files else files
+    
+    print(f"Running in {execution_mode.upper()} mode")
+    print(f"Processing files: {', '.join(files_to_process)}")
+    print(f"Results will be saved to {output_file}")
     
     results = []
     overall_start = time.time()
     
-    print(f"Starting Spark experiments on datasets of different sizes (results will be saved to {output_file})")
-    
-    for file in files:
-        command = generate_command(file)
-        result = run_and_time(command, file)
+    for file in files_to_process:
+        command = generate_command(file, execution_mode)
+        result = run_and_time(command, file, execution_mode)
         results.append(result)
     
     overall_end = time.time()

@@ -1,7 +1,6 @@
 import time
 import subprocess
 import datetime
-import sys
 import os
 import argparse
 

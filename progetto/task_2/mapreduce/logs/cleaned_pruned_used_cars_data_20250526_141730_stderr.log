@@ -1,7 +1,0 @@
-2025-05-26 14:17:32,911 INFO impl.MetricsConfig: Loaded properties from hadoop-metrics2.properties
-2025-05-26 14:17:32,966 INFO impl.MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
-2025-05-26 14:17:32,966 INFO impl.MetricsSystemImpl: JobTracker metrics system started
-2025-05-26 14:17:32,977 WARN impl.MetricsSystemImpl: JobTracker metrics system already initialized!
-2025-05-26 14:17:33,168 INFO mapreduce.JobSubmitter: Cleaning up the staging area file:/tmp/hadoop/mapred/staging/giovanni164039585/.staging/job_local164039585_0001
-2025-05-26 14:17:33,173 ERROR streaming.StreamJob: Error Launching job : Input path does not exist: hdfs://localhost:9000/user/giovanni/input/cleaned_pruned_used_cars_data.csv
-Streaming Command Failed!

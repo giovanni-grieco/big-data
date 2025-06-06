@@ -44,7 +44,7 @@ FROM categorized_cars
 GROUP BY city, year, price_range;
 
 -- Use ADD FILE to make the Python script available to the cluster
-ADD FILE /home/giovanni/Projects/big-data/progetto/task_2/hive/extract_top_words.py;
+ADD FILE hdfs:///task_2/hive/extract_top_words.py;
 
 -- Create a final table with the results using the correct TRANSFORM syntax
 CREATE TABLE IF NOT EXISTS report 

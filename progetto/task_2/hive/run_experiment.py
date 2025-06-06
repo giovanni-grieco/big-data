@@ -11,6 +11,19 @@ files = [
     "cleaned_pruned_used_cars_data"
 ]
 
+def run_preliminary():
+    command = f"""
+        hdfs dfs -mkdir -p /task_2/hive
+        hdfs dfs -put extract_top_words.py /task_2/hive/
+    """
+    process = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if process.returncode != 0:
+        print("Errore durante la creazione della directory o il caricamento dello script su HDFS.")
+        print(process.stderr.decode())
+        sys.exit(1)
+
+
+
 def generate_command(file):
     # Crea comando hive con il percorso del file appropriato
     command = f"""
@@ -88,6 +101,9 @@ def main():
     results = []
     overall_start = time.time()
     
+    print("Avvio preliminari per Hive...")
+    run_preliminary()
+
     print(f"Avvio esperimenti Hive su dataset di dimensioni diverse (risultati saranno salvati in {output_file})")
     
     # Verifica che task.hql esista

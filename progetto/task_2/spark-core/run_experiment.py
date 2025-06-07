@@ -18,7 +18,7 @@ def generate_command(file, execution_mode):
     if execution_mode == "local":
         command = f"""
             spark-submit \
-            --master local[8] \
+            --master local[*] \
             spark-job.py \
             -i hdfs://localhost:9000/user/$USER/input/{file}.csv \
             -o hdfs://localhost:9000/user/$USER/output/{file}_{result_file_suffix}

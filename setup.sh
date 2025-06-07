@@ -46,6 +46,10 @@ else
     echo "Not wiping $HOME/hdfs directory."
 fi
 
+#Setting up HADOOP resources
+export HADOOP_CLIENT_OPTS="-Xmx8g"
+export HADOOP_HEAPSIZE=8192
+
 # Create necessary directories
 NAMENODE_DIR="$HOME/hdfs/namenode"
 DATANODE_DIR="$HOME/hdfs/datanode"

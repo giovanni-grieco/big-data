@@ -1,4 +1,4 @@
-# Task 1 - Spark-Core
+# Task 2 - Spark-Core
 
 ## Esecuzione esperimenti
 

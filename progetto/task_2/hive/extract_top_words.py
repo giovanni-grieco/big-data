@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# filepath: /home/giovanni/Projects/big-data/progetto/task_2/hive/extract_top_words.py
 
 import sys
 import re
@@ -41,5 +40,4 @@ for line in sys.stdin:
         
     except Exception as e:
         # Output error for debugging
-        print(f"Error: {str(e)}", file=sys.stderr)
-        print("Error processing line")  # Fallback output
+        pass

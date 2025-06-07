@@ -1,0 +1,587 @@
+which: no hbase in (/home/giovanni/Projects/big-data/.venv/bin:/home/giovanni/hive/bin:/home/giovanni/hadoop-3.4.1/bin:/usr/lib64/openmpi/bin:/home/giovanni/.sdkman/candidates/java/current/bin:/home/giovanni/hadoop-3.4.1/bin:/home/giovanni/.local/bin:/home/giovanni/bin:/usr/share/Modules/bin:/home/giovanni/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/giovanni/.local/share/JetBrains/Toolbox/scripts:/home/giovanni/SDKs/flutter/bin:/home/giovanni/.local/share/JetBrains/Toolbox/scripts:/home/giovanni/SDKs/flutter/bin:/home/giovanni/minio-binaries)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/giovanni/hive/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/giovanni/hadoop-3.4.1/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+Logging initialized using configuration in jar:file:/home/giovanni/hive/lib/hive-common-2.3.9.jar!/hive-log4j2.properties Async: true
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hive.common.StringInternUtils (file:/home/giovanni/hive/lib/hive-common-2.3.9.jar) to field java.net.URI.string
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hive.common.StringInternUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OK
+Time taken: 1.892 seconds
+OK
+Time taken: 0.3 seconds
+Loading data to table default.used_cars
+OK
+Time taken: 0.484 seconds
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+Query ID = giovanni_20250607212955_e228b09e-d647-48c0-a581-d5f241e0ee80
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Job running in-process (local Hadoop)
+2025-06-07 21:29:57,813 Stage-1 map = 100%,  reduce = 0%
+Ended Job = job_local631048978_0001
+Stage-4 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/.hive-staging_hive_2025-06-07_21-29-55_930_1780946793457134653-1/-ext-10002
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/categorized_cars
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 5543302319 HDFS Write: 5479265376 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 12.782 seconds
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+Query ID = giovanni_20250607213008_0e244c99-8780-4704-90c4-3013f48ecfbf
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks not specified. Estimated from input data size: 6
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-07 21:30:10,018 Stage-1 map = 0%,  reduce = 0%
+2025-06-07 21:30:11,020 Stage-1 map = 17%,  reduce = 0%
+2025-06-07 21:30:12,022 Stage-1 map = 33%,  reduce = 0%
+2025-06-07 21:30:13,023 Stage-1 map = 50%,  reduce = 0%
+2025-06-07 21:30:14,025 Stage-1 map = 67%,  reduce = 0%
+2025-06-07 21:30:15,026 Stage-1 map = 100%,  reduce = 0%
+2025-06-07 21:30:16,029 Stage-1 map = 100%,  reduce = 100%
+2025-06-07 21:30:17,030 Stage-1 map = 100%,  reduce = 33%
+2025-06-07 21:30:18,032 Stage-1 map = 100%,  reduce = 50%
+2025-06-07 21:30:19,033 Stage-1 map = 100%,  reduce = 83%
+2025-06-07 21:30:20,035 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local758986551_0002
+Launching Job 2 out of 3
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-07 21:30:21,987 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local39782857_0003
+Launching Job 3 out of 3
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-07 21:30:23,996 Stage-3 map = 100%,  reduce = 0%
+2025-06-07 21:30:24,996 Stage-3 map = 100%,  reduce = 100%
+Ended Job = job_local231120232_0004
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/aggregated_data
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 32670140684 HDFS Write: 17985053448 SUCCESS
+Stage-Stage-2:  HDFS Read: 6030508994 HDFS Write: 2997508908 SUCCESS
+Stage-Stage-3:  HDFS Read: 6030508994 HDFS Write: 3085842525 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 18.321 seconds
+Added resources: [hdfs:///task_2/hive/extract_top_words.py]
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+Query ID = giovanni_20250607213027_11451d86-e1c4-49c6-9114-9c77a4e52146
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Job running in-process (local Hadoop)
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+2025-06-07 21:30:28,267 Stage-1 map = 0%,  reduce = 0%
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+Invalid input format
+2025-06-07 21:30:31,268 Stage-1 map = 100%,  reduce = 0%
+Ended Job = job_local1027610163_0005
+Stage-4 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+Stage-5 is filtered out by condition resolver.
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/.hive-staging_hive_2025-06-07_21-30-27_066_2669709512149708178-1/-ext-10001
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/report
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 3103589613 HDFS Write: 1589075412 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 8.183 seconds
+OK
+Time taken: 0.041 seconds, Fetched: 40129 row(s)
+OK
+Time taken: 0.157 seconds
+OK
+Time taken: 0.047 seconds
+OK
+Time taken: 0.035 seconds
+OK
+Time taken: 0.037 seconds

@@ -12,6 +12,14 @@ Aston Martin  Rapide  1       89668.0     89668.0     89668.0     {2016}
 Audi          S7      3       26942.0     59999.0     41146.7	  {2016, 2014, 2015}
 ```
 
+## Esecuzione esperimenti
+
+Gli esperimenti possono essere effettuati utilizzando lo script ```run_experiment.py```.
+```bash
+# -l (o --local) o -r (--remote) e -o sono obbligatori
+python3 run_experiment.py --local -o results.csv
+```
+
 ## Mapper
 
 ## Descrizione del Mapper e Reducer

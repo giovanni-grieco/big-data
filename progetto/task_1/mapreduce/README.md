@@ -36,7 +36,7 @@ Il mapper elabora i dati relativi alle auto usate dal dataset CSV, estraendo le 
 Il mapper legge ogni riga in input, divide i campi separati da virgole e seleziona solo le colonne rilevanti. L'output viene emesso nel formato:
 
 ```
-manufacturer\tmodel\tprice\tyear
+manufacturer  model  price  year
 ```
 
 Il mapper gestisce anche le potenziali eccezioni durante l'elaborazione, scrivendo i messaggi di errore nello stderr.
@@ -55,7 +55,7 @@ Il reducer prende in input i dati emessi dal mapper e li aggrega per modello di 
 Il reducer calcola queste statistiche mantenendo varie strutture dati per tracciare le informazioni necessarie durante l'elaborazione. L'output finale viene formattato come:
 
 ```
-manufacturer\tmodel\tcount\tmin_price\tmax_price\tavg_price\t{year1,year2,...yearN}
+manufacturer  model  count  min_price  max_price  avg_price  {year1,year2,...yearN}
 ```
 
 Questo output presenta un riepilogo completo delle statistiche per ogni modello di auto presente nel dataset.

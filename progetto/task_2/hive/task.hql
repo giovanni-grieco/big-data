@@ -1,3 +1,11 @@
+SET hive.exec.mode.local.auto=false;
+SET mapreduce.map.memory.mb=4096;
+SET mapreduce.reduce.memory.mb=4096;
+SET mapreduce.map.java.opts=-Xmx4g;
+SET mapreduce.reduce.java.opts=-Xmx4g;
+SET hive.groupby.skewindata=true;
+SET hive.exec.parallel=true;
+
 DROP TABLE IF EXISTS used_cars;
 CREATE TABLE used_cars (
     city STRING, 
@@ -32,6 +40,7 @@ SELECT
 FROM used_cars;
 
 -- Aggregate data for each city, year, and price range
+-- Modify the aggregation to limit the descriptions collected
 CREATE TABLE IF NOT EXISTS aggregated_data AS
 SELECT 
     city,
@@ -39,8 +48,19 @@ SELECT
     price_range,
     COUNT(*) AS num_cars,
     AVG(daysonmarket) AS avg_daysonmarket,
-    CONCAT_WS('|||', COLLECT_LIST(description)) AS descriptions
-FROM categorized_cars
+    -- Limit to 50 descriptions per group max
+    CONCAT_WS('|||', collect_list(substr(description, 1, 500))) AS descriptions
+FROM (
+    SELECT 
+        city, 
+        year, 
+        price_range,
+        daysonmarket,
+        description,
+        row_number() OVER (PARTITION BY city, year, price_range ORDER BY RAND()) as rn
+    FROM categorized_cars
+) t
+WHERE rn <= 10  -- Only use 50 descriptions max per group
 GROUP BY city, year, price_range;
 
 -- Use ADD FILE to make the Python script available to the cluster

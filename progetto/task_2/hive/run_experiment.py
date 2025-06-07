@@ -12,15 +12,15 @@ files = [
 ]
 
 def run_preliminary():
-    command = f"""
-        hdfs dfs -mkdir -p /task_2/hive
-        hdfs dfs -put extract_top_words.py /task_2/hive/
-    """
-    process = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.run("hdfs dfs -rm -r -f /task_2/hive/", shell=True)
     if process.returncode != 0:
-        print("Errore durante la creazione della directory o il caricamento dello script su HDFS.")
         print(process.stderr.decode())
-        sys.exit(1)
+    process = subprocess.run("hdfs dfs -mkdir -p /task_2/hive/", shell=True)
+    if process.returncode != 0:
+        print(process.stderr.decode())
+    process = subprocess.run("hdfs dfs -put extract_top_words.py /task_2/hive/", shell=True)
+    if process.returncode != 0:
+        print(process.stderr.decode())
 
 
 

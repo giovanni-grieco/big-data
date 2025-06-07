@@ -2,12 +2,46 @@ import sys
 import re
 import os
 from tqdm import tqdm
+import nltk
+import nltk.data
+from nltk.corpus import stopwords
+# Download required NLTK data if not already available
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    print("Downloading NLTK stopwords...")
+    nltk.download('stopwords', quiet=True)
+
+# Get stopwords once for better performance
+STOP_WORDS = set(stopwords.words('english'))
+
+
+description_idx = 2
+
+def clean_description(description):
+    """Clean description by removing punctuation and stopwords"""
+    # Remove punctuation except spaces
+    description = re.sub(r'[^\w\s]', '', description)
+    words = description.split()
+    # Remove stopwords
+    filtered_description = [word for word in words if word not in STOP_WORDS]
+    
+    # Join the tokens back into a string
+    return ' '.join(filtered_description)
 
 def clean_line(line):
     #Remove [!@@Additional Info@@!]
     line = re.sub(r'\[!@@Additional Info@@!\]', '', line)
-    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9_.,-]', ' ', m.group(1)) + '"', line)
+    line = re.sub(r'"([^"]*)"', lambda m: '"' + re.sub(r'[^a-zA-Z0-9/_.,-]', ' ', m.group(1)) + '"', line)
     line = re.sub(r'"([^"]*)"', lambda m: m.group(0).replace(',', ' '), line)
+    
+    # First extract all columns
+    columns = line.split(',')
+    
+    columns[description_idx] = clean_description(columns[description_idx])
+    # Reconstruct the line
+    line = ','.join(columns)
+    
     # Remove quotes from the header
     line = line.replace('"', '')
     line = line.replace("  ", " ")  # Replace multiple spaces with a single space
@@ -40,16 +74,22 @@ def main():
             for line in f_in:
                 if first_line:
                     if keep_header:
-                        cleaned_line = clean_line(line)
-                        f_out.write(cleaned_line)
+                        try:
+                            cleaned_line = clean_line(line)
+                            f_out.write(cleaned_line)
+                        except Exception as e:
+                            pass
                     first_line = False
                     # Update progress for first line
                     progress_bar.update(len(line))
                     continue
                 
                 # Process regular lines
-                cleaned_line = clean_line(line)
-                f_out.write(cleaned_line)
+                try:
+                    cleaned_line = clean_line(line)
+                    f_out.write(cleaned_line)
+                except Exception as e:
+                    pass
                 # Update progress
                 progress_bar.update(len(line))
             

@@ -18,6 +18,7 @@ for line in sys.stdin:
         model = cols[6].strip().strip('\t')
         price = cols[7].strip().strip('\t')
         year = cols[8].strip().strip('\t')
-        print(f"{manufacturer}::{model}\t{price}\t{year}")
+        print(f"{manufacturer}\t{model}\t{price}\t{year}")
     except Exception as e:
+        sys.stderr.write(f"Error processing line: {line}\n")
         sys.stderr.write(f"Error: {e}\n")

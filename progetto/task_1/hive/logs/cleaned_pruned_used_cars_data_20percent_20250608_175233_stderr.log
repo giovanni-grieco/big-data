@@ -12,17 +12,17 @@ WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
 OK
-Time taken: 7.171 seconds
+Time taken: 6.914 seconds
 OK
-Time taken: 1.005 seconds
+Time taken: 0.977 seconds
 Loading data to table default.used_cars
 OK
-Time taken: 1.277 seconds
+Time taken: 1.28 seconds
 WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
-Query ID = emilia_20250608111400_ef13c28f-73e4-44aa-81f7-259b524534aa
+Query ID = emilia_20250608175252_5abb457c-dd2f-45c8-8b29-86df5cfae0a4
 Total jobs = 2
 Launching Job 1 out of 2
-Number of reduce tasks not specified. Estimated from input data size: 2
+Number of reduce tasks not specified. Estimated from input data size: 6
 In order to change the average load for a reducer (in bytes):
   set hive.exec.reducers.bytes.per.reducer=<number>
 In order to limit the maximum number of reducers:
@@ -30,11 +30,11 @@ In order to limit the maximum number of reducers:
 In order to set a constant number of reducers:
   set mapreduce.job.reduces=<number>
 Job running in-process (local Hadoop)
-2025-06-08 11:14:05,770 Stage-1 map = 0%,  reduce = 0%
-2025-06-08 11:14:07,787 Stage-1 map = 100%,  reduce = 0%
-2025-06-08 11:14:08,793 Stage-1 map = 50%,  reduce = 0%
-2025-06-08 11:14:09,804 Stage-1 map = 100%,  reduce = 100%
-Ended Job = job_local1506309758_0001
+2025-06-08 17:52:56,891 Stage-1 map = 0%,  reduce = 0%
+2025-06-08 17:52:58,950 Stage-1 map = 100%,  reduce = 0%
+2025-06-08 17:53:09,035 Stage-1 map = 100%,  reduce = 67%
+2025-06-08 17:53:10,044 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1578759520_0001
 Launching Job 2 out of 2
 Number of reduce tasks determined at compile time: 1
 In order to change the average load for a reducer (in bytes):
@@ -44,13 +44,13 @@ In order to limit the maximum number of reducers:
 In order to set a constant number of reducers:
   set mapreduce.job.reduces=<number>
 Job running in-process (local Hadoop)
-2025-06-08 11:14:11,219 Stage-2 map = 100%,  reduce = 100%
-Ended Job = job_local1777628946_0002
+2025-06-08 17:53:11,417 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local1456523090_0002
 MapReduce Jobs Launched: 
-Stage-Stage-1:  HDFS Read: 1459177657 HDFS Write: 0 SUCCESS
-Stage-Stage-2:  HDFS Read: 793800814 HDFS Write: 0 SUCCESS
+Stage-Stage-1:  HDFS Read: 14642130545 HDFS Write: 0 SUCCESS
+Stage-Stage-2:  HDFS Read: 3032942742 HDFS Write: 0 SUCCESS
 Total MapReduce CPU Time Spent: 0 msec
 OK
-Time taken: 10.399 seconds, Fetched: 927 row(s)
+Time taken: 19.372 seconds, Fetched: 1197 row(s)
 OK
-Time taken: 0.524 seconds
+Time taken: 0.471 seconds

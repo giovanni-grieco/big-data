@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS used_cars;
+
 CREATE TABLE used_cars (
     city STRING, 
     daysonmarket INT,
@@ -18,11 +19,16 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 LOAD DATA INPATH '${hivevar:input_path}' OVERWRITE INTO TABLE used_cars;
 
 
-SELECT make_name as manufacturer, model_name as model, AVG(price) as avg_price, MIN(price) as min_price, MAX(price) as max_price, COUNT(*) as count
+SELECT 
+    make_name AS manufacturer, 
+    model_name AS model, 
+    COUNT(*) AS count,
+    AVG(price) AS avg_price, 
+    MIN(price) AS min_price, 
+    MAX(price) AS max_price, 
+    COLLECT_SET(CAST(year AS STRING)) AS years_str
 FROM used_cars
 GROUP BY make_name, model_name
-ORDER BY make_name, model_name; 
+ORDER BY make_name, model_name;
 
-
-
-DROP TABLE used_cars;
+DROP TABLE IF EXISTS used_cars;

@@ -30,7 +30,7 @@ def generate_command(file, execution_mode):
             -file ./mapper.py \
             -file ./reducer.py \
             -mapper mapper.py \
-            -reducer reducer.py
+            -reducer reducer_new.py
         """
     return command
 

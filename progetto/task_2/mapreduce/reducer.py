@@ -17,12 +17,6 @@ city_year2_low_price_range_word_counts = {}
 city_year2_middle_price_range_word_counts = {}
 city_year2_high_price_range_word_counts = {}
 
-# Common English stop words to filter out
-STOP_WORDS = set(['a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'with', 
-                 'by', 'about', 'as', 'is', 'was', 'of', 'this', 'that', 'it', 'from', 'be', 
-                 'are', 'were', 'been', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 
-                 'would', 'can', 'could', 'should', 'i', 'you', 'he', 'she', 'we', 'they'])
-
 def city_year2value_adder(key, daysonmakrket_price_range_dict, daysonmarket):
     if key not in daysonmakrket_price_range_dict:
         daysonmakrket_price_range_dict[key] = 0
@@ -33,12 +27,10 @@ def process_description(key, word_counts_dict, description):
     if key not in word_counts_dict:
         word_counts_dict[key] = Counter()
     
-    # Extract words (only words with 3+ characters)
-    words = re.findall(r'\b[a-zA-Z]{3,}\b', description.lower())
-    # Filter out stop words
-    filtered_words = [word for word in words if word not in STOP_WORDS]
+    # Extract words (without restricting to 3 characters)
+    words = re.findall(r'\b[a-zA-Z0-9]+\b', description.lower())
     # Update word counts
-    word_counts_dict[key].update(filtered_words)
+    word_counts_dict[key].update(words)
 
 def reduce_by_key(key, price, daysonmarket, description):
     if price < float(20000):

@@ -1,0 +1,150 @@
+25/06/09 19:01:35 INFO SparkContext: Running Spark version 3.5.5
+25/06/09 19:01:35 INFO SparkContext: OS info Linux, 6.14.9-300.fc42.x86_64, amd64
+25/06/09 19:01:35 INFO SparkContext: Java version 11.0.27
+25/06/09 19:01:35 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/06/09 19:01:35 INFO ResourceUtils: ==============================================================
+25/06/09 19:01:35 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/06/09 19:01:35 INFO ResourceUtils: ==============================================================
+25/06/09 19:01:35 INFO SparkContext: Submitted application: task 1
+25/06/09 19:01:35 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/06/09 19:01:35 INFO ResourceProfile: Limiting resource is cpu
+25/06/09 19:01:35 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/06/09 19:01:35 INFO SecurityManager: Changing view acls to: emilia
+25/06/09 19:01:35 INFO SecurityManager: Changing modify acls to: emilia
+25/06/09 19:01:35 INFO SecurityManager: Changing view acls groups to: 
+25/06/09 19:01:35 INFO SecurityManager: Changing modify acls groups to: 
+25/06/09 19:01:35 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: emilia; groups with view permissions: EMPTY; users with modify permissions: emilia; groups with modify permissions: EMPTY
+25/06/09 19:01:35 INFO Utils: Successfully started service 'sparkDriver' on port 33049.
+25/06/09 19:01:35 INFO SparkEnv: Registering MapOutputTracker
+25/06/09 19:01:35 INFO SparkEnv: Registering BlockManagerMaster
+25/06/09 19:01:35 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/06/09 19:01:35 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/06/09 19:01:35 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/06/09 19:01:35 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-2bd8b592-0b16-46cc-957f-bafc200b1d70
+25/06/09 19:01:35 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/06/09 19:01:35 INFO SparkEnv: Registering OutputCommitCoordinator
+25/06/09 19:01:36 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/06/09 19:01:36 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/06/09 19:01:36 INFO Executor: Starting executor ID driver on host fedora
+25/06/09 19:01:36 INFO Executor: OS info Linux, 6.14.9-300.fc42.x86_64, amd64
+25/06/09 19:01:36 INFO Executor: Java version 11.0.27
+25/06/09 19:01:36 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+25/06/09 19:01:36 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@622af860 for default.
+25/06/09 19:01:36 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45585.
+25/06/09 19:01:36 INFO NettyBlockTransferService: Server created on fedora:45585
+25/06/09 19:01:36 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/06/09 19:01:36 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, fedora, 45585, None)
+25/06/09 19:01:36 INFO BlockManagerMasterEndpoint: Registering block manager fedora:45585 with 434.4 MiB RAM, BlockManagerId(driver, fedora, 45585, None)
+25/06/09 19:01:36 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, fedora, 45585, None)
+25/06/09 19:01:36 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, fedora, 45585, None)
+25/06/09 19:01:37 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 221.5 KiB, free 434.2 MiB)
+25/06/09 19:01:37 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 32.7 KiB, free 434.2 MiB)
+25/06/09 19:01:37 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on fedora:45585 (size: 32.7 KiB, free: 434.4 MiB)
+25/06/09 19:01:37 INFO SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+25/06/09 19:01:37 INFO FileInputFormat: Total input files to process : 1
+25/06/09 19:01:37 INFO deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+25/06/09 19:01:37 INFO HadoopMapRedCommitProtocol: Using output committer class org.apache.hadoop.mapred.FileOutputCommitter
+25/06/09 19:01:37 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/09 19:01:37 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/09 19:01:37 INFO SparkContext: Starting job: runJob at SparkHadoopWriter.scala:83
+25/06/09 19:01:37 INFO DAGScheduler: Registering RDD 3 (reduceByKey at /home/emilia/Documents/big-data/progetto/task_2/spark-core/spark-job.py:95) as input to shuffle 0
+25/06/09 19:01:37 INFO DAGScheduler: Got job 0 (runJob at SparkHadoopWriter.scala:83) with 3 output partitions
+25/06/09 19:01:37 INFO DAGScheduler: Final stage: ResultStage 1 (runJob at SparkHadoopWriter.scala:83)
+25/06/09 19:01:37 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+25/06/09 19:01:37 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+25/06/09 19:01:37 INFO DAGScheduler: Submitting ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /home/emilia/Documents/big-data/progetto/task_2/spark-core/spark-job.py:95), which has no missing parents
+25/06/09 19:01:38 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 16.1 KiB, free 434.1 MiB)
+25/06/09 19:01:38 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 9.8 KiB, free 434.1 MiB)
+25/06/09 19:01:38 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on fedora:45585 (size: 9.8 KiB, free: 434.4 MiB)
+25/06/09 19:01:38 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+25/06/09 19:01:38 INFO DAGScheduler: Submitting 3 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /home/emilia/Documents/big-data/progetto/task_2/spark-core/spark-job.py:95) (first 15 tasks are for partitions Vector(0, 1, 2))
+25/06/09 19:01:38 INFO TaskSchedulerImpl: Adding task set 0.0 with 3 tasks resource profile 0
+25/06/09 19:01:38 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (fedora, executor driver, partition 0, NODE_LOCAL, 9086 bytes) 
+25/06/09 19:01:38 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1) (fedora, executor driver, partition 1, NODE_LOCAL, 9086 bytes) 
+25/06/09 19:01:38 INFO TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2) (fedora, executor driver, partition 2, NODE_LOCAL, 9086 bytes) 
+25/06/09 19:01:38 INFO Executor: Running task 2.0 in stage 0.0 (TID 2)
+25/06/09 19:01:38 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+25/06/09 19:01:38 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+25/06/09 19:01:38 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/emilia/input/cleaned_pruned_used_cars_data_5percent.csv:268435456+128423971
+25/06/09 19:01:38 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/emilia/input/cleaned_pruned_used_cars_data_5percent.csv:134217728+134217728
+25/06/09 19:01:38 INFO HadoopRDD: Input split: hdfs://localhost:9000/user/emilia/input/cleaned_pruned_used_cars_data_5percent.csv:0+134217728
+25/06/09 19:01:49 INFO PythonRunner: Times: total = 10824, boot = 747, init = 92, finish = 9985
+25/06/09 19:01:49 INFO PythonRunner: Times: total = 10753, boot = 652, init = 75, finish = 10026
+25/06/09 19:01:49 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1662 bytes result sent to driver
+25/06/09 19:01:49 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1662 bytes result sent to driver
+25/06/09 19:01:49 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 11105 ms on fedora (executor driver) (1/3)
+25/06/09 19:01:49 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 11083 ms on fedora (executor driver) (2/3)
+25/06/09 19:01:49 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 50681
+25/06/09 19:01:49 INFO PythonRunner: Times: total = 10880, boot = 649, init = 107, finish = 10124
+25/06/09 19:01:49 INFO Executor: Finished task 2.0 in stage 0.0 (TID 2). 1619 bytes result sent to driver
+25/06/09 19:01:49 INFO TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 11145 ms on fedora (executor driver) (3/3)
+25/06/09 19:01:49 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+25/06/09 19:01:49 INFO DAGScheduler: ShuffleMapStage 0 (reduceByKey at /home/emilia/Documents/big-data/progetto/task_2/spark-core/spark-job.py:95) finished in 11.340 s
+25/06/09 19:01:49 INFO DAGScheduler: looking for newly runnable stages
+25/06/09 19:01:49 INFO DAGScheduler: running: Set()
+25/06/09 19:01:49 INFO DAGScheduler: waiting: Set(ResultStage 1)
+25/06/09 19:01:49 INFO DAGScheduler: failed: Set()
+25/06/09 19:01:49 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
+25/06/09 19:01:49 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 111.8 KiB, free 434.0 MiB)
+25/06/09 19:01:49 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 43.4 KiB, free 434.0 MiB)
+25/06/09 19:01:49 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on fedora:45585 (size: 43.4 KiB, free: 434.3 MiB)
+25/06/09 19:01:49 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1585
+25/06/09 19:01:49 INFO DAGScheduler: Submitting 3 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2))
+25/06/09 19:01:49 INFO TaskSchedulerImpl: Adding task set 1.0 with 3 tasks resource profile 0
+25/06/09 19:01:49 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 3) (fedora, executor driver, partition 0, NODE_LOCAL, 8817 bytes) 
+25/06/09 19:01:49 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 4) (fedora, executor driver, partition 1, NODE_LOCAL, 8817 bytes) 
+25/06/09 19:01:49 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 5) (fedora, executor driver, partition 2, NODE_LOCAL, 8817 bytes) 
+25/06/09 19:01:49 INFO Executor: Running task 0.0 in stage 1.0 (TID 3)
+25/06/09 19:01:49 INFO Executor: Running task 1.0 in stage 1.0 (TID 4)
+25/06/09 19:01:49 INFO Executor: Running task 2.0 in stage 1.0 (TID 5)
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Getting 3 (13.2 MiB) non-empty blocks including 3 (13.2 MiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Getting 3 (12.8 MiB) non-empty blocks including 3 (12.8 MiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Getting 3 (12.8 MiB) non-empty blocks including 3 (12.8 MiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 17 ms
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 17 ms
+25/06/09 19:01:49 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 17 ms
+25/06/09 19:01:49 INFO HadoopMapRedCommitProtocol: Using output committer class org.apache.hadoop.mapred.FileOutputCommitter
+25/06/09 19:01:49 INFO HadoopMapRedCommitProtocol: Using output committer class org.apache.hadoop.mapred.FileOutputCommitter
+25/06/09 19:01:49 INFO HadoopMapRedCommitProtocol: Using output committer class org.apache.hadoop.mapred.FileOutputCommitter
+25/06/09 19:01:49 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/09 19:01:49 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/09 19:01:49 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/09 19:01:49 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/09 19:01:49 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/09 19:01:49 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/09 19:01:49 INFO BlockManagerInfo: Removed broadcast_1_piece0 on fedora:45585 in memory (size: 9.8 KiB, free: 434.3 MiB)
+25/06/09 19:01:50 INFO PythonRunner: Times: total = 1233, boot = -289, init = 309, finish = 1213
+25/06/09 19:01:50 INFO PythonRunner: Times: total = 1258, boot = -167, init = 185, finish = 1240
+25/06/09 19:01:50 INFO FileOutputCommitter: Saved output of task 'attempt_202506091901374947096953623472640_0008_m_000000_0' to hdfs://localhost:9000/user/emilia/output/cleaned_pruned_used_cars_data_5percent_task2_sparkcore_result/_temporary/0/task_202506091901374947096953623472640_0008_m_000000
+25/06/09 19:01:50 INFO PythonRunner: Times: total = 1276, boot = -320, init = 340, finish = 1256
+25/06/09 19:01:50 INFO SparkHadoopMapRedUtil: attempt_202506091901374947096953623472640_0008_m_000000_0: Committed. Elapsed time: 19 ms.
+25/06/09 19:01:50 INFO FileOutputCommitter: Saved output of task 'attempt_202506091901374947096953623472640_0008_m_000002_0' to hdfs://localhost:9000/user/emilia/output/cleaned_pruned_used_cars_data_5percent_task2_sparkcore_result/_temporary/0/task_202506091901374947096953623472640_0008_m_000002
+25/06/09 19:01:50 INFO SparkHadoopMapRedUtil: attempt_202506091901374947096953623472640_0008_m_000002_0: Committed. Elapsed time: 12 ms.
+25/06/09 19:01:50 INFO Executor: Finished task 0.0 in stage 1.0 (TID 3). 2437 bytes result sent to driver
+25/06/09 19:01:50 INFO Executor: Finished task 2.0 in stage 1.0 (TID 5). 2437 bytes result sent to driver
+25/06/09 19:01:50 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 3) in 1433 ms on fedora (executor driver) (1/3)
+25/06/09 19:01:50 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 5) in 1431 ms on fedora (executor driver) (2/3)
+25/06/09 19:01:50 INFO FileOutputCommitter: Saved output of task 'attempt_202506091901374947096953623472640_0008_m_000001_0' to hdfs://localhost:9000/user/emilia/output/cleaned_pruned_used_cars_data_5percent_task2_sparkcore_result/_temporary/0/task_202506091901374947096953623472640_0008_m_000001
+25/06/09 19:01:50 INFO SparkHadoopMapRedUtil: attempt_202506091901374947096953623472640_0008_m_000001_0: Committed. Elapsed time: 9 ms.
+25/06/09 19:01:50 INFO Executor: Finished task 1.0 in stage 1.0 (TID 4). 2394 bytes result sent to driver
+25/06/09 19:01:50 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 4) in 1445 ms on fedora (executor driver) (3/3)
+25/06/09 19:01:50 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+25/06/09 19:01:50 INFO DAGScheduler: ResultStage 1 (runJob at SparkHadoopWriter.scala:83) finished in 1.472 s
+25/06/09 19:01:50 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/09 19:01:50 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+25/06/09 19:01:50 INFO DAGScheduler: Job 0 finished: runJob at SparkHadoopWriter.scala:83, took 12.911451 s
+25/06/09 19:01:50 INFO SparkHadoopWriter: Start to commit write Job job_202506091901374947096953623472640_0008.
+25/06/09 19:01:50 INFO SparkHadoopWriter: Write Job job_202506091901374947096953623472640_0008 committed. Elapsed time: 42 ms.
+25/06/09 19:01:50 INFO SparkContext: Invoking stop() from shutdown hook
+25/06/09 19:01:50 INFO SparkContext: SparkContext is stopping with exitCode 0.
+25/06/09 19:01:50 INFO SparkUI: Stopped Spark web UI at http://fedora:4040
+25/06/09 19:01:50 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/06/09 19:01:50 INFO MemoryStore: MemoryStore cleared
+25/06/09 19:01:50 INFO BlockManager: BlockManager stopped
+25/06/09 19:01:50 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/06/09 19:01:50 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/06/09 19:01:50 INFO SparkContext: Successfully stopped SparkContext
+25/06/09 19:01:50 INFO ShutdownHookManager: Shutdown hook called
+25/06/09 19:01:50 INFO ShutdownHookManager: Deleting directory /tmp/spark-b98da5fc-4c03-4f7c-a593-08705a448e0f
+25/06/09 19:01:50 INFO ShutdownHookManager: Deleting directory /tmp/spark-b98da5fc-4c03-4f7c-a593-08705a448e0f/pyspark-ffc19abd-8f13-4ea7-a1e3-52b5905aaa27
+25/06/09 19:01:51 INFO ShutdownHookManager: Deleting directory /tmp/spark-51ab7d4f-515a-406e-bd1a-0aa30c4acbfe

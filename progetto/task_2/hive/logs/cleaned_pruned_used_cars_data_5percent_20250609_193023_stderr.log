@@ -1,0 +1,32 @@
+which: no hbase in (/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/.local/bin:/home/emilia/bin:/usr/local/bin:/usr/bin:/home/emilia/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/emilia/.config/Code/User/globalStorage/github.copilot-chat/debugCommand)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/emilia/apache-hive-2.3.9-bin/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/emilia/hadoop-3.4.1/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+Logging initialized using configuration in jar:file:/home/emilia/apache-hive-2.3.9-bin/lib/hive-common-2.3.9.jar!/hive-log4j2.properties Async: true
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hive.common.StringInternUtils (file:/home/emilia/apache-hive-2.3.9-bin/lib/hive-common-2.3.9.jar) to field java.net.URI.string
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hive.common.StringInternUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OK
+Time taken: 4.272 seconds
+OK
+Time taken: 0.504 seconds
+Loading data to table default.cars
+OK
+Time taken: 0.57 seconds
+OK
+Time taken: 0.027 seconds
+OK
+Time taken: 0.027 seconds
+OK
+Time taken: 0.03 seconds
+OK
+Time taken: 0.025 seconds
+OK
+Time taken: 0.036 seconds
+OK
+Time taken: 0.981 seconds, Fetched: 3028 row(s)

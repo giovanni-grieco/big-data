@@ -8,7 +8,8 @@ files = [
     "cleaned_pruned_used_cars_data_1percent",
     "cleaned_pruned_used_cars_data_5percent",
     "cleaned_pruned_used_cars_data_20percent",
-    "cleaned_pruned_used_cars_data"
+    "cleaned_pruned_used_cars_data",
+    "cleaned_pruned_used_cars_data_200percent",
 ]
 
 def generate_command(file):

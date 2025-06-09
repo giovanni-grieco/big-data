@@ -27,7 +27,7 @@ def run_preliminary():
 def generate_command(file):
     # Crea comando hive con il percorso del file appropriato
     command = f"""
-        hive -hivevar input_path=/user/$USER/input/{file}.csv -f ./task.hql
+        hive -hivevar input_path=/user/$USER/input/{file}.csv -f ./task_new.hql
     """
     return command
 
@@ -107,8 +107,8 @@ def main():
     print(f"Avvio esperimenti Hive su dataset di dimensioni diverse (risultati saranno salvati in {output_file})")
     
     # Verifica che task.hql esista
-    if not os.path.exists("task.hql"):
-        print("Errore: file task.hql non trovato nella directory corrente")
+    if not os.path.exists("task_new.hql"):
+        print("Errore: file task_new.hql non trovato nella directory corrente")
         sys.exit(1)
     
     for file in files:

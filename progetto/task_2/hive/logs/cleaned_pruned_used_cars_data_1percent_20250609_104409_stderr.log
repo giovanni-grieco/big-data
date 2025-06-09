@@ -1,0 +1,99 @@
+which: no hbase in (/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/spark-3.5.5-bin-hadoop3/bin:/home/emilia/apache-hive-2.3.9-bin/bin:/home/emilia/hadoop-3.4.1/bin:/usr/lib/jvm/jdk-11.0.27+6/bin:/usr/local/bin:/home/emilia/bin:/home/emilia/.local/bin:/home/emilia/bin:/usr/local/bin:/usr/bin:/home/emilia/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/emilia/.config/Code/User/globalStorage/github.copilot-chat/debugCommand)
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/emilia/apache-hive-2.3.9-bin/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/emilia/hadoop-3.4.1/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+Logging initialized using configuration in jar:file:/home/emilia/apache-hive-2.3.9-bin/lib/hive-common-2.3.9.jar!/hive-log4j2.properties Async: true
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hive.common.StringInternUtils (file:/home/emilia/apache-hive-2.3.9-bin/lib/hive-common-2.3.9.jar) to field java.net.URI.string
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hive.common.StringInternUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+OK
+Time taken: 7.66 seconds
+OK
+Time taken: 0.825 seconds
+Loading data to table default.cars
+OK
+Time taken: 1.04 seconds
+OK
+Time taken: 0.071 seconds
+OK
+Time taken: 0.051 seconds
+OK
+Time taken: 0.055 seconds
+OK
+Time taken: 0.048 seconds
+WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
+Query ID = emilia_20250609104428_8b8642f1-9ed3-4ac0-b58d-ddbf730f52cd
+Total jobs = 5
+Launching Job 1 out of 5
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-09 10:44:34,004 Stage-5 map = 100%,  reduce = 0%
+2025-06-09 10:44:35,011 Stage-5 map = 100%,  reduce = 100%
+Ended Job = job_local1950584939_0001
+Stage-8 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/emilia/apache-hive-2.3.9-bin/lib/log4j-slf4j-impl-2.6.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/emilia/hadoop-3.4.1/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hive.ql.exec.SerializationUtilities$ArraysAsListSerializer (file:/home/emilia/apache-hive-2.3.9-bin/lib/hive-exec-2.3.9.jar) to field java.util.Arrays$ArrayList.a
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hive.ql.exec.SerializationUtilities$ArraysAsListSerializer
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2025-06-09 10:44:48	Starting to launch local task to process map join;	maximum memory = 268435456
+2025-06-09 10:44:48	Dump the side-table for tag: 1 with group count: 3028 into file: file:/tmp/emilia/0fc73796-99a0-4a78-a261-a1ef04d5a60c/hive_2025-06-09_10-44-28_898_8592886114472336638-1/-local-10007/HashTable-Stage-6/MapJoin-mapfile01--.hashtable
+2025-06-09 10:44:48	Uploaded 1 File to: file:/tmp/emilia/0fc73796-99a0-4a78-a261-a1ef04d5a60c/hive_2025-06-09_10-44-28_898_8592886114472336638-1/-local-10007/HashTable-Stage-6/MapJoin-mapfile01--.hashtable (205202 bytes)
+2025-06-09 10:44:48	End of local task; Time Taken: 0.525 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 5
+Number of reduce tasks is set to 0 since there's no reduce operator
+Job running in-process (local Hadoop)
+2025-06-09 10:44:50,701 Stage-6 map = 100%,  reduce = 0%
+Ended Job = job_local467639941_0002
+Launching Job 4 out of 5
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-09 10:44:52,614 Stage-2 map = 100%,  reduce = 100%
+Ended Job = job_local205991964_0003
+Launching Job 5 out of 5
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Job running in-process (local Hadoop)
+2025-06-09 10:44:54,640 Stage-3 map = 100%,  reduce = 100%
+Ended Job = job_local1346580371_0004
+Moving data to directory hdfs://localhost:9000/user/hive/warehouse/report_cars
+MapReduce Jobs Launched: 
+Stage-Stage-5:  HDFS Read: 608888 HDFS Write: 0 SUCCESS
+Stage-Stage-6:  HDFS Read: 402434 HDFS Write: 0 SUCCESS
+Stage-Stage-2:  HDFS Read: 804868 HDFS Write: 0 SUCCESS
+Stage-Stage-3:  HDFS Read: 804868 HDFS Write: 155820 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+Time taken: 26.736 seconds
+OK
+Time taken: 0.159 seconds, Fetched: 3028 row(s)

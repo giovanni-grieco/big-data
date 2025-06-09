@@ -1,0 +1,3028 @@
+acton	2010	bassa	2	469.5	power, air, bag
+acton	2015	bassa	2	12.5	power, rear, bag
+acton	2016	bassa	2	25.5	bag, air, rear
+acton	2016	media	1	4.0	air, bag, power
+acton	2017	bassa	6	51.666666666666664	2017, bag, air
+acton	2017	media	9	46.111111111111114	2017, rear, system
+acton	2018	bassa	1	6.0	rear, power, control
+acton	2018	media	8	47.75	rear, bag, air
+acton	2019	media	12	20.416666666666668	rear, power, mirror
+acton	2020	bassa	5	38.4	rear, system, eyesight
+acton	2020	media	91	33.417582417582416	rear, control, power
+acton	2021	media	35	18.428571428571427	rear, guards, power
+adrian	2002	bassa	1	7.0	front, seat, rear
+adrian	2006	bassa	1	0.0	front, door, rear
+adrian	2009	bassa	3	7.666666666666667	vehicle, front, this
+adrian	2016	media	1	25.0	front, wheel, steering
+adrian	2017	bassa	1	67.0	front, rear, 2017
+adrian	2017	media	3	80.66666666666667	rear, front, steering
+adrian	2019	alta	1	358.0	front, wheel, steering
+adrian	2019	media	1	41.0	front, rear, wheel
+adrian	2020	media	4	364.0	front, rear, steering
+ann arbor	2007	bassa	1	0.0	front, steering, power
+ann arbor	2011	bassa	3	23.333333333333332	front, rear, steering
+ann arbor	2012	bassa	3	10.0	front, steering, power
+ann arbor	2013	bassa	2	6.5	front, seats, steering
+ann arbor	2013	media	1	12.0	front, ann, arbor
+ann arbor	2014	bassa	2	13.0	front, steering, power
+ann arbor	2016	bassa	2	21.5	front, carfax, rear
+ann arbor	2016	media	2	12.5	front, rear, power
+ann arbor	2017	bassa	7	39.0	front, rear, steering
+ann arbor	2017	media	5	25.4	front, power, rear
+ann arbor	2018	bassa	5	14.0	front, rear, power
+ann arbor	2018	media	7	21.428571428571427	front, rear, power
+ann arbor	2019	media	2	18.5	front, seat, control
+ann arbor	2020	bassa	9	89.33333333333333	front, control, wheel
+ann arbor	2020	media	111	99.77477477477477	front, control, rear
+antioch	2020	media	1	36.0	front, power, rear
+auburn hills	2017	bassa	1	61.0	steering, power, yes
+auburn hills	2019	bassa	1	61.0	power, front, cargo
+auburn hills	2020	bassa	30	109.43333333333334	cargo, power, months
+auburn hills	2020	media	17	107.47058823529412	months, yes, power
+auburn hills	2021	bassa	11	46.0	cargo, power, months
+auburn hills	2021	media	184	17.60326086956522	power, months, cargo
+avenel	2006	bassa	1	4.0	rear, front, seat
+avenel	2008	bassa	1	3.0	front, rear, steering
+avenel	2011	bassa	1	5.0	front, steering, wheel
+avenel	2013	bassa	6	7.166666666666667	front, steering, rear
+avenel	2013	media	2	26.5	inc, front, system
+avenel	2014	bassa	11	47.45454545454545	front, steering, rear
+avenel	2014	media	1	16.0	front, rear, door
+avenel	2015	alta	1	53.0	front, rear, power
+avenel	2015	bassa	10	21.9	front, rear, driver
+avenel	2015	media	4	9.5	front, rear, and
+avenel	2016	bassa	15	34.0	front, rear, power
+avenel	2016	media	10	44.2	front, rear, power
+avenel	2017	alta	1	45.0	front, inc, manual
+avenel	2017	bassa	82	39.01219512195122	front, rear, steering
+avenel	2017	media	146	50.10958904109589	front, rear, power
+avenel	2018	bassa	34	19.823529411764707	front, rear, steering
+avenel	2018	media	39	35.69230769230769	front, rear, power
+avenel	2019	alta	1	56.0	front, rear, power
+avenel	2019	bassa	13	45.23076923076923	front, rear, power
+avenel	2019	media	32	62.15625	front, rear, control
+avenel	2020	alta	1	2.0	front, steering, power
+avenel	2020	media	10	11.1	front, rear, power
+battle creek	2003	bassa	2	18.0	power, front, type
+battle creek	2004	bassa	2	69.5	front, power, cards
+battle creek	2006	bassa	2	21.0	front, seat, rear
+battle creek	2007	bassa	2	27.5	front, rear, type
+battle creek	2008	bassa	4	15.75	front, rear, type
+battle creek	2009	bassa	4	23.25	front, rear, type
+battle creek	2010	bassa	7	25.857142857142858	front, rear, type
+battle creek	2011	bassa	3	15.666666666666666	front, rear, type
+battle creek	2012	bassa	7	26.285714285714285	front, rear, type
+battle creek	2013	bassa	6	18.833333333333332	front, rear, type
+battle creek	2015	bassa	3	42.0	front, rear, type
+battle creek	2016	bassa	1	53.0	front, rear, type
+battle creek	2017	bassa	1	27.0	front, rear, type
+battle creek	2019	media	1	11.0	front, type, rear
+bay shore	2004	bassa	1	2.0	front, power, rear
+bay shore	2005	bassa	1	16.0	front, power, steering
+bay shore	2008	bassa	2	5.5	front, rear, seat
+bay shore	2009	bassa	1	12.0	rear, front, passenger
+bay shore	2010	bassa	1	12.0	front, rear, power
+bay shore	2011	bassa	4	8.25	front, rear, driver
+bay shore	2012	bassa	6	41.333333333333336	front, rear, power
+bay shore	2012	media	1	2.0	front, rear, power
+bay shore	2013	bassa	3	73.0	front, rear, inc
+bay shore	2013	media	1	6.0	front, steering, wheel
+bay shore	2014	bassa	8	47.125	front, rear, power
+bay shore	2014	media	3	27.0	rear, front, power
+bay shore	2015	bassa	9	49.0	front, rear, steering
+bay shore	2015	media	6	40.833333333333336	rear, front, power
+bay shore	2016	alta	1	17.0	rear, front, and
+bay shore	2016	bassa	8	31.875	front, rear, power
+bay shore	2016	media	13	68.76923076923077	rear, front, power
+bay shore	2017	bassa	28	35.17857142857143	front, rear, power
+bay shore	2017	media	71	34.25352112676056	rear, front, power
+bay shore	2018	alta	3	167.66666666666666	front, rear, power
+bay shore	2018	bassa	13	60.92307692307692	front, rear, power
+bay shore	2018	media	38	31.44736842105263	front, rear, power
+bay shore	2019	alta	7	363.0	front, rear, power
+bay shore	2019	bassa	5	49.0	rear, front, driver
+bay shore	2019	media	31	49.45161290322581	front, rear, power
+bay shore	2020	alta	34	92.26470588235294	front, rear, power
+bay shore	2020	bassa	1	88.0	rear, front, driver
+bay shore	2020	media	209	106.11004784688996	front, rear, seat
+bay shore	2021	alta	2	10.5	front, rear, power
+bay shore	2021	media	5	7.8	front, rear, system
+bayamon	2018	media	2	473.0	power, seat, rear
+bayamon	2019	alta	2	473.0	power, seat, rear
+bayamon	2019	media	26	473.5	power, bag, air
+bayamon	2020	media	2	212.5	power, rear, air
+bayonne	2005	media	1	183.0	front, power, seat
+bayonne	2007	bassa	1	25.0	front, rear, type
+bayonne	2008	bassa	1	203.0	front, type, rear
+bayonne	2011	bassa	1	8.0	rear, front, seat
+bayonne	2012	bassa	3	105.33333333333333	front, rear, type
+bayonne	2013	bassa	1	20.0	front, rear, type
+bayonne	2013	media	1	178.0	front, rear, leather
+bayonne	2015	bassa	4	145.0	front, rear, type
+bayonne	2015	media	1	28.0	front, rear, steering
+bayonne	2016	alta	1	182.0	dealer, promotional, pricing
+bayonne	2017	bassa	4	45.25	front, rear, type
+bayonne	2017	media	2	75.5	rear, front, type
+bayonne	2018	bassa	2	26.0	front, rear, type
+bayonne	2018	media	1	67.0	front, rear, type
+bayonne	2019	bassa	3	28.333333333333332	front, rear, type
+bayonne	2019	media	1	25.0	front, rear, type
+bayonne	2020	media	2	34.5	front, rear, type
+berlin	2010	bassa	1	89.0	rear, front, air
+berlin	2010	media	1	6.0	rear, front, passenger
+berlin	2011	bassa	1	8.0	front, inc, side
+berlin	2011	media	1	8.0	front, passenger, air
+berlin	2014	bassa	1	77.0	rear, power, front
+berlin	2014	media	2	26.0	rear, front, inc
+berlin	2015	alta	1	40.0	rear, power, front
+berlin	2015	bassa	1	70.0	rear, power, front
+berlin	2015	media	1	68.0	rear, power, front
+berlin	2016	alta	1	101.0	rear, front, and
+berlin	2016	bassa	1	20.0	rear, front, power
+berlin	2016	media	2	21.5	front, rear, power
+berlin	2017	alta	1	14.0	rear, front, and
+berlin	2017	bassa	1	83.0	front, rear, power
+berlin	2017	media	9	15.11111111111111	rear, front, power
+berlin	2018	alta	2	65.0	front, rear, driver
+berlin	2018	media	1	26.0	front, power, rear
+berlin	2019	alta	1	27.0	front, rear, driver
+berlin	2020	alta	2	40.0	rear, power, front
+birch run	2020	media	1	173.0	front, rear, steering
+bloomfield	2014	bassa	5	47.4	comma, front, rear
+bloomfield	2015	bassa	4	185.5	front, rear, comma
+bloomfield	2016	bassa	4	155.75	comma, front, rear
+bloomfield	2016	media	2	24.0	front, rear, comma
+bloomfield	2017	bassa	5	135.6	front, rear, comma
+bloomfield	2017	media	1	35.0	front, and, passenger
+bloomfield	2018	bassa	3	234.0	front, rear, comma
+bloomingdale	2000	bassa	1	35.0	front, power, steering
+bloomingdale	2001	bassa	1	19.0	power, front, seat
+bloomingdale	2003	bassa	4	47.75	front, power, rear
+bloomingdale	2004	bassa	4	90.25	front, power, rear
+bloomingdale	2005	bassa	1	26.0	front, power, rear
+bloomingdale	2006	bassa	3	16.0	rear, front, seat
+bloomingdale	2007	bassa	5	42.2	front, rear, type
+bloomingdale	2008	bassa	7	37.0	front, rear, type
+bloomingdale	2009	bassa	5	48.4	front, rear, type
+bloomingdale	2010	bassa	9	37.111111111111114	front, rear, type
+bloomingdale	2011	bassa	5	20.6	front, rear, type
+bloomingdale	2012	bassa	8	34.0	front, rear, type
+bloomingdale	2013	bassa	6	31.666666666666668	front, rear, type
+bloomingdale	2014	bassa	6	35.833333333333336	front, rear, type
+bloomingdale	2014	media	1	1.0	rear, front, type
+bloomingdale	2015	bassa	7	40.57142857142857	front, rear, type
+bloomingdale	2016	alta	1	20.0	rear, front, control
+bloomingdale	2016	bassa	4	18.25	front, rear, type
+bloomingdale	2017	bassa	5	81.4	front, rear, type
+bloomingdale	2017	media	1	55.0	rear, front, control
+bloomingdale	2018	bassa	1	14.0	front, rear, type
+bloomingdale	2018	media	2	16.5	rear, front, type
+bloomingdale	2019	bassa	2	8.0	front, rear, type
+bloomingdale	2019	media	6	10.333333333333334	front, rear, type
+bloomingdale	2020	alta	3	14.0	front, rear, steering
+bloomingdale	2020	bassa	1	17.0	front, rear, type
+bloomingdale	2020	media	7	15.142857142857142	front, rear, type
+bohemia	2009	bassa	3	42.0	front, steering, wheel
+bohemia	2010	bassa	1	32.0	front, steering, power
+bohemia	2011	bassa	2	22.5	front, rear, steering
+bohemia	2012	bassa	4	34.25	front, steering, power
+bohemia	2012	media	2	22.5	front, steering, wheel
+bohemia	2013	bassa	4	158.75	front, steering, 2013
+bohemia	2013	media	3	61.666666666666664	front, power, steering
+bohemia	2014	bassa	6	32.166666666666664	front, power, rear
+bohemia	2014	media	4	109.25	front, power, steering
+bohemia	2015	bassa	6	47.666666666666664	front, rear, power
+bohemia	2015	media	7	42.714285714285715	front, rear, power
+bohemia	2016	bassa	5	66.2	front, rear, steering
+bohemia	2016	media	16	80.6875	front, rear, steering
+bohemia	2017	bassa	16	46.625	front, rear, steering
+bohemia	2017	media	27	41.888888888888886	front, rear, power
+bohemia	2018	bassa	14	28.285714285714285	front, rear, steering
+bohemia	2018	media	11	33.72727272727273	front, rear, power
+bohemia	2019	bassa	8	261.25	front, steering, rear
+bohemia	2019	media	21	86.80952380952381	front, rear, steering
+bohemia	2020	bassa	15	77.2	front, steering, wheel
+bohemia	2020	media	52	95.71153846153847	front, rear, steering
+bohemia	2021	bassa	2	37.5	front, steering, wheel
+bohemia	2021	media	84	27.845238095238095	front, rear, steering
+branford	2007	bassa	1	19.0	power, the, side
+branford	2011	bassa	3	55.333333333333336	power, rear, sound
+branford	2012	bassa	3	19.333333333333332	power, sound, front
+branford	2013	bassa	7	43.285714285714285	power, rear, sound
+branford	2014	bassa	1	7.0	power, steering, rear
+branford	2015	bassa	7	93.28571428571429	power, steering, brakes
+branford	2015	media	2	28.5	power, rear, steering
+branford	2016	bassa	7	75.71428571428571	power, rear, steering
+branford	2016	media	3	13.666666666666666	power, rear, sound
+branford	2017	bassa	41	65.39024390243902	power, rear, steering
+branford	2017	media	39	52.43589743589744	power, rear, control
+branford	2018	bassa	3	39.666666666666664	power, rear, driver
+branford	2018	media	9	15.777777777777779	power, rear, steering
+branford	2019	bassa	2	43.5	power, steering, rear
+branford	2019	media	9	19.0	power, driver, rear
+branford	2020	bassa	2	67.0	power, control, steering
+branford	2020	media	1	27.0	power, steering, rear
+bridgewater	1997	bassa	1	52.0	power, front, windows
+bridgewater	2001	bassa	1	20.0	power, front, windows
+bridgewater	2003	bassa	1	27.0	power, front, windows
+bridgewater	2004	bassa	2	10.5	front, power, rear
+bridgewater	2004	media	2	25.5	power, front, seat
+bridgewater	2007	media	1	35.0	front, power, suspension
+bridgewater	2009	media	3	16.0	front, power, seat
+bridgewater	2010	media	1	5.0	front, suspension, rear
+bridgewater	2011	bassa	1	48.0	front, rear, suspension
+bridgewater	2011	media	4	39.25	front, rear, suspension
+bridgewater	2012	bassa	8	285.375	front, rear, seat
+bridgewater	2012	media	1	25.0	front, rear, power
+bridgewater	2013	bassa	6	21.333333333333332	front, rear, suspension
+bridgewater	2013	media	1	56.0	front, rear, suspension
+bridgewater	2014	bassa	1	46.0	front, seat, rear
+bridgewater	2014	media	6	57.166666666666664	front, rear, power
+bridgewater	2015	bassa	8	22.0	front, rear, power
+bridgewater	2015	media	12	35.0	front, rear, power
+bridgewater	2016	alta	1	32.0	front, rear, seat
+bridgewater	2016	bassa	3	89.33333333333333	front, rear, seat
+bridgewater	2016	media	16	43.0625	front, rear, seat
+bridgewater	2017	bassa	15	28.466666666666665	front, rear, seat
+bridgewater	2017	media	32	49.625	front, rear, power
+bridgewater	2018	alta	1	46.0	front, rear, suspension
+bridgewater	2018	media	49	32.02040816326531	front, rear, power
+bridgewater	2019	bassa	2	47.5	front, rear, seat
+bridgewater	2019	media	19	38.05263157894737	front, rear, power
+bridgewater	2020	alta	5	257.4	power, seat, mirror
+bridgewater	2020	media	6	28.166666666666668	front, rear, power
+bronx	1998	bassa	1	49.0	front, steering, wheel
+bronx	2003	bassa	1	8.0	power, front, steering
+bronx	2006	bassa	1	18.0	type, front, rear
+bronx	2008	bassa	1	8.0	type, front, rear
+bronx	2010	bassa	2	6.0	front, rear, inc
+bronx	2010	media	1	6.0	front, rear, radio
+bronx	2011	bassa	2	12.5	front, power, rear
+bronx	2012	bassa	2	21.0	front, power, door
+bronx	2012	media	1	22.0	front, chrome, mopar
+bronx	2013	bassa	6	108.0	front, rear, power
+bronx	2014	bassa	11	47.09090909090909	front, rear, power
+bronx	2014	media	1	120.0	front, power, wheel
+bronx	2015	bassa	15	35.0	front, rear, power
+bronx	2015	media	7	100.42857142857143	front, power, rear
+bronx	2016	alta	1	290.0	power, front, rear
+bronx	2016	bassa	14	43.285714285714285	power, front, rear
+bronx	2016	media	14	70.07142857142857	power, rear, front
+bronx	2017	alta	1	7.0	rear, power, front
+bronx	2017	bassa	79	48.11392405063291	power, rear, front
+bronx	2017	media	111	37.1981981981982	power, rear, front
+bronx	2018	alta	5	84.6	front, power, seats
+bronx	2018	bassa	14	39.357142857142854	vehicle, power, rear
+bronx	2018	media	32	29.09375	rear, front, power
+bronx	2019	bassa	20	46.4	vehicle, power, rear
+bronx	2019	media	17	24.352941176470587	rear, front, power
+bronx	2020	alta	17	34.294117647058826	front, rear, power
+bronx	2020	bassa	3	42.0	vehicle, power, air
+bronx	2020	media	58	18.0	front, rear, power
+bronx	2021	alta	11	5.0	front, radio, rear
+bronx	2021	media	37	12.594594594594595	front, rear, steering
+brooklyn	2007	bassa	1	134.0	front, pwr, rear
+brooklyn	2011	bassa	1	26.0	front, rear, seat
+brooklyn	2012	bassa	1	134.0	front, rear, system
+brooklyn	2013	bassa	2	16.5	front, rear, system
+brooklyn	2014	bassa	2	40.0	rear, front, power
+brooklyn	2015	bassa	3	31.0	front, rear, power
+brooklyn	2015	media	5	46.8	front, rear, power
+brooklyn	2016	bassa	5	8.6	rear, front, power
+brooklyn	2016	media	10	25.9	front, rear, power
+brooklyn	2017	alta	1	67.0	rear, front, power
+brooklyn	2017	bassa	17	28.176470588235293	front, rear, power
+brooklyn	2017	media	57	31.56140350877193	front, rear, power
+brooklyn	2018	alta	1	49.0	power, rear, front
+brooklyn	2018	bassa	3	168.0	front, rear, power
+brooklyn	2018	media	24	97.04166666666667	front, rear, power
+brooklyn	2019	alta	4	75.25	front, rear, steering
+brooklyn	2019	bassa	2	72.5	front, rear, driver
+brooklyn	2019	media	14	291.35714285714283	front, rear, vehicle
+brooklyn	2020	alta	14	37.285714285714285	front, rear, power
+brooklyn	2020	media	117	38.82905982905983	front, rear, power
+canton	2004	bassa	1	48.0	rear, front, power
+canton	2007	bassa	2	30.5	rear, front, power
+canton	2008	bassa	1	19.0	rear, front, power
+canton	2009	bassa	2	5.0	front, rear, driver
+canton	2010	bassa	2	5.0	front, rear, air
+canton	2011	bassa	4	14.5	front, rear, inc
+canton	2012	bassa	6	48.666666666666664	front, rear, air
+canton	2013	bassa	8	20.375	rear, front, inc
+canton	2014	bassa	5	26.0	rear, front, power
+canton	2015	bassa	1	13.0	front, rear, inc
+canton	2016	bassa	2	47.5	rear, front, power
+canton	2017	bassa	1	6.0	front, rear, inc
+canton	2019	media	1	424.0	control, rear, front
+canton	2020	media	2	222.5	front, rear, power
+carlstadt	2002	media	1	216.0	front, rear, pwr
+carlstadt	2003	bassa	2	86.0	pwr, rear, frontrear
+carlstadt	2004	bassa	1	957.0	colorkeyed, rear, front
+carlstadt	2005	bassa	3	77.33333333333333	rear, front, system
+carlstadt	2006	bassa	2	378.0	front, rear, system
+carlstadt	2007	bassa	3	309.0	rear, pwr, front
+carlstadt	2008	bassa	4	51.25	front, rear, system
+carlstadt	2011	bassa	2	121.0	front, inc, rear
+carlstadt	2012	alta	1	1177.0	carbon, black, mclaren
+carlstadt	2012	bassa	5	378.8	front, inc, rear
+carlstadt	2013	bassa	6	20.666666666666668	front, inc, system
+carlstadt	2014	bassa	4	91.25	rear, front, power
+carlstadt	2014	media	1	102.0	rear, front, and
+carlstadt	2015	bassa	8	138.125	front, rear, and
+carlstadt	2016	bassa	16	73.9375	front, rear, and
+carlstadt	2016	media	1	26.0	rear, front, power
+carlstadt	2017	bassa	33	50.90909090909091	front, rear, and
+carlstadt	2017	media	7	61.42857142857143	rear, front, and
+carlstadt	2018	bassa	3	51.666666666666664	front, rear, and
+carlstadt	2018	media	5	47.2	rear, front, and
+carlstadt	2019	alta	1	39.0	rear, and, front
+carlstadt	2019	bassa	4	76.5	front, rear, and
+carlstadt	2019	media	1	26.0	front, manual, inc
+center line	2016	bassa	1	84.0	
+center line	2016	media	1	299.0	
+center line	2017	bassa	11	55.36363636363637	
+center line	2017	media	16	108.25	
+center line	2018	alta	1	494.0	
+center line	2018	bassa	12	43.75	
+center line	2018	media	37	66.64864864864865	
+center line	2019	media	10	121.8	
+center line	2020	alta	1	7.0	
+clarkston	1997	bassa	1	6.0	front, door, rear
+clarkston	2003	bassa	2	6.5	rear, front, vehicle
+clarkston	2005	bassa	1	14.0	power, front, rear
+clarkston	2006	bassa	1	34.0	front, power, convertible
+clarkston	2007	bassa	1	43.0	front, vehicle, center
+clarkston	2008	bassa	5	20.6	front, power, steering
+clarkston	2009	bassa	5	30.4	front, rear, power
+clarkston	2010	bassa	4	21.75	front, power, door
+clarkston	2011	bassa	4	14.75	front, rear, power
+clarkston	2012	bassa	4	13.5	front, power, steering
+clarkston	2012	media	1	18.0	front, power, control
+clarkston	2013	bassa	5	9.8	front, steering, control
+clarkston	2014	bassa	8	18.375	front, rear, power
+clarkston	2015	bassa	8	17.625	front, rear, power
+clarkston	2015	media	2	13.0	front, rear, power
+clarkston	2016	bassa	7	25.571428571428573	front, rear, power
+clarkston	2016	media	2	20.0	front, rear, power
+clarkston	2017	bassa	3	25.0	front, rear, steering
+clarkston	2017	media	8	27.25	front, rear, steering
+clarkston	2018	bassa	4	17.0	front, rear, wheel
+clarkston	2018	media	2	20.0	front, power, rear
+clarkston	2019	bassa	1	18.0	rear, driver, power
+clarkston	2019	media	1	20.0	front, rear, wheel
+clifton	2010	media	1	11.0	rear, power, air
+clifton	2011	media	1	4.0	air, bag, passenger
+clifton	2014	bassa	1	4.0	power, seat, mirror
+clifton	2015	bassa	1	4.0	front, seat, power
+clifton	2015	media	2	23.0	bag, rear, power
+clifton	2016	bassa	2	17.5	power, bag, air
+clifton	2016	media	3	31.0	power, seat, rear
+clifton	2017	alta	1	19.0	power, control, seat
+clifton	2017	bassa	11	17.09090909090909	power, air, bag
+clifton	2017	media	29	25.517241379310345	power, rear, air
+clifton	2018	bassa	5	25.8	power, air, bag
+clifton	2018	media	16	20.8125	power, rear, air
+clifton	2019	bassa	2	53.5	bag, air, power
+clifton	2019	media	8	158.875	power, rear, air
+clifton	2020	alta	49	142.6122448979592	power, front, rear
+clifton	2020	bassa	3	45.666666666666664	air, power, bag
+clifton	2020	media	124	94.15322580645162	power, bag, air
+clifton	2021	alta	2	26.0	power, rear, seat
+clifton	2021	media	3	16.0	power, rear, bag
+clinton township	2007	media	1	175.0	time, bag, air
+clinton township	2009	bassa	1	5.0	front, rear, suspension
+clinton township	2010	bassa	2	40.0	front, rear, power
+clinton township	2011	bassa	1	7.0	air, wheel, control
+clinton township	2012	bassa	2	25.5	front, rear, audio
+clinton township	2013	bassa	3	30.333333333333332	power, bag, air
+clinton township	2014	bassa	3	12.333333333333334	front, rear, audio
+clinton township	2014	media	2	16.5	front, power, rear
+clinton township	2015	bassa	1	13.0	rear, front, audio
+clinton township	2015	media	1	8.0	front, rear, power
+clinton township	2016	bassa	6	249.33333333333334	rear, front, power
+clinton township	2016	media	3	132.66666666666666	power, rear, seat
+clinton township	2017	bassa	17	100.17647058823529	front, rear, power
+clinton township	2017	media	31	39.483870967741936	rear, front, power
+clinton township	2018	alta	1	22.0	power, seat, rear
+clinton township	2018	bassa	27	55.51851851851852	front, rear, power
+clinton township	2018	media	42	36.76190476190476	front, rear, power
+clinton township	2019	alta	2	59.0	power, seat, rear
+clinton township	2019	bassa	12	175.41666666666666	power, front, rear
+clinton township	2019	media	30	67.83333333333333	rear, power, front
+clinton township	2020	alta	1	34.0	power, rear, control
+clinton township	2020	bassa	161	207.1055900621118	power, bag, air
+clinton township	2020	media	452	141.6769911504425	power, air, bag
+clinton township	2021	media	1	3.0	air, power, bag
+coldwater	2012	bassa	1	13.0	power, remote, steering
+coldwater	2013	bassa	1	28.0	rear, power, remote
+coldwater	2015	bassa	2	10.0	power, control, heated
+coldwater	2016	bassa	4	96.5	power, rear, control
+coldwater	2016	media	1	367.0	power, remote, mpg
+coldwater	2017	bassa	11	33.45454545454545	power, control, steering
+coldwater	2017	media	13	33.53846153846154	power, control, remote
+coldwater	2018	bassa	4	48.75	power, control, 4
+coldwater	2018	media	13	34.61538461538461	power, control, rear
+coldwater	2019	alta	1	4.0	mirrors, power, package
+coldwater	2019	bassa	5	49.6	power, remote, passenger
+coldwater	2019	media	4	125.75	power, 4, control
+coldwater	2020	alta	4	120.25	system, rear, power
+coldwater	2020	bassa	1	64.0	system, keyless, driver
+coldwater	2020	media	24	145.04166666666666	rear, control, power
+coldwater	2021	alta	1	39.0	
+coldwater	2021	media	2	40.0	engine, v6, drive
+colonia	2006	bassa	1	0.0	ford, adjustable, mirror
+colonia	2007	bassa	1	27.0	std, front, rear
+colonia	2010	bassa	1	0.0	passenger, seat, mirror
+colonia	2012	bassa	2	0.0	air, bag, rear
+colonia	2013	bassa	5	18.0	power, rear, bag
+colonia	2015	bassa	2	24.0	power, rear, air
+colonia	2016	bassa	2	31.5	power, rear, bag
+colonia	2017	bassa	5	20.8	power, bag, rear
+colonia	2017	media	7	9.428571428571429	power, rear, air
+colonia	2018	bassa	3	15.0	power, air, bag
+colonia	2018	media	6	274.3333333333333	power, rear, bag
+colonia	2019	alta	1	510.0	power, air, bag
+colonia	2019	media	9	523.8888888888889	rear, power, bag
+colonia	2020	alta	28	193.57142857142858	power, seat, rear
+colonia	2020	media	142	166.94366197183098	power, air, bag
+copiague	2007	bassa	1	21.0	front, rear, seat
+copiague	2008	bassa	1	14.0	front, rear, pwr
+copiague	2009	bassa	1	42.0	rear, front, pwr
+copiague	2011	bassa	1	46.0	rear, front, system
+copiague	2013	bassa	2	47.5	comma, front, rear
+copiague	2014	bassa	2	97.5	front, rear, passenger
+copiague	2015	media	2	487.0	rear, and, front
+copiague	2016	bassa	3	145.66666666666666	front, rear, comma
+copiague	2016	media	1	84.0	rear, and, front
+copiague	2017	bassa	4	25.5	front, rear, and
+copiague	2017	media	7	64.71428571428571	front, rear, and
+copiague	2018	media	4	94.5	comma, front, rear
+copiague	2019	bassa	6	29.0	rear, front, and
+copiague	2019	media	6	72.66666666666667	front, rear, and
+copiague	2020	media	7	28.285714285714285	front, rear, and
+croton-on-hudson	2004	bassa	1	50.0	rear, tires, inc
+croton-on-hudson	2010	bassa	1	17.0	bag, air, rear
+croton-on-hudson	2012	bassa	1	33.0	front, includes, power
+croton-on-hudson	2013	bassa	2	28.5	power, rear, seat
+croton-on-hudson	2013	media	1	29.0	power, seat, rear
+croton-on-hudson	2014	bassa	1	13.0	power, air, bag
+croton-on-hudson	2014	media	1	20.0	inc, rear, air
+croton-on-hudson	2015	bassa	4	19.75	power, air, bag
+croton-on-hudson	2015	media	2	19.5	power, rear, bag
+croton-on-hudson	2016	bassa	4	44.75	power, air, bag
+croton-on-hudson	2016	media	2	7.0	power, rear, air
+croton-on-hudson	2017	alta	1	13.0	seat, power, rear
+croton-on-hudson	2017	bassa	3	28.333333333333332	bag, air, power
+croton-on-hudson	2017	media	19	25.68421052631579	power, rear, seat
+croton-on-hudson	2018	bassa	1	10.0	power, rear, bag
+croton-on-hudson	2018	media	9	32.44444444444444	power, rear, seat
+croton-on-hudson	2019	media	2	40.0	power, bag, air
+croton-on-hudson	2020	alta	1	237.0	power, siriusxm, rear
+danbury	2002	bassa	1	14.0	nl, driver, power
+danbury	2010	bassa	2	72.5	nl, driver, front
+danbury	2011	bassa	1	47.0	nl, driver, rear
+danbury	2013	bassa	2	69.0	nl, driver, seat
+danbury	2014	bassa	4	51.0	nl, wheel, steering
+danbury	2014	media	1	131.0	nl, power, steering
+danbury	2015	bassa	2	45.0	nl, player, mirror
+danbury	2016	bassa	10	125.6	nl, rear, driver
+danbury	2016	media	1	30.0	interior, rear, front
+danbury	2017	bassa	11	65.18181818181819	nl, rear, driver
+danbury	2017	media	3	41.333333333333336	interior, power, rear
+danbury	2018	bassa	6	75.0	nl, mirror, driver
+danbury	2018	media	3	60.666666666666664	nl, driver, wheel
+danbury	2019	bassa	6	139.5	interior, rear, safety
+danbury	2019	media	11	338.09090909090907	nl, driver, seat
+danbury	2020	bassa	15	151.13333333333333	, nl, steering
+danbury	2020	media	238	162.78151260504202	
+danbury	2021	media	56	17.821428571428573	
+darien	2015	media	1	19.0	nl, rear, mirror
+darien	2016	media	2	39.0	nl, rear, driver
+darien	2017	media	39	37.17948717948718	nl, power, mirror
+darien	2018	alta	3	322.0	nl, rear, mirror
+darien	2018	media	3	61.0	nl, mirror, power
+darien	2019	alta	2	533.0	nl, wheel, driver
+darien	2020	alta	30	217.1	nl, rear, power
+darien	2020	media	33	83.81818181818181	nl, mirror, wheel
+darien	2021	alta	24	7.041666666666667	nl, mirror, power
+darien	2021	media	9	11.555555555555555	nl, mirror, power
+davison	2019	bassa	1	46.0	rear, driver, front
+detroit	2010	bassa	1	95.0	rear, front, type
+detroit	2013	bassa	1	7.0	front, rear, type
+detroit	2013	media	1	49.0	front, rear, system
+detroit	2014	bassa	1	15.0	rear, front, type
+detroit	2014	media	1	3.0	rear, front, type
+detroit	2015	bassa	2	133.5	front, rear, power
+detroit	2015	media	4	74.5	front, rear, type
+detroit	2016	bassa	1	42.0	rear, front, type
+detroit	2016	media	8	67.25	rear, front, power
+detroit	2017	alta	2	24.5	front, rear, steering
+detroit	2017	bassa	5	24.4	front, rear, power
+detroit	2017	media	25	51.2	front, rear, power
+detroit	2018	alta	1	7.0	rear, front, type
+detroit	2018	bassa	18	46.166666666666664	front, rear, power
+detroit	2018	media	7	36.857142857142854	front, rear, power
+detroit	2019	bassa	19	33.26315789473684	front, rear, steering
+detroit	2019	media	7	274.14285714285717	front, rear, power
+detroit	2020	alta	34	163.47058823529412	rear, front, system
+detroit	2020	bassa	2	36.0	front, rear, type
+detroit	2020	media	224	89.34375	engine, seats, front
+detroit	2021	alta	4	53.5	
+detroit	2021	media	8	24.25	
+douglaston	2011	bassa	1	10.0	front, power, door
+douglaston	2013	bassa	1	7.0	front, door, power
+douglaston	2014	bassa	1	4.0	front, rear, steering
+douglaston	2014	media	1	0.0	front, rear, power
+douglaston	2015	bassa	4	14.75	front, rear, steering
+douglaston	2015	media	1	0.0	rear, power, front
+douglaston	2016	bassa	3	32.666666666666664	front, rear, steering
+douglaston	2016	media	1	111.0	power, front, rear
+douglaston	2017	bassa	29	31.620689655172413	front, rear, seat
+douglaston	2017	media	24	25.416666666666668	front, rear, power
+douglaston	2018	bassa	9	23.0	rear, front, steering
+douglaston	2019	bassa	2	32.0	front, seat, rear
+douglaston	2019	media	7	62.57142857142857	front, rear, power
+douglaston	2020	alta	4	27.5	power, mirrors, remote
+douglaston	2020	bassa	28	15.535714285714286	
+douglaston	2020	media	71	14.507042253521126	front, rear, 
+douglaston	2021	alta	21	22.047619047619047	, power, remote
+douglaston	2021	media	3	10.0	
+dover	2003	bassa	2	47.0	front, power, rear
+dover	2004	bassa	1	59.0	front, rear, steering
+dover	2005	bassa	2	14.0	front, power, seat
+dover	2006	bassa	3	19.0	front, rear, seat
+dover	2007	bassa	1	22.0	front, rear, power
+dover	2008	bassa	4	44.0	front, rear, type
+dover	2009	bassa	2	64.5	front, rear, type
+dover	2010	bassa	7	101.57142857142857	front, rear, type
+dover	2011	bassa	3	38.0	front, rear, type
+dover	2012	bassa	6	23.166666666666668	front, rear, type
+dover	2015	bassa	1	35.0	front, rear, type
+dover	2016	bassa	1	33.0	front, rear, type
+dover	2018	bassa	1	17.0	front, rear, type
+east hartford	2007	bassa	1	5.0	front, rear, includes
+east hartford	2008	bassa	1	7.0	power, front, passenger
+east hartford	2010	bassa	3	13.333333333333334	rear, power, front
+east hartford	2010	media	1	21.0	front, power, rear
+east hartford	2011	bassa	1	17.0	power, front, rear
+east hartford	2012	bassa	5	24.4	front, power, rear
+east hartford	2012	media	1	7.0	power, rear, front
+east hartford	2013	bassa	11	25.727272727272727	front, rear, power
+east hartford	2014	bassa	7	19.285714285714285	power, front, rear
+east hartford	2014	media	1	17.0	power, front, rear
+east hartford	2015	bassa	8	17.125	rear, power, front
+east hartford	2015	media	1	13.0	rear, control, steering
+east hartford	2016	bassa	27	35.0	front, rear, power
+east hartford	2016	media	5	19.6	power, rear, front
+east hartford	2017	bassa	39	33.87179487179487	front, rear, and
+east hartford	2017	media	12	20.916666666666668	power, front, rear
+east hartford	2018	bassa	11	20.545454545454547	front, rear, inc
+east hartford	2018	media	8	14.375	power, rear, front
+east hartford	2019	alta	1	486.0	power, rear, seat
+east hartford	2019	bassa	1	41.0	front, rear, inc
+east hartford	2019	media	12	163.16666666666666	front, rear, power
+east hartford	2020	alta	26	63.53846153846154	power, rear, inc
+east hartford	2020	bassa	19	93.89473684210526	front, rear, inc
+east hartford	2020	media	189	112.80423280423281	power, rear, front
+east hartford	2021	alta	3	5.0	power, rear, inc
+east hartford	2021	bassa	1	46.0	front, inc, rear
+east hartford	2021	media	72	15.36111111111111	rear, front, power
+east meadow	2012	bassa	1	0.0	front, blue, steering
+east meadow	2014	bassa	2	23.5	front, steering, wheel
+east meadow	2016	bassa	3	90.66666666666667	front, steering, 2016
+east meadow	2016	media	1	76.0	front, rear, steering
+east meadow	2017	bassa	22	63.81818181818182	front, rear, steering
+east meadow	2017	media	10	84.2	front, rear, power
+east meadow	2018	bassa	10	100.4	front, steering, wheel
+east meadow	2018	media	6	28.0	front, rear, power
+east meadow	2019	bassa	1	20.0	front, steering, warranty
+east meadow	2019	media	8	115.125	front, rear, steering
+east meadow	2020	bassa	15	77.46666666666667	front, steering, wheel
+east meadow	2020	media	20	116.7	front, rear, steering
+east windsor	2005	bassa	1	26.0	rear, front, door
+east windsor	2006	bassa	3	28.0	front, rear, pwr
+east windsor	2007	bassa	5	60.0	front, rear, power
+east windsor	2008	bassa	3	30.666666666666668	front, rear, power
+east windsor	2009	bassa	4	28.0	front, rear, system
+east windsor	2010	bassa	9	52.22222222222222	front, rear, type
+east windsor	2011	bassa	10	43.9	front, rear, seat
+east windsor	2011	media	2	35.0	front, rear, seat
+east windsor	2012	bassa	10	35.4	front, rear, seat
+east windsor	2013	bassa	12	48.916666666666664	rear, front, inc
+east windsor	2013	media	1	29.0	inc, front, rear
+east windsor	2014	bassa	11	44.81818181818182	rear, front, power
+east windsor	2015	alta	1	22.0	box, pickup, front
+east windsor	2015	bassa	7	55.714285714285715	rear, front, power
+east windsor	2015	media	3	19.666666666666668	rear, front, power
+east windsor	2016	bassa	8	85.625	front, rear, power
+east windsor	2016	media	3	35.333333333333336	rear, power, front
+east windsor	2017	bassa	4	26.0	rear, front, power
+east windsor	2017	media	4	20.0	rear, front, power
+east windsor	2018	bassa	1	110.0	rear, front, power
+east windsor	2019	media	1	10.0	rear, and, front
+elizabeth	2010	bassa	1	26.0	steering, vehicle, airbag
+elizabeth	2011	bassa	1	573.0	power, airbag, front
+elizabeth	2012	bassa	4	84.25	power, steering, airbag
+elizabeth	2013	bassa	7	18.857142857142858	power, steering, airbag
+elizabeth	2014	bassa	5	154.4	power, steering, airbag
+elizabeth	2015	bassa	8	107.5	power, steering, seat
+elizabeth	2015	media	2	323.0	power, steering, rear
+elizabeth	2016	alta	1	47.0	rear, power, front
+elizabeth	2016	bassa	234	291.1794871794872	steering, control, power
+elizabeth	2016	media	47	257.8723404255319	control, steering, power
+elizabeth	2017	alta	3	42.0	power, control, rear
+elizabeth	2017	bassa	187	203.46524064171123	steering, rear, control
+elizabeth	2017	media	132	112.29545454545455	power, rear, steering
+elizabeth	2018	bassa	36	236.41666666666666	rear, steering, power
+elizabeth	2018	media	63	143.93650793650792	rear, control, steering
+elizabeth	2019	bassa	12	101.25	steering, power, control
+elizabeth	2019	media	31	73.51612903225806	rear, power, control
+elizabeth	2020	alta	1	4.0	rear, power, front
+elizabeth	2020	bassa	2	12.5	steering, mirrors, power
+elizabeth	2020	media	4	34.5	power, rear, control
+elmhurst	2013	bassa	1	19.0	bag, air, power
+elmhurst	2015	bassa	1	19.0	power, bag, mirror
+elmhurst	2016	bassa	1	10.0	power, passenger, door
+elmhurst	2016	media	2	27.5	power, seat, rear
+elmhurst	2017	bassa	11	34.09090909090909	power, vehicle, air
+elmhurst	2017	media	18	20.944444444444443	power, mirror, air
+elmhurst	2018	bassa	3	19.0	power, bag, air
+elmhurst	2018	media	8	43.75	power, air, seat
+elmhurst	2019	media	3	19.0	power, air, bag
+elmont	2016	media	3	233.66666666666666	power, vehicle, rear
+elmont	2017	bassa	20	41.3	vehicle, power, air
+elmont	2017	media	20	28.4	vehicle, power, air
+elmont	2018	bassa	4	73.5	vehicle, power, rear
+elmont	2018	media	1	14.0	vehicle, power, mirror
+elmont	2019	bassa	1	144.0	vehicle, mirror, power
+englewood	2004	bassa	2	10.0	passenger, power, rear
+englewood	2007	bassa	1	4.0	bag, air, rear
+englewood	2008	bassa	1	5.0	power, control, bag
+englewood	2010	bassa	1	6.0	power, air, bag
+englewood	2011	bassa	1	7.0	mirror, power, wheel
+englewood	2012	alta	1	7.0	rear, seat, driver
+englewood	2012	media	1	5.0	power, rear, wheel
+englewood	2013	bassa	4	23.0	power, bag, air
+englewood	2014	alta	1	8.0	power, seat, rear
+englewood	2014	bassa	3	17.666666666666668	power, audi, rear
+englewood	2014	media	1	1.0	power, the, mirror
+englewood	2015	alta	1	60.0	power, seat, rear
+englewood	2015	bassa	2	39.0	power, seat, passenger
+englewood	2015	media	2	25.5	power, air, bag
+englewood	2016	bassa	3	23.0	power, seat, rear
+englewood	2016	media	4	74.75	power, air, rear
+englewood	2017	alta	2	37.0	power, air, bag
+englewood	2017	bassa	4	27.25	power, bag, air
+englewood	2017	media	36	28.52777777777778	power, air, rear
+englewood	2018	bassa	6	26.833333333333332	power, air, bag
+englewood	2018	media	6	16.5	power, air, bag
+englewood	2019	alta	3	171.33333333333334	power, air, mirror
+englewood	2019	bassa	5	20.8	power, rear, air
+englewood	2019	media	30	264.8	power, rear, bag
+englewood	2020	alta	34	81.32352941176471	power, rear, seat
+englewood	2020	media	20	120.0	power, rear, seat
+fair lawn	1998	bassa	1	15.0	power, front, steering
+fair lawn	2001	bassa	1	42.0	power, front, wheel
+fair lawn	2002	bassa	1	21.0	power, front, trim
+fair lawn	2005	bassa	1	14.0	front, control, steering
+fair lawn	2006	bassa	2	20.5	front, rear, seat
+fair lawn	2008	bassa	1	5.0	front, rear, type
+fair lawn	2010	bassa	1	18.0	front, rear, type
+fair lawn	2012	bassa	1	19.0	front, rear, type
+fairview	2007	bassa	1	25.0	air, available, wheel
+fairview	2010	bassa	1	4.0	airbags, power, head
+fairview	2012	bassa	2	124.0	airbags, power, wheel
+fairview	2013	bassa	2	16.5	airbags, power, wheel
+fairview	2015	bassa	1	15.0	power, airbags, wheel
+fairview	2015	media	1	54.0	power, dual, side
+fairview	2016	bassa	1	3.0	airbags, power, wheel
+fairview	2016	media	2	128.0	airbags, power, wheel
+fairview	2017	bassa	2	12.0	airbags, power, wheel
+fairview	2017	media	1	57.0	power, airbags, head
+fairview	2018	media	2	31.0	airbags, power, head
+fairview	2019	bassa	1	47.0	power, air, wheel
+fairview	2019	media	1	20.0	wheel, dual, abs
+fairview	2020	alta	2	33.0	airbags, wheel, power
+farmington	1940	bassa	1	99.0	the, buick, interior
+farmington	1953	bassa	1	441.0	car, credit, finance
+farmington	1955	alta	1	61.0	car, beautiful, 383
+farmington	1955	media	2	59.0	this, the, car
+farmington	1964	bassa	1	53.0	this, a, 1964
+farmington	1966	alta	1	75.0	this, also, great
+farmington	1966	media	1	64.0	the, this, power
+farmington	1969	media	1	224.0	original, excellent, chrome
+farmington	1978	bassa	1	63.0	leather, steering, seats
+farmington	1980	bassa	1	60.0	and, 1980, at
+farmington	1988	bassa	2	164.5	front, power, type
+farmington	1992	bassa	1	47.0	power, front, seat
+farmington	1993	bassa	1	159.0	power, front, steering
+farmington	1994	bassa	3	137.0	front, power, seat
+farmington	2004	bassa	3	49.0	front, rear, seat
+farmington	2007	bassa	2	31.0	front, rear, type
+farmington	2009	bassa	2	39.0	front, rear, type
+farmington	2009	media	1	7.0	front, type, rear
+farmington	2010	bassa	1	61.0	front, rear, type
+farmington	2011	bassa	2	48.0	front, rear, type
+farmington	2013	bassa	1	14.0	front, rear, type
+ferndale	2008	bassa	1	37.0	front, power, want
+ferndale	2011	bassa	1	26.0	rear, front, 2011
+ferndale	2012	bassa	3	16.0	front, rear, wheel
+ferndale	2013	bassa	8	13.0	front, rear, steering
+ferndale	2014	bassa	15	8.2	front, rear, power
+ferndale	2015	bassa	19	21.789473684210527	front, rear, power
+ferndale	2016	bassa	10	14.4	front, rear, power
+ferndale	2016	media	1	0.0	front, rear, power
+ferndale	2017	bassa	10	14.1	front, rear, steering
+ferndale	2017	media	5	4.2	front, rear, power
+ferndale	2018	bassa	3	2.6666666666666665	front, rear, steering
+ferndale	2018	media	1	10.0	rear, front, power
+ferndale	2019	alta	1	18.0	front, steering, rear
+ferndale	2019	bassa	2	23.5	front, rear, power
+ferndale	2019	media	1	27.0	front, power, seat
+flat rock	2005	bassa	1	0.0	rear, front, power
+flat rock	2008	bassa	1	5.0	front, rear, type
+flat rock	2011	bassa	1	0.0	front, type, rear
+flat rock	2013	bassa	1	0.0	front, rear, type
+flat rock	2015	bassa	1	0.0	front, rear, type
+flat rock	2016	bassa	1	0.0	front, rear, type
+flemington	2005	media	1	19.0	air, rear, control
+flemington	2009	bassa	1	62.0	power, individual, passenger
+flemington	2012	bassa	1	17.0	rear, power, air
+flemington	2013	bassa	1	57.0	control, rear, power
+flemington	2014	alta	1	1.0	power, seat, mirror
+flemington	2014	bassa	2	44.0	power, rear, seat
+flemington	2014	media	2	63.5	power, seat, wheel
+flemington	2015	bassa	2	24.5	power, mirror, air
+flemington	2016	bassa	3	32.666666666666664	power, rear, bag
+flemington	2016	media	7	13.714285714285714	power, rear, mirror
+flemington	2017	alta	4	61.5	power, seats, rear
+flemington	2017	media	41	29.317073170731707	power, seat, air
+flemington	2018	alta	7	21.428571428571427	power, seat, air
+flemington	2018	media	23	24.47826086956522	power, mirror, air
+flemington	2019	alta	3	319.0	power, rear, front
+flemington	2019	bassa	1	28.0	number, part, mirror
+flemington	2019	media	3	60.0	power, mirror, bag
+flemington	2020	alta	47	126.02127659574468	power, air, mirror
+flemington	2020	media	23	58.869565217391305	power, bag, air
+flemington	2021	alta	3	43.0	power, air, bag
+flemington	2021	media	13	29.53846153846154	power, bag, air
+flushing	1981	bassa	1	66.0	i, call, 5
+flushing	1997	bassa	1	38.0	i, 9, 5
+flushing	1998	bassa	1	2.0	i, call, 9
+flushing	1999	bassa	2	20.0	i, 9, 5
+flushing	2001	bassa	1	170.0	i, 5, 9
+flushing	2003	bassa	6	47.166666666666664	i, power, steering
+flushing	2004	bassa	3	25.0	i, power, steering
+flushing	2005	bassa	2	6.0	power, steering, seat
+flushing	2006	bassa	1	38.0	i, vehicle, power
+flushing	2007	bassa	1	20.0	i, airbag, 9
+flushing	2008	bassa	2	17.0	steering, power, airbag
+flushing	2009	bassa	1	20.0	i, power, airbag
+flushing	2012	bassa	2	64.5	i, airbag, seat
+flushing	2013	bassa	2	85.0	power, i, call
+flushing	2014	bassa	1	168.0	i, seat, power
+fraser	1996	bassa	1	18.0	front, power, air
+fraser	2001	bassa	1	20.0	power, front, control
+fraser	2003	bassa	1	13.0	power, front, rear
+fraser	2005	bassa	3	19.0	front, power, rear
+fraser	2006	bassa	1	10.0	front, rear, seat
+fraser	2007	bassa	1	15.0	front, rear, type
+fraser	2008	bassa	3	63.0	front, rear, type
+fraser	2009	bassa	2	10.5	front, rear, type
+fraser	2010	bassa	1	6.0	front, rear, type
+fraser	2011	bassa	2	6.0	front, rear, type
+fraser	2013	bassa	2	171.5	front, rear, type
+fraser	2014	bassa	3	120.33333333333333	front, rear, type
+fraser	2016	bassa	2	45.5	front, rear, type
+fraser	2019	bassa	2	8.0	front, rear, type
+freeport	2015	bassa	2	9.0	power, air, bag
+freeport	2016	media	4	26.5	power, air, bag
+freeport	2017	bassa	31	26.258064516129032	power, rear, air
+freeport	2017	media	36	16.694444444444443	power, mirror, rear
+freeport	2018	alta	1	15.0	rear, power, front
+freeport	2018	bassa	10	25.4	power, rear, bag
+freeport	2018	media	4	12.0	power, rear, seat
+freeport	2019	bassa	27	10.222222222222221	power, bag, air
+freeport	2019	media	6	9.166666666666666	power, rear, control
+freeport	2020	bassa	4	14.5	bag, air, power
+freeport	2020	media	9	10.777777777777779	power, rear, air
+ft mitchell	2020	media	1	68.0	power, door, tires
+garfield	1999	bassa	1	46.0	airbag, air, amfm
+garfield	2001	bassa	1	46.0	airbag, 9737726500, call
+garfield	2002	bassa	3	11.0	airbag, steering, air
+garfield	2003	bassa	3	32.0	airbag, air, vehicle
+garfield	2004	bassa	4	110.5	power, seat, mirror
+garfield	2005	bassa	7	45.142857142857146	airbag, air, vehicle
+garfield	2006	bassa	12	58.833333333333336	power, steering, airbag
+garfield	2007	bassa	4	44.5	airbag, air, steering
+garfield	2008	bassa	12	62.5	airbag, steering, vehicle
+garfield	2009	bassa	3	32.0	airbag, steering, vehicle
+garfield	2010	bassa	1	4.0	power, seat, steering
+garfield	2011	bassa	1	338.0	airbag, vehicle, tire
+garfield	2012	bassa	6	40.5	airbag, vehicle, control
+glenview	2020	alta	1	17.0	rear, inc, and
+grand rapids	2020	alta	1	74.0	front, power, rear
+great neck	2004	bassa	1	25.0	rear, power, wheel
+great neck	2005	bassa	1	16.0	power, bag, air
+great neck	2007	bassa	1	56.0	front, air, bag
+great neck	2008	bassa	1	21.0	rear, mirror, bag
+great neck	2009	bassa	1	12.0	rear, power, mirror
+great neck	2010	bassa	1	26.0	rear, power, air
+great neck	2011	bassa	3	19.666666666666668	power, air, bag
+great neck	2012	bassa	3	29.666666666666668	power, seat, front
+great neck	2013	bassa	1	1.0	package, seats, heated
+great neck	2013	media	1	25.0	power, rear, front
+great neck	2014	bassa	9	33.333333333333336	power, rear, seat
+great neck	2014	media	2	22.5	power, air, rear
+great neck	2015	alta	2	241.5	vehicle, bank, many
+great neck	2015	bassa	6	37.666666666666664	power, rear, air
+great neck	2015	media	4	20.0	air, power, rear
+great neck	2016	alta	1	141.0	vehicle, power, bank
+great neck	2016	bassa	10	66.6	rear, air, power
+great neck	2016	media	8	103.0	rear, power, wheel
+great neck	2017	bassa	25	93.24	power, rear, air
+great neck	2017	media	123	95.78861788617886	wheel, seats, rear
+great neck	2018	alta	3	82.66666666666667	seats, package, heated
+great neck	2018	bassa	5	55.4	control, air, rear
+great neck	2018	media	55	67.18181818181819	seats, wheel, control
+great neck	2019	alta	1	46.0	subject, rear, seats
+great neck	2019	bassa	1	33.0	air, bag, mirror
+great neck	2019	media	11	204.9090909090909	power, air, bag
+great neck	2020	alta	43	151.95348837209303	power, seat, rear
+great neck	2020	bassa	1	203.0	air, power, bag
+great neck	2020	media	135	136.4148148148148	power, air, bag
+green brook	2008	bassa	1	11.0	front, sr5, package
+green brook	2009	bassa	1	1.0	front, power, steering
+green brook	2011	media	2	298.5	front, steering, rear
+green brook	2013	bassa	1	26.0	front, rear, steering
+green brook	2013	media	1	4.0	front, dual, power
+green brook	2014	bassa	2	30.5	front, power, steering
+green brook	2014	media	3	4.333333333333333	front, rear, radio
+green brook	2015	alta	1	186.0	rear, front, steering
+green brook	2015	bassa	3	25.333333333333332	front, steering, power
+green brook	2015	media	5	35.4	front, steering, power
+green brook	2016	alta	1	13.0	system, front, rear
+green brook	2016	bassa	4	24.0	front, rear, steering
+green brook	2016	media	7	100.14285714285714	front, rear, steering
+green brook	2017	alta	1	4.0	rear, front, alert
+green brook	2017	bassa	3	57.666666666666664	front, seat, power
+green brook	2017	media	28	48.17857142857143	front, rear, power
+green brook	2018	alta	1	630.0	seat, power, front
+green brook	2018	bassa	4	31.75	front, power, rear
+green brook	2018	media	14	30.785714285714285	front, rear, power
+green brook	2019	alta	1	172.0	front, power, steering
+green brook	2019	bassa	23	465.60869565217394	front, rear, steering
+green brook	2019	media	13	62.92307692307692	front, rear, steering
+green brook	2020	alta	6	50.0	front, rear, power
+green brook	2020	bassa	8	101.625	front, control, rear
+green brook	2020	media	32	65.4375	front, rear, power
+greenwich	2001	bassa	1	43.0	front, steering, package
+greenwich	2007	bassa	3	24.333333333333332	front, rear, steering
+greenwich	2008	bassa	2	22.5	front, rear, system
+greenwich	2009	bassa	2	32.5	front, steering, wheel
+greenwich	2010	bassa	3	10.666666666666666	front, power, steering
+greenwich	2011	bassa	2	30.0	front, mugen, rear
+greenwich	2012	bassa	4	16.25	front, rear, power
+greenwich	2013	bassa	1	11.0	front, system, power
+greenwich	2014	media	1	10.0	front, system, control
+greenwich	2015	bassa	3	22.666666666666668	front, audi, rear
+greenwich	2015	media	1	29.0	front, steering, control
+greenwich	2016	media	3	4.0	front, rear, steering
+greenwich	2017	media	10	27.6	front, rear, power
+greenwich	2018	alta	1	15.0	system, front, power
+greenwich	2018	media	28	17.321428571428573	audi, rear, front
+greenwich	2019	alta	2	20.0	rear, front, power
+greenwich	2019	media	1	43.0	front, control, rear
+guaynabo	2015	alta	1	1252.0	front, suspension, rear
+guaynabo	2016	alta	1	1233.0	rear, front, door
+guaynabo	2016	media	1	1233.0	
+hartsdale	2015	bassa	2	28.0	front, rear, steering
+hartsdale	2016	bassa	3	24.0	front, 2016, steering
+hartsdale	2017	bassa	18	14.555555555555555	front, hyundai, steering
+hartsdale	2017	media	10	26.7	front, rear, power
+hartsdale	2018	bassa	5	14.2	front, steering, control
+hartsdale	2018	media	5	22.2	front, rear, steering
+hartsdale	2019	bassa	2	115.0	front, rear, steering
+hartsdale	2019	media	5	22.4	front, rear, power
+hartsdale	2020	bassa	10	133.2	front, steering, rear
+hartsdale	2020	media	65	124.47692307692307	front, rear, steering
+hasbrouck heights	2002	bassa	1	193.0	power, mirrors, steering
+hasbrouck heights	2005	bassa	1	80.0	rear, power, steering
+hasbrouck heights	2005	media	1	17.0	power, steering, wheel
+hasbrouck heights	2007	bassa	2	47.0	front, rear, type
+hasbrouck heights	2008	alta	1	20.0	power, rear, control
+hasbrouck heights	2008	bassa	6	21.333333333333332	front, power, rear
+hasbrouck heights	2009	bassa	1	67.0	front, rear, seat
+hasbrouck heights	2010	bassa	5	50.4	front, rear, power
+hasbrouck heights	2011	bassa	1	10.0	power, control, mirrors
+hasbrouck heights	2012	bassa	8	37.125	rear, power, front
+hasbrouck heights	2012	media	2	42.5	power, control, steering
+hasbrouck heights	2013	bassa	4	50.5	power, steering, control
+hasbrouck heights	2014	bassa	5	32.0	power, steering, rear
+hasbrouck heights	2015	bassa	9	30.77777777777778	front, rear, power
+hasbrouck heights	2015	media	3	236.0	power, rear, front
+hasbrouck heights	2016	alta	1	293.0	control, rear, steering
+hasbrouck heights	2016	bassa	7	53.57142857142857	front, rear, type
+hasbrouck heights	2016	media	2	21.0	control, front, steering
+hasbrouck heights	2017	alta	1	39.0	control, steering, wheel
+hasbrouck heights	2017	bassa	3	99.0	rear, front, wheel
+hasbrouck heights	2017	media	19	57.31578947368421	front, rear, power
+hasbrouck heights	2018	alta	3	655.3333333333334	power, control, wheel
+hasbrouck heights	2018	bassa	1	26.0	mirrors, steering, wheel
+hasbrouck heights	2018	media	6	25.333333333333332	front, rear, power
+hasbrouck heights	2019	alta	1	496.0	power, heated, wheel
+hasbrouck heights	2019	media	7	102.85714285714286	front, rear, power
+hasbrouck heights	2020	alta	14	206.5	rear, front, power
+hasbrouck heights	2020	media	17	226.11764705882354	rear, front, power
+hasbrouck heights	2021	alta	29	32.310344827586206	front, power, rear
+hasbrouck heights	2021	media	22	35.40909090909091	front, rear, wheel
+hempstead	2010	bassa	2	16.5	front, power, rear
+hempstead	2011	bassa	1	28.0	front, rear, control
+hempstead	2012	bassa	5	12.2	front, power, rear
+hempstead	2012	media	1	4.0	power, rear, seat
+hempstead	2013	bassa	9	23.555555555555557	power, front, rear
+hempstead	2013	media	1	11.0	inc, rear, radio
+hempstead	2014	bassa	3	12.666666666666666	front, cx5, power
+hempstead	2015	bassa	3	17.666666666666668	power, rear, front
+hempstead	2015	media	2	8.0	power, rear, bag
+hempstead	2016	bassa	11	93.54545454545455	front, power, rear
+hempstead	2016	media	10	98.4	rear, power, front
+hempstead	2017	bassa	22	84.9090909090909	front, rear, power
+hempstead	2017	media	59	28.45762711864407	front, rear, power
+hempstead	2018	bassa	14	53.07142857142857	front, rear, power
+hempstead	2018	media	17	20.647058823529413	front, rear, power
+hempstead	2019	alta	5	25.0	power, rear, front
+hempstead	2019	media	38	103.02631578947368	rear, power, front
+hempstead	2020	alta	5	225.0	power, rear, seat
+hempstead	2020	media	22	169.6818181818182	power, rear, air
+hicksville	2010	bassa	1	34.0	front, seats, rear
+hicksville	2015	bassa	1	2.0	jetta, front, the
+hicksville	2016	bassa	1	16.0	front, rear, cx5
+hicksville	2016	media	1	45.0	front, system, rear
+hicksville	2017	bassa	24	24.416666666666668	front, steering, 2017
+hicksville	2017	media	8	15.125	front, rear, power
+hicksville	2018	bassa	9	11.444444444444445	front, steering, 2018
+hicksville	2018	media	2	9.0	front, control, steering
+hicksville	2019	bassa	2	141.0	front, rear, steering
+hicksville	2019	media	5	29.8	front, seat, rear
+highland	2006	bassa	1	92.0	rear, vans, wheelchair
+highland	2010	bassa	1	56.0	rear, door, vans
+highland	2014	bassa	1	375.0	front, rear, and
+highland	2015	bassa	1	17.0	front, rear, center
+highland	2015	media	2	52.5	front, rear, and
+highland	2016	bassa	1	17.0	front, driver, black
+highland	2017	media	1	30.0	front, rear, inc
+highland	2020	media	2	25.0	front, rear, and
+highland park	2007	bassa	1	4.0	system, power, driver
+highland park	2014	media	1	47.0	rear, seat, power
+highland park	2016	bassa	2	36.0	rear, front, power
+highland park	2017	bassa	8	71.125	front, rear, power
+highland park	2017	media	1	13.0	rear, front, power
+highland park	2018	bassa	3	41.333333333333336	front, rear, power
+hillside	2003	bassa	1	18.0	control, front, system
+hillside	2007	bassa	2	39.0	rear, front, control
+hillside	2008	bassa	3	13.0	front, rear, air
+hillside	2009	bassa	4	31.25	front, rear, system
+hillside	2010	bassa	1	57.0	front, rear, seat
+hillside	2011	bassa	3	51.666666666666664	front, rear, control
+hillside	2012	bassa	7	103.42857142857143	rear, front, inc
+hillside	2013	bassa	7	65.14285714285714	front, rear, inc
+hillside	2014	bassa	6	73.16666666666667	rear, front, power
+hillside	2014	media	1	31.0	rear, front, power
+hillside	2015	bassa	5	121.8	rear, front, power
+hillside	2015	media	5	53.0	rear, front, power
+hillside	2016	bassa	5	110.4	front, rear, power
+hillside	2016	media	4	134.0	rear, front, power
+hillside	2017	bassa	12	110.16666666666667	front, rear, power
+hillside	2017	media	8	25.625	rear, power, front
+hillside	2018	bassa	6	33.166666666666664	front, rear, power
+hillside	2018	media	6	107.0	rear, front, power
+hillside	2019	media	2	21.5	rear, power, front
+holly	2010	bassa	2	8.0	front, rear, power
+holly	2012	media	1	40.0	price, front, carfax
+holly	2013	bassa	3	11.666666666666666	front, steering, rear
+holly	2014	media	1	11.0	front, price, steering
+holly	2015	bassa	1	19.0	front, rear, steering
+holly	2016	bassa	2	10.5	front, rear, power
+holly	2017	bassa	3	36.0	front, rear, steering
+holly	2017	media	7	30.142857142857142	front, rear, steering
+holly	2018	bassa	4	24.25	front, rear, steering
+holly	2018	media	5	33.0	front, rear, power
+holly	2019	alta	3	358.0	front, rear, seats
+holly	2019	bassa	1	40.0	front, carfax, rear
+holly	2019	media	8	145.375	front, rear, power
+holly	2020	alta	37	142.64864864864865	front, rear, steering
+holly	2020	bassa	15	140.26666666666668	front, rear, steering
+holly	2020	media	245	105.80408163265307	front, rear, steering
+howell	2000	bassa	1	4.0	front, seat, conditioning
+howell	2008	bassa	1	38.0	seat, front, type
+howell	2011	bassa	1	12.0	seat, manual, type
+howell	2012	media	2	4.5	seat, front, type
+howell	2013	media	1	12.0	seat, front, power
+howell	2014	media	1	19.0	seat, front, power
+howell	2015	media	1	4.0	seat, manual, front
+howell	2016	bassa	1	61.0	front, seat, and
+howell	2016	media	3	19.0	front, seat, and
+howell	2017	alta	3	16.666666666666668	seat, front, and
+howell	2017	bassa	4	13.5	front, seat, rear
+howell	2017	media	7	20.857142857142858	front, seat, and
+howell	2018	alta	1	33.0	front, seat, power
+howell	2018	bassa	1	102.0	front, with, rear
+howell	2018	media	10	25.1	front, seat, and
+howell	2019	alta	1	40.0	seat, power, front
+howell	2019	media	4	11.5	front, seat, and
+howell	2020	alta	1	207.0	front, and, seat
+howell	2020	media	1	5.0	front, and, with
+huntington	2005	bassa	2	78.0	rear, front, seat
+huntington	2006	bassa	2	93.5	rear, front, system
+huntington	2007	bassa	1	87.0	rear, front, seat
+huntington	2008	bassa	5	96.4	control, rear, front
+huntington	2009	bassa	1	13.0	front, rear, door
+huntington	2010	bassa	3	25.333333333333332	front, rear, control
+huntington	2011	bassa	2	84.5	front, power, rear
+huntington	2011	media	1	196.0	front, rear, m
+huntington	2012	bassa	5	12.4	front, rear, seat
+huntington	2013	bassa	12	63.583333333333336	front, rear, system
+huntington	2014	bassa	8	55.125	front, rear, power
+huntington	2014	media	8	15.0	rear, front, power
+huntington	2015	bassa	13	32.92307692307692	rear, front, power
+huntington	2015	media	5	34.6	front, rear, power
+huntington	2016	bassa	6	36.833333333333336	front, rear, steering
+huntington	2016	media	13	57.53846153846154	rear, front, power
+huntington	2017	bassa	14	34.42857142857143	front, rear, power
+huntington	2017	media	30	37.9	rear, front, power
+huntington	2018	bassa	2	76.0	rear, front, power
+huntington	2018	media	23	39.30434782608695	rear, power, front
+huntington	2019	alta	3	140.0	rear, power, front
+huntington	2019	bassa	2	9.5	front, rear, seat
+huntington	2019	media	18	103.94444444444444	rear, front, power
+huntington	2020	alta	59	109.98305084745763	power, rear, seat
+huntington	2020	bassa	31	86.38709677419355	front, rear, system
+huntington	2020	media	187	58.529411764705884	front, rear, driver
+huntington	2021	alta	47	26.425531914893618	power, seat, rear
+huntington	2021	media	15	26.533333333333335	power, rear, mirror
+huntington station	2009	bassa	1	5.0	front, rear, driver
+huntington station	2011	bassa	1	8.0	front, rear, door
+huntington station	2013	bassa	2	1.5	front, rear, control
+huntington station	2013	media	1	8.0	front, rear, w
+huntington station	2014	bassa	1	1.0	front, rear, power
+huntington station	2014	media	1	25.0	front, rear, power
+huntington station	2015	bassa	4	9.75	front, rear, power
+huntington station	2016	bassa	7	20.428571428571427	front, rear, power
+huntington station	2017	bassa	12	38.833333333333336	front, rear, control
+huntington station	2017	media	27	26.22222222222222	front, rear, control
+huntington station	2018	bassa	4	60.0	rear, front, control
+huntington station	2018	media	15	23.466666666666665	front, rear, control
+huntington station	2019	bassa	1	76.0	rear, front, control
+huntington station	2019	media	6	258.0	front, rear, power
+huntington station	2020	alta	6	89.66666666666667	front, rear, power
+huntington station	2020	bassa	1	299.0	front, rear, control
+huntington station	2020	media	128	76.75	front, rear, power
+huntington station	2021	alta	3	26.0	front, door, control
+huntington station	2021	media	11	18.181818181818183	front, rear, control
+irvington	2002	bassa	1	33.0	steering, tilt, airbag
+irvington	2003	bassa	1	32.0	airbag, cargo, tilt
+irvington	2004	bassa	2	167.0	steering, power, airbag
+irvington	2007	bassa	8	40.125	front, rear, power
+irvington	2008	bassa	2	9.5	power, airbag, steering
+irvington	2009	bassa	2	39.0	inc, rear, front
+irvington	2010	bassa	8	115.375	rear, front, seat
+irvington	2010	media	1	7.0	power, steering, front
+irvington	2011	bassa	4	27.75	rear, front, inc
+irvington	2011	media	1	10.0	power, seat, steering
+irvington	2012	bassa	7	48.857142857142854	front, rear, driver
+irvington	2013	bassa	15	53.46666666666667	front, rear, power
+irvington	2014	bassa	8	34.25	rear, front, power
+irvington	2015	bassa	19	95.05263157894737	rear, front, power
+irvington	2015	media	2	15.5	power, seat, steering
+irvington	2016	bassa	11	149.54545454545453	front, rear, power
+irvington	2016	media	1	28.0	power, steering, airbag
+irvington	2017	bassa	18	71.05555555555556	front, rear, power
+irvington	2017	media	7	27.857142857142858	rear, front, power
+irvington	2018	bassa	15	25.733333333333334	front, rear, power
+irvington	2018	media	4	14.5	rear, power, front
+irvington	2019	bassa	52	29.076923076923077	front, rear, power
+irvington	2019	media	11	15.909090909090908	power, rear, front
+irvington	2020	bassa	9	36.666666666666664	front, rear, power
+irvington	2020	media	3	17.0	front, rear, power
+islip terrace	2002	bassa	1	30.0	and, it, the
+islip terrace	2004	bassa	2	6.5	and, has, this
+islip terrace	2008	bassa	2	40.0	and, it, has
+islip terrace	2009	bassa	1	4.0	and, has, for
+islip terrace	2009	media	1	40.0	and, is, it
+islip terrace	2012	bassa	4	18.0	and, it, has
+islip terrace	2013	bassa	1	32.0	and, for, all
+islip terrace	2014	bassa	1	25.0	and, for, new
+islip terrace	2015	media	1	3.0	
+islip terrace	2016	bassa	1	11.0	and, has, for
+jamaica	2012	alta	1	48.0	rear, front, control
+jamaica	2012	bassa	1	45.0	rear, front, control
+jamaica	2013	media	1	317.0	rear, control, inc
+jamaica	2014	media	1	87.0	rear, front, and
+jamaica	2015	alta	2	13.0	rear, front, power
+jamaica	2016	alta	1	41.0	rear, power, front
+jamaica	2017	media	3	87.0	power, rear, front
+jamaica	2018	alta	1	82.0	power, rear, front
+jamaica	2018	bassa	1	63.0	rear, front, power
+jamaica	2019	media	2	103.5	rear, front, power
+jamaica	2021	media	1	12.0	front, rear, passenger
+jersey city	2007	bassa	1	39.0	our, accurate, prices
+jersey city	2008	bassa	2	22.0	prices, accurate, all
+jersey city	2009	bassa	3	35.666666666666664	prices, accurate, drive
+jersey city	2010	bassa	4	52.0	prices, accurate, drive
+jersey city	2011	bassa	3	37.333333333333336	prices, accurate, make
+jersey city	2012	bassa	5	51.2	prices, accurate, front
+jersey city	2013	bassa	4	39.0	prices, accurate, all
+jersey city	2014	bassa	2	72.5	audio, prices, drive
+jersey city	2015	bassa	5	47.4	prices, accurate, all
+jersey city	2016	bassa	3	32.666666666666664	front, rear, windows
+jersey city	2017	bassa	27	12.962962962962964	front, rear, seat
+jersey city	2017	media	4	29.75	front, rear, power
+jersey city	2018	bassa	23	86.8695652173913	front, rear, seat
+jersey city	2018	media	1	440.0	front, rear, windows
+jersey city	2019	alta	1	383.0	front, audio, rear
+jersey city	2019	bassa	1	16.0	front, rear, windows
+jersey city	2019	media	4	122.5	front, rear, audio
+jersey city	2020	alta	2	256.5	front, rear, power
+jersey city	2020	bassa	1	27.0	front, rear, audio
+jersey city	2020	media	166	93.84939759036145	front, rear, audio
+jersey city	2021	alta	1	6.0	front, audio, rear
+jersey city	2021	media	94	21.138297872340427	front, rear, audio
+kenvil	2010	bassa	1	28.0	nl, driver, heated
+kenvil	2014	bassa	3	13.333333333333334	nl, mirror, wheel
+kenvil	2015	bassa	2	9.0	nl, power, driver
+kenvil	2015	media	2	24.0	nl, driver, seat
+kenvil	2016	bassa	1	15.0	nl, driver, heated
+kenvil	2016	media	4	14.5	nl, rear, driver
+kenvil	2017	alta	1	39.0	nl, rear, power
+kenvil	2017	bassa	1	78.0	nl, rear, steering
+kenvil	2017	media	23	61.52173913043478	nl, power, rear
+kenvil	2018	alta	5	15.0	nl, wheel, system
+kenvil	2018	bassa	1	28.0	nl, driver, power
+kenvil	2018	media	21	102.80952380952381	nl, wheel, power
+kenvil	2019	alta	2	11.0	nl, rear, system
+kenvil	2019	media	5	15.2	nl, power, wheel
+kenvil	2020	alta	17	110.52941176470588	nl, wheel, driver
+kenvil	2020	media	28	98.67857142857143	nl, wheel, rear
+kenvil	2021	alta	23	12.130434782608695	nl, rear, power
+kenvil	2021	media	17	6.764705882352941	nl, wheel, steering
+lakewood	1999	bassa	1	22.0	power, front, seat
+lakewood	2001	bassa	2	12.5	front, power, type
+lakewood	2002	bassa	3	42.0	front, power, rear
+lakewood	2003	bassa	3	23.666666666666668	power, front, wheel
+lakewood	2004	bassa	4	82.25	front, power, seat
+lakewood	2005	bassa	9	43.55555555555556	front, power, seat
+lakewood	2006	bassa	4	32.0	front, rear, seat
+lakewood	2007	bassa	2	74.0	front, rear, type
+lakewood	2008	bassa	5	70.4	front, rear, power
+lakewood	2009	bassa	5	114.8	front, rear, type
+lakewood	2010	bassa	4	22.25	front, rear, type
+lakewood	2011	bassa	5	52.4	front, rear, type
+lakewood	2012	bassa	4	50.0	front, rear, type
+lakewood	2013	bassa	5	76.2	front, rear, type
+lakewood	2014	bassa	2	79.0	front, rear, type
+lakewood	2015	bassa	3	31.333333333333332	front, rear, type
+lakewood	2016	bassa	2	19.5	vehicles, 2016, belt
+lakewood	2017	bassa	4	49.25	2017, vehicles, purchase
+lakewood	2017	media	6	18.166666666666668	2017, vehicles, purchase
+lakewood	2018	bassa	7	29.142857142857142	2018, vehicles, purchase
+lakewood	2018	media	8	23.625	vehicles, purchase, pine
+lakewood	2019	bassa	1	20.0	awards, 2019, vehicles
+lakewood	2019	media	4	19.25	2019, vehicles, best
+lakewood	2020	bassa	1	11.0	
+lakewood	2020	media	46	44.08695652173913	, liners, allweather
+lakewood	2021	media	11	11.909090909090908	
+larchmont	2015	media	1	6.0	front, rear, power
+larchmont	2016	media	3	87.0	rear, front, power
+larchmont	2017	bassa	1	70.0	front, rear, airbags
+larchmont	2017	media	43	21.41860465116279	front, rear, power
+larchmont	2018	media	11	14.181818181818182	front, rear, power
+lawrence	2002	bassa	1	26.0	power, seat, front
+lawrence	2006	bassa	1	18.0	front, rear, power
+lawrence	2007	bassa	1	24.0	front, rear, type
+lawrence	2008	bassa	2	59.0	front, rear, type
+lawrence	2011	bassa	3	35.0	front, rear, type
+lawrence	2012	bassa	2	23.5	front, rear, type
+lawrence	2016	bassa	1	0.0	front, rear, type
+levittown	2012	bassa	1	42.0	front, system, steering
+levittown	2014	bassa	5	30.8	front, rear, power
+levittown	2014	media	1	19.0	front, and, passenger
+levittown	2015	bassa	1	40.0	vehicle, fees, vehicles
+levittown	2016	bassa	3	34.333333333333336	front, warranty, steering
+levittown	2016	media	2	10.5	front, rear, power
+levittown	2017	bassa	40	33.05	front, rear, steering
+levittown	2017	media	15	33.266666666666666	front, rear, power
+levittown	2018	bassa	5	32.2	front, warranty, first
+levittown	2018	media	3	33.666666666666664	front, rear, warranty
+linden	2001	bassa	2	35.5	
+linden	2002	bassa	1	24.0	
+linden	2004	bassa	2	47.0	
+linden	2005	alta	1	13.0	power, control, passenger
+linden	2005	bassa	3	29.0	
+linden	2006	bassa	6	35.666666666666664	
+linden	2007	bassa	7	82.85714285714286	
+linden	2008	bassa	3	319.6666666666667	we, offer, 
+linden	2009	bassa	3	289.3333333333333	
+linden	2010	bassa	3	240.33333333333334	we, , offer
+linden	2011	bassa	1	47.0	
+linden	2012	bassa	2	390.0	we, offer, street
+linden	2012	media	2	124.0	control, air, power
+linden	2013	bassa	1	24.0	
+linden	2014	bassa	1	5.0	power, air, bag
+linden	2015	bassa	2	53.0	aluminum, audi, power
+linden	2015	media	1	27.0	front, power, rear
+linden	2016	alta	2	44.5	rear, power, air
+linden	2016	bassa	1	5.0	power, bag, rear
+linden	2016	media	5	38.8	power, rear, front
+linden	2017	alta	8	49.25	power, rear, mirror
+linden	2017	bassa	5	43.6	power, front, rear
+linden	2017	media	54	38.407407407407405	power, rear, air
+linden	2018	alta	13	54.46153846153846	power, rear, air
+linden	2018	bassa	1	11.0	power, air, bag
+linden	2018	media	26	36.03846153846154	power, rear, air
+linden	2019	alta	20	41.85	power, rear, front
+linden	2019	bassa	1	56.0	power, front, air
+linden	2019	media	17	49.529411764705884	power, rear, mirror
+linden	2020	alta	11	34.45454545454545	power, rear, seat
+lindenhurst	2007	bassa	1	38.0	rear, pwr, seat
+lindenhurst	2008	bassa	1	13.0	rear, front, seat
+lindenhurst	2010	bassa	2	94.5	front, rear, seat
+lindenhurst	2012	bassa	2	20.5	front, inc, rear
+lindenhurst	2013	bassa	6	64.83333333333333	rear, front, power
+lindenhurst	2013	media	2	24.0	front, rear, control
+lindenhurst	2014	media	4	56.0	rear, front, power
+lindenhurst	2015	bassa	1	74.0	rear, power, front
+lindenhurst	2015	media	3	135.66666666666666	rear, power, front
+lindenhurst	2016	bassa	4	89.5	rear, front, power
+lindenhurst	2016	media	8	77.5	rear, power, front
+lindenhurst	2017	bassa	11	65.9090909090909	rear, front, power
+lindenhurst	2017	media	11	104.54545454545455	rear, power, front
+lindenhurst	2018	media	5	21.0	front, rear, power
+lindenhurst	2019	bassa	1	31.0	front, passenger, power
+lindenhurst	2019	media	2	28.0	rear, power, front
+lititz	2006	media	1	3.0	front, power, seat
+lititz	2009	bassa	1	45.0	front, rear, power
+lititz	2010	alta	1	56.0	front, rear, suspension
+lititz	2011	bassa	1	4.0	front, vehicle, vehicles
+lititz	2012	bassa	1	18.0	front, rear, power
+lititz	2012	media	1	42.0	front, power, rear
+lititz	2013	bassa	3	10.666666666666666	front, rear, power
+lititz	2013	media	2	28.0	front, rear, seat
+lititz	2014	bassa	1	45.0	front, rear, power
+lititz	2015	bassa	1	13.0	front, rear, suspension
+lititz	2015	media	1	66.0	front, rear, power
+lititz	2016	bassa	3	39.0	front, rear, power
+lititz	2016	media	4	35.0	front, rear, power
+lititz	2017	alta	1	10.0	front, rear, and
+lititz	2017	bassa	6	36.0	front, rear, power
+lititz	2017	media	33	45.36363636363637	front, rear, power
+lititz	2018	bassa	1	286.0	front, rear, seat
+lititz	2018	media	14	37.285714285714285	front, rear, seat
+lititz	2019	alta	2	46.0	front, power, rear
+lititz	2019	bassa	1	60.0	rear, front, windows
+lititz	2019	media	3	70.66666666666667	rear, front, seat
+lititz	2020	alta	25	86.24	and, front, seat
+lititz	2020	media	40	88.075	front, rear, and
+little falls	2014	bassa	1	6.0	rear, front, power
+little falls	2015	bassa	5	10.0	front, rear, audio
+little falls	2015	media	3	8.0	front, rear, power
+little falls	2016	alta	1	62.0	front, rear, audio
+little falls	2016	bassa	10	58.2	front, rear, audio
+little falls	2016	media	8	20.125	front, rear, audio
+little falls	2017	bassa	19	44.1578947368421	front, rear, audio
+little falls	2017	media	54	28.944444444444443	front, rear, power
+little falls	2018	bassa	13	42.07692307692308	front, rear, audio
+little falls	2018	media	31	25.516129032258064	front, rear, power
+little falls	2019	alta	5	286.2	rear, front, power
+little falls	2019	bassa	21	41.095238095238095	front, rear, audio
+little falls	2019	media	52	42.73076923076923	front, rear, audio
+little falls	2020	alta	119	58.075630252100844	rear, control, engine
+little falls	2020	media	289	75.5432525951557	power, engine, siriusxm
+little falls	2021	media	61	13.540983606557377	engine, automatic, power
+little ferry	1978	bassa	1	57.0	
+little ferry	1989	bassa	1	39.0	power, steering, front
+little ferry	1995	bassa	1	17.0	power, front, seat
+little ferry	2000	bassa	4	29.0	power, front, seat
+little ferry	2001	bassa	2	48.5	power, front, rear
+little ferry	2002	bassa	3	22.0	power, front, seat
+little ferry	2003	bassa	1	1.0	front, power, seat
+little ferry	2003	media	1	71.0	seat, power, rear
+little ferry	2004	bassa	7	26.142857142857142	front, power, rear
+little ferry	2005	bassa	5	24.6	front, rear, power
+little ferry	2006	bassa	7	25.714285714285715	front, rear, seat
+little ferry	2007	bassa	17	19.11764705882353	front, rear, type
+little ferry	2008	bassa	27	24.296296296296298	front, rear, type
+little ferry	2009	bassa	20	37.25	front, rear, type
+little ferry	2010	bassa	22	33.72727272727273	front, rear, type
+little ferry	2011	bassa	25	51.0	front, rear, type
+little ferry	2012	bassa	16	45.4375	front, rear, type
+little ferry	2013	bassa	21	28.333333333333332	front, rear, type
+little ferry	2014	bassa	12	34.083333333333336	front, rear, type
+little ferry	2015	bassa	11	26.272727272727273	front, rear, type
+little ferry	2016	bassa	3	116.66666666666667	front, rear, type
+little ferry	2016	media	3	55.0	front, rear, power
+little ferry	2017	bassa	13	88.6923076923077	front, rear, type
+little ferry	2017	media	14	54.07142857142857	front, rear, power
+little ferry	2018	alta	1	42.0	front, power, trim
+little ferry	2018	bassa	1	54.0	front, rear, type
+little ferry	2018	media	3	98.66666666666667	front, rear, type
+lodi	1997	alta	1	22.0	front, power, new
+lodi	1999	bassa	1	19.0	front, power, air
+lodi	2002	bassa	1	5.0	mirror, power, front
+lodi	2003	bassa	2	22.0	power, front, rear
+lodi	2003	media	1	28.0	power, front, z06
+lodi	2004	media	1	42.0	power, front, leather
+lodi	2005	bassa	3	23.666666666666668	front, power, rear
+lodi	2006	bassa	3	31.333333333333332	front, rear, power
+lodi	2006	media	1	32.0	front, power, system
+lodi	2007	bassa	1	10.0	
+lodi	2007	media	1	0.0	front, rear, type
+lodi	2008	bassa	3	14.666666666666666	front, rear, power
+lodi	2008	media	1	6.0	front, type, rear
+lodi	2009	bassa	6	29.166666666666668	front, rear, power
+lodi	2009	media	1	54.0	front, rear, type
+lodi	2010	alta	1	218.0	front, rear, type
+lodi	2010	bassa	6	26.833333333333332	front, rear, type
+lodi	2010	media	1	6.0	front, rear, type
+lodi	2011	bassa	8	51.125	front, rear, type
+lodi	2011	media	1	0.0	front, rear, type
+lodi	2012	bassa	4	53.0	front, rear, type
+lodi	2012	media	1	0.0	front, seat, system
+lodi	2013	bassa	8	58.75	front, rear, power
+lodi	2013	media	2	19.5	front, rear, type
+lodi	2014	bassa	12	40.166666666666664	front, rear, power
+lodi	2014	media	2	21.0	front, rear, type
+lodi	2015	bassa	8	49.875	front, rear, type
+lodi	2015	media	4	71.25	rear, front, power
+lodi	2016	alta	1	11.0	front, rear, type
+lodi	2016	bassa	9	27.77777777777778	rear, front, power
+lodi	2016	media	2	8.0	front, rear, seat
+lodi	2017	alta	3	55.333333333333336	front, rear, trim
+lodi	2017	bassa	16	28.75	front, rear, power
+lodi	2017	media	25	12.88	power, rear, air
+lodi	2018	alta	4	80.75	rear, front, steering
+lodi	2018	bassa	9	22.77777777777778	power, rear, air
+lodi	2018	media	13	42.38461538461539	front, rear, power
+lodi	2019	alta	1	5.0	front, rear, control
+lodi	2019	bassa	1	22.0	power, air, rear
+lodi	2019	media	9	214.88888888888889	front, rear, power
+lodi	2020	media	137	37.02189781021898	power, rear, bag
+lodi	2021	media	2	6.5	power, mirror, air
+long island city	2003	bassa	2	65.5	front, door, rear
+long island city	2004	bassa	1	107.0	rear, seat, front
+long island city	2005	bassa	1	25.0	front, rear, steering
+long island city	2006	bassa	3	191.0	rear, front, seat
+long island city	2007	bassa	2	1125.0	front, rear, steering
+long island city	2008	bassa	5	60.0	front, steering, wheel
+long island city	2009	bassa	3	314.0	front, rear, steering
+long island city	2010	bassa	4	135.75	front, steering, rear
+long island city	2011	bassa	13	218.76923076923077	front, steering, power
+long island city	2012	bassa	15	80.06666666666666	front, rear, steering
+long island city	2013	bassa	12	138.25	front, rear, steering
+long island city	2013	media	1	136.0	front, rear, heated
+long island city	2014	bassa	8	109.625	front, rear, steering
+long island city	2015	bassa	8	167.375	front, rear, steering
+long island city	2015	media	1	272.0	front, steering, wheel
+long island city	2016	bassa	16	107.3125	front, rear, steering
+long island city	2016	media	10	64.5	rear, front, power
+long island city	2017	alta	1	47.0	rear, front, seats
+long island city	2017	bassa	145	71.34482758620689	front, rear, steering
+long island city	2017	media	176	56.41477272727273	front, rear, steering
+long island city	2018	alta	1	61.0	front, rear, power
+long island city	2018	bassa	41	65.34146341463415	front, rear, steering
+long island city	2018	media	62	79.53225806451613	front, rear, power
+long island city	2019	alta	4	105.5	front, rear, power
+long island city	2019	bassa	25	73.84	front, rear, steering
+long island city	2019	media	82	67.2439024390244	front, rear, power
+long island city	2020	alta	1	22.0	front, power, rear
+long island city	2020	bassa	1	137.0	control, front, steering
+long island city	2020	media	12	67.91666666666667	rear, front, steering
+lynbrook	2012	bassa	1	29.0	power, infiniti, interior
+lynbrook	2016	media	2	33.0	q70, infiniti, seat
+lynbrook	2017	media	31	22.258064516129032	infiniti, mirror, power
+lynbrook	2018	media	2	48.0	mirror, power, seat
+lynbrook	2019	alta	2	421.5	mirror, power, air
+lynbrook	2019	media	5	149.6	infiniti, power, seat
+lynbrook	2020	alta	29	134.72413793103448	power, mirror, rear
+lynbrook	2020	media	30	219.76666666666668	power, bag, air
+lynbrook	2021	alta	1	4.0	
+macomb	2015	bassa	1	15.0	front, rear, power
+macomb	2015	media	2	10.5	front, rear, power
+macomb	2016	media	1	6.0	front, steering, rear
+macomb	2017	alta	3	32.333333333333336	front, steering, rear
+macomb	2017	media	9	38.666666666666664	front, rear, power
+macomb	2018	alta	2	29.0	front, power, steering
+macomb	2018	media	3	14.0	front, rear, steering
+macomb	2019	alta	1	69.0	front, door, steering
+macomb	2019	media	2	10.0	front, rear, power
+macomb	2020	alta	40	169.325	front, rear, steering
+macomb	2020	media	11	97.18181818181819	front, rear, door
+macomb	2021	alta	1	62.0	front, black, door
+manchester	2005	bassa	3	46.0	front, rear, power
+manchester	2007	bassa	1	40.0	rear, front, type
+manchester	2008	bassa	3	41.666666666666664	front, rear, type
+manchester	2010	bassa	1	5.0	front, rear, type
+manchester	2011	bassa	3	53.333333333333336	front, rear, type
+manchester	2012	bassa	2	16.5	front, rear, power
+manchester	2012	media	1	7.0	black, power, steering
+manchester	2013	bassa	1	7.0	wheel, steering, power
+manchester	2014	bassa	1	6.0	power, rear, control
+manchester	2015	bassa	2	38.0	rear, front, power
+manchester	2016	bassa	2	53.5	front, rear, power
+manchester	2017	bassa	5	14.6	power, steering, mirrors
+manchester	2017	media	12	18.583333333333332	power, seat, rear
+manchester	2018	bassa	3	40.0	2018, power, rear
+manchester	2018	media	6	25.833333333333332	power, heated, control
+manchester	2019	bassa	1	113.0	2019, steering, wheel
+manchester	2019	media	4	114.5	power, control, seat
+manchester	2020	media	5	150.4	power, rear, steering
+massapequa	2001	media	2	20.0	power, control, mirrors
+massapequa	2007	bassa	1	0.0	power, wheel, steering
+massapequa	2009	bassa	1	15.0	steering, wheel, power
+massapequa	2010	bassa	3	11.333333333333334	power, wheel, steering
+massapequa	2010	media	2	32.0	power, steering, wheel
+massapequa	2011	bassa	1	0.0	power, steering, vehicle
+massapequa	2011	media	1	8.0	vehicle, interior, four
+massapequa	2012	bassa	3	22.333333333333332	power, wheel, control
+massapequa	2013	bassa	2	7.0	power, control, wheel
+massapequa	2014	bassa	6	13.5	power, rear, steering
+massapequa	2014	media	3	11.666666666666666	side, vehicle, steering
+massapequa	2015	bassa	2	17.0	power, steering, wheel
+massapequa	2015	media	1	6.0	power, control, wheel
+massapequa	2016	media	3	6.0	power, steering, wheel
+massapequa	2017	bassa	1	13.0	control, power, steering
+massapequa	2017	media	1	13.0	power, seats, rear
+medford	2001	bassa	1	8.0	power, wheel, front
+medford	2005	bassa	1	71.0	power, mirror, wheel
+medford	2011	bassa	1	124.0	power, rear, bag
+medford	2012	bassa	5	90.0	power, bag, air
+medford	2013	bassa	2	86.0	power, wheel, seat
+medford	2014	bassa	1	125.0	mirror, power, passenger
+medford	2014	media	1	66.0	power, wheel, bag
+medford	2015	bassa	5	72.4	power, air, bag
+medford	2016	bassa	9	104.66666666666667	power, air, bag
+medford	2016	media	7	102.28571428571429	power, rear, air
+medford	2017	alta	1	8.0	power, rear, seat
+medford	2017	bassa	3	125.0	power, rear, air
+medford	2017	media	1	28.0	power, wheel, bag
+medford	2018	bassa	3	182.33333333333334	power, bag, rear
+medford	2019	bassa	1	125.0	bag, rear, power
+meriden	1999	bassa	1	54.0	rear, pwr, front
+meriden	2000	bassa	1	39.0	rear, power, pwr
+meriden	2002	bassa	4	36.25	rear, front, pwr
+meriden	2003	bassa	2	66.0	front, driver, rear
+meriden	2004	bassa	5	53.4	front, rear, passenger
+meriden	2005	bassa	6	76.0	front, rear, pwr
+meriden	2006	bassa	6	59.166666666666664	rear, front, pwr
+meriden	2007	bassa	9	53.77777777777778	front, rear, pwr
+meriden	2008	bassa	10	35.6	rear, front, passenger
+meriden	2009	bassa	9	75.77777777777777	front, rear, air
+meriden	2010	bassa	5	46.2	front, rear, air
+meriden	2011	bassa	4	22.25	front, rear, air
+meriden	2012	bassa	8	42.875	front, rear, inc
+meriden	2013	bassa	4	39.0	rear, front, air
+meriden	2015	bassa	1	26.0	power, rear, front
+michigan center	2006	media	1	27.0	front, steering, driver
+michigan center	2010	bassa	1	27.0	front, power, seat
+michigan center	2013	media	3	12.0	front, rear, steering
+michigan center	2014	media	2	11.5	front, rear, steering
+michigan center	2015	bassa	1	10.0	front, rear, seat
+michigan center	2015	media	3	14.333333333333334	front, rear, power
+michigan center	2016	media	8	22.5	front, rear, steering
+michigan center	2017	alta	2	15.0	front, rear, power
+michigan center	2017	bassa	1	10.0	front, rear, steering
+michigan center	2017	media	19	31.210526315789473	front, rear, steering
+michigan center	2018	alta	5	40.4	front, rear, power
+michigan center	2018	media	13	46.46153846153846	front, rear, steering
+michigan center	2019	alta	13	22.307692307692307	front, rear, power
+michigan center	2019	media	11	48.18181818181818	front, steering, rear
+michigan center	2020	alta	5	15.0	front, rear, power
+michigan center	2020	media	3	35.0	front, steering, rear
+middleburg hts	2018	alta	1	61.0	front, rear, steering
+middletown	2001	bassa	1	15.0	nl, power, driver
+middletown	2004	bassa	1	40.0	system, mirror, power
+middletown	2006	bassa	2	16.5	nl, power, rear
+middletown	2007	bassa	1	5.0	nl, power, driver
+middletown	2008	bassa	1	3.0	nl, seat, rear
+middletown	2010	bassa	1	25.0	nl, driver, power
+middletown	2011	bassa	1	12.0	nl, rear, driver
+middletown	2013	bassa	2	21.0	nl, rear, air
+middletown	2013	media	1	24.0	nl, rear, driver
+middletown	2014	bassa	2	28.0	nl, driver, power
+middletown	2015	bassa	2	15.0	nl, power, driver
+middletown	2015	media	2	11.5	nl, power, driver
+middletown	2016	bassa	2	30.5	nl, driver, power
+middletown	2016	media	2	64.5	nl, power, driver
+middletown	2017	bassa	4	41.25	nl, driver, rear
+middletown	2017	media	15	22.8	nl, driver, power
+middletown	2018	media	6	40.833333333333336	nl, rear, power
+middletown	2019	media	1	26.0	nl, power, driver
+middletown	2020	alta	32	61.78125	nl, driver, rear
+middletown	2020	media	19	69.94736842105263	nl, driver, wheel
+milford	1999	bassa	2	12.0	front, rear, seat
+milford	2004	bassa	2	53.5	the, vehicle, our
+milford	2006	bassa	2	31.5	front, and, the
+milford	2007	bassa	2	70.0	front, rear, type
+milford	2008	bassa	1	12.0	front, power, wheel
+milford	2009	bassa	1	110.0	front, the, rear
+milford	2010	bassa	1	134.0	front, the, type
+milford	2011	bassa	4	110.5	front, rear, type
+milford	2011	media	1	49.0	front, steering, rear
+milford	2012	bassa	9	61.666666666666664	front, rear, power
+milford	2013	bassa	5	60.2	front, rear, type
+milford	2014	bassa	1	4.0	front, rear, power
+milford	2015	bassa	2	26.0	front, rear, steering
+milford	2016	alta	1	4.0	front, rear, brakes
+milford	2016	bassa	2	47.0	front, rear, steering
+milford	2016	media	1	70.0	front, wheel, certified
+milford	2017	alta	1	33.0	front, rear, power
+milford	2017	bassa	9	25.333333333333332	front, rear, steering
+milford	2017	media	26	49.23076923076923	front, rear, steering
+milford	2018	bassa	1	22.0	front, radio, power
+milford	2018	media	4	165.75	rear, front, wheel
+milford	2019	alta	1	327.0	front, power, system
+milford	2019	media	16	283.3125	front, rear, steering
+milford	2020	alta	19	158.3684210526316	front, rear, steering
+milford	2020	bassa	3	330.6666666666667	front, rear, steering
+milford	2020	media	118	133.01694915254237	front, rear, steering
+mine hill	2001	bassa	1	46.0	front, captains, cloth
+mine hill	2002	bassa	1	309.0	front, mirrors, conditioning
+mine hill	2005	bassa	1	12.0	front, console, rear
+mine hill	2006	bassa	2	19.0	seat, front, rear
+mine hill	2008	bassa	2	232.5	front, seat, rear
+mine hill	2009	bassa	1	46.0	front, rear, suspension
+mine hill	2010	bassa	3	151.0	front, seat, type
+mine hill	2011	bassa	4	183.5	front, rear, seat
+mine hill	2012	bassa	4	22.0	front, seat, rear
+mine hill	2013	bassa	5	47.2	front, seat, rear
+mine hill	2014	bassa	2	236.0	front, rear, seat
+mine hill	2015	bassa	2	17.0	front, seat, type
+mount kisco	2008	bassa	1	9.0	nl, no, price
+mount kisco	2010	bassa	1	19.0	nl, no, price
+mount kisco	2011	bassa	1	2.0	nl, top, pkg
+mount kisco	2011	media	1	8.0	nl, price, no
+mount kisco	2013	bassa	4	19.75	nl, no, price
+mount kisco	2014	bassa	1	3.0	nl, no, price
+mount kisco	2014	media	1	6.0	nl, no, price
+mount kisco	2015	bassa	1	8.0	nl, wood, includes
+mount kisco	2016	media	1	32.0	nl, package, front
+mount kisco	2017	alta	1	42.0	nl, bmw, rear
+mount kisco	2017	bassa	1	3.0	nl, no, price
+mount kisco	2017	media	35	25.02857142857143	nl, bmw, package
+mount kisco	2018	alta	2	67.0	nl, leather, bmw
+mount kisco	2018	bassa	2	24.0	nl, no, rear
+mount kisco	2018	media	5	34.4	nl, seats, bmw
+mount kisco	2019	alta	3	428.0	nl, m, seats
+mount kisco	2019	media	6	366.3333333333333	nl, seats, heated
+mount kisco	2020	alta	32	230.3125	nl, seats, package
+mount kisco	2020	media	17	83.52941176470588	nl, wheel, heated
+mount kisco	2021	alta	16	12.875	wheel, package, heated
+mount kisco	2021	media	13	9.538461538461538	wheel, heated, keyless
+new britain	2006	bassa	3	37.0	front, rear, system
+new britain	2008	bassa	3	6.0	control, rear, front
+new britain	2009	bassa	2	91.5	front, rear, seat
+new britain	2010	bassa	3	51.333333333333336	front, rear, pwr
+new britain	2011	bassa	2	13.0	rear, front, passenger
+new britain	2012	bassa	1	19.0	rear, front, inc
+new britain	2013	bassa	2	25.0	front, rear, inc
+new britain	2014	bassa	2	47.0	front, rear, power
+new brunswick	2002	bassa	1	547.0	approved, pricing, we
+new brunswick	2005	bassa	1	547.0	approved, front, credit
+new brunswick	2006	bassa	2	322.5	approved, front, rear
+new brunswick	2007	bassa	1	48.0	approved, pricing, we
+new brunswick	2008	bassa	2	547.0	front, rear, type
+new brunswick	2009	bassa	2	17.5	approved, credit, pricing
+new brunswick	2010	bassa	2	281.0	front, approved, rear
+new brunswick	2011	bassa	3	281.3333333333333	front, approved, rear
+new brunswick	2012	bassa	2	20.5	approved, credit, pricing
+new brunswick	2012	media	1	64.0	approved, we, credit
+new brunswick	2013	bassa	10	86.9	approved, pricing, we
+new brunswick	2014	bassa	5	131.6	approved, front, credit
+new brunswick	2015	bassa	4	26.25	approved, credit, we
+new brunswick	2015	media	1	59.0	approved, credit, pricing
+new brunswick	2016	bassa	1	10.0	approved, credit, we
+new brunswick	2016	media	1	14.0	approved, credit, pricing
+new brunswick	2017	bassa	8	90.5	approved, we, credit
+new brunswick	2017	media	1	21.0	approved, credit, we
+new brunswick	2018	bassa	1	54.0	approved, credit, pricing
+new hudson	2011	bassa	2	15.5	front, seat, rear
+new hudson	2012	bassa	1	20.0	front, rear, suspension
+new hudson	2013	bassa	1	10.0	2013, hines, make
+new hudson	2014	bassa	2	17.0	front, rear, power
+new hudson	2015	bassa	1	4.0	power, study, jd
+new hudson	2016	bassa	2	23.0	front, rear, seat
+new hudson	2016	media	1	24.0	power, front, rear
+new hudson	2017	bassa	8	27.0	front, rear, power
+new hudson	2017	media	7	40.142857142857146	front, rear, power
+new hudson	2018	bassa	6	32.5	front, rear, power
+new hudson	2018	media	12	31.416666666666668	front, rear, power
+new hudson	2019	alta	1	432.0	
+new hudson	2019	bassa	2	34.0	front, rear, power
+new hudson	2019	media	8	63.125	front, rear, power
+new hudson	2020	alta	54	100.16666666666667	seat, front, and
+new hudson	2020	bassa	1	18.0	front, rear, audio
+new hudson	2020	media	349	62.57593123209169	front, and, seat
+new rochelle	2005	media	1	23.0	front, manual, leather
+new rochelle	2009	bassa	1	12.0	front, power, door
+new rochelle	2011	media	1	46.0	front, power, seat
+new rochelle	2012	alta	1	71.0	wheel, front, steering
+new rochelle	2012	bassa	1	40.0	front, power, rear
+new rochelle	2013	media	1	12.0	front, rear, power
+new rochelle	2015	bassa	2	15.0	front, power, rear
+new rochelle	2016	bassa	2	17.0	front, 2016, rear
+new rochelle	2016	media	5	73.6	front, rear, power
+new rochelle	2017	alta	1	9.0	front, power, rear
+new rochelle	2017	bassa	10	25.1	front, rear, seat
+new rochelle	2017	media	33	42.15151515151515	front, rear, power
+new rochelle	2018	bassa	6	32.5	front, seat, rear
+new rochelle	2018	media	19	20.68421052631579	front, rear, power
+new rochelle	2019	alta	3	216.33333333333334	front, rear, power
+new rochelle	2019	media	12	59.0	front, rear, seat
+new rochelle	2020	alta	6	137.83333333333334	front, rear, power
+new rochelle	2020	media	18	167.11111111111111	front, rear, power
+new york	1950	media	1	951.0	restored, 1950, chevy
+new york	1959	alta	1	335.0	swb, car, the
+new york	1968	alta	1	210.0	soft, window, targa
+new york	1989	alta	1	951.0	911, turbo, nose
+new york	1990	alta	1	951.0	land, drive, cruiser
+new york	2009	alta	2	851.0	rear, front, system
+new york	2010	alta	1	463.0	leather, two, this
+new york	2011	alta	1	509.0	rear, frontrear, pwr
+new york	2011	bassa	2	33.5	nl, driver, mirror
+new york	2014	alta	5	78.0	rear, front, and
+new york	2014	bassa	1	29.0	nl, player, wheel
+new york	2014	media	1	27.0	nl, driver, system
+new york	2015	alta	4	31.25	rear, front, and
+new york	2015	bassa	2	28.5	nl, driver, power
+new york	2015	media	3	9.0	rear, front, power
+new york	2016	alta	12	185.91666666666666	rear, front, power
+new york	2017	alta	12	130.33333333333334	rear, front, and
+new york	2017	bassa	22	31.272727272727273	nl, driver, wheel
+new york	2017	media	9	17.11111111111111	rear, front, and
+new york	2018	alta	18	230.44444444444446	front, rear, and
+new york	2018	bassa	1	13.0	nl, rear, steering
+new york	2018	media	11	227.9090909090909	nl, rear, driver
+new york	2019	alta	10	91.4	front, rear, and
+new york	2019	media	3	234.66666666666666	rear, front, power
+new york	2020	alta	6	38.666666666666664	rear, front, power
+new york	2020	media	130	79.14615384615385	nl, driver, rear
+new york	2021	alta	3	22.0	seat, rear, driver
+new york	2021	media	11	35.63636363636363	nl, rear, driver
+newark	2007	bassa	4	50.0	front, rear, type
+newark	2008	bassa	4	40.5	front, rear, control
+newark	2008	media	1	19.0	front, unique, black
+newark	2009	bassa	1	20.0	front, power, rear
+newark	2009	media	2	317.5	control, front, rear
+newark	2010	alta	1	81.0	rear, front, control
+newark	2010	bassa	1	21.0	front, rear, type
+newark	2010	media	3	50.666666666666664	rear, front, seat
+newark	2011	bassa	2	13.5	front, rear, type
+newark	2012	bassa	5	27.8	front, rear, seat
+newark	2012	media	5	75.6	rear, front, seat
+newark	2013	bassa	2	64.0	front, rear, control
+newark	2013	media	5	98.2	inc, front, control
+newark	2014	alta	2	220.5	front, power, rear
+newark	2014	bassa	3	46.333333333333336	rear, front, power
+newark	2014	media	6	67.0	rear, front, power
+newark	2015	bassa	4	43.0	rear, front, power
+newark	2015	media	12	62.5	rear, front, power
+newark	2016	bassa	4	30.75	rear, front, power
+newark	2016	media	7	90.28571428571429	rear, front, power
+newark	2017	bassa	3	19.333333333333332	front, rear, power
+newark	2017	media	6	111.66666666666667	rear, power, front
+newark	2018	bassa	1	12.0	rear, front, power
+newark	2018	media	2	75.0	rear, front, power
+newark	2019	bassa	3	9.333333333333334	rear, front, and
+newark	2019	media	1	33.0	rear, front, power
+newark	2020	bassa	1	17.0	front, rear, driver
+newington	2007	bassa	1	20.0	power, air, control
+newington	2009	bassa	2	69.0	power, air, pkg
+newington	2013	bassa	1	39.0	air, power, control
+newington	2014	bassa	1	280.0	air, power, bags
+newington	2015	bassa	1	226.0	air, bags, power
+newton	2002	bassa	1	18.0	nl, driver, mirror
+newton	2008	bassa	1	178.0	nl, power, rear
+newton	2009	bassa	2	116.5	nl, driver, rear
+newton	2010	bassa	3	24.333333333333332	nl, driver, front
+newton	2011	bassa	4	37.75	nl, mirror, rear
+newton	2011	media	1	56.0	nl, rear, driver
+newton	2012	bassa	3	28.333333333333332	nl, rear, system
+newton	2012	media	1	3.0	nl, seat, driver
+newton	2013	bassa	7	39.857142857142854	nl, rear, power
+newton	2014	bassa	1	68.0	nl, driver, heated
+newton	2015	bassa	1	6.0	nl, engine, power
+newton	2016	bassa	1	12.0	nl, bag, player
+newton	2016	media	7	117.71428571428571	nl, rear, wheel
+newton	2017	bassa	1	35.0	nl, wheel, rear
+newton	2017	media	25	35.2	nl, power, rear
+newton	2018	alta	1	3.0	nl, power, driver
+newton	2018	bassa	1	27.0	nl, rear, bag
+newton	2018	media	12	76.5	nl, driver, wheel
+newton	2019	media	3	20.666666666666668	nl, rear, power
+newton	2020	alta	25	118.4	nl, rear, driver
+newton	2020	media	33	52.333333333333336	nl, rear, wheel
+newton	2021	alta	63	12.412698412698413	rear, nl, power
+newton	2021	media	20	9.45	nl, power, rear
+north haven	2013	bassa	3	6.0	front, steering, rear
+north haven	2014	media	1	7.0	front, control, inc
+north haven	2015	bassa	1	28.0	front, rear, power
+north haven	2016	bassa	2	6.0	front, rear, steering
+north haven	2016	media	2	37.5	front, rear, steering
+north haven	2017	media	42	37.976190476190474	front, steering, door
+north haven	2018	alta	1	19.0	front, wheel, steering
+north haven	2018	media	13	24.307692307692307	front, door, steering
+north haven	2019	media	2	26.5	front, rear, steering
+north haven	2020	alta	3	248.0	power, control, rear
+north haven	2020	media	33	128.4848484848485	power, rear, control
+north plainfield	2003	media	1	33.0	power, front, control
+north plainfield	2006	media	1	48.0	front, power, adjustments
+north plainfield	2008	bassa	1	26.0	front, rear, type
+north plainfield	2009	bassa	1	7.0	front, rear, seat
+north plainfield	2011	bassa	1	48.0	rear, front, power
+north plainfield	2012	bassa	6	30.0	front, rear, power
+north plainfield	2013	bassa	5	33.2	front, rear, type
+north plainfield	2013	media	1	20.0	front, rear, power
+north plainfield	2014	bassa	10	50.9	front, rear, power
+north plainfield	2014	media	4	44.0	front, rear, power
+north plainfield	2015	alta	1	42.0	front, rear, power
+north plainfield	2015	bassa	9	48.77777777777778	front, rear, type
+north plainfield	2015	media	10	23.4	front, rear, power
+north plainfield	2016	alta	3	27.0	front, rear, power
+north plainfield	2016	bassa	15	34.53333333333333	front, rear, power
+north plainfield	2016	media	7	21.285714285714285	front, rear, power
+north plainfield	2017	alta	2	26.5	rear, front, power
+north plainfield	2017	bassa	52	33.21153846153846	front, rear, seat
+north plainfield	2017	media	21	40.38095238095238	front, rear, power
+north plainfield	2018	bassa	8	25.625	front, rear, steering
+north plainfield	2018	media	9	72.11111111111111	front, rear, power
+north plainfield	2019	alta	1	472.0	front, steering, rear
+north plainfield	2019	bassa	16	57.5	front, rear, steering
+north plainfield	2019	media	11	212.0909090909091	front, rear, power
+north plainfield	2020	bassa	16	48.9375	front, rear, wheel
+north plainfield	2020	media	19	310.7894736842105	front, rear, steering
+norwalk	2004	bassa	1	38.0	garavel, vehicle, rear
+norwalk	2007	bassa	1	19.0	steering, power, front
+norwalk	2008	bassa	2	20.0	rear, front, power
+norwalk	2011	bassa	2	3.5	power, front, rear
+norwalk	2012	bassa	1	7.0	front, wheel, steering
+norwalk	2013	bassa	1	18.0	front, steering, rear
+norwalk	2013	media	1	6.0	front, steering, power
+norwalk	2014	bassa	2	8.5	front, steering, wheel
+norwalk	2014	media	1	25.0	front, rear, steering
+norwalk	2015	bassa	2	23.0	front, steering, rear
+norwalk	2016	bassa	1	17.0	front, steering, seats
+norwalk	2016	media	4	6.5	front, rear, power
+norwalk	2017	bassa	3	14.333333333333334	front, steering, wheel
+norwalk	2017	media	16	11.8125	front, rear, power
+norwalk	2018	bassa	1	7.0	front, control, steering
+norwalk	2018	media	8	18.125	front, rear, steering
+norwalk	2019	media	7	249.85714285714286	front, rear, power
+norwalk	2020	alta	3	322.0	front, rear, power
+norwalk	2020	media	9	213.55555555555554	front, rear, steering
+novi	2014	media	1	18.0	front, rear, power
+novi	2015	bassa	2	7.0	front, rear, power
+novi	2015	media	1	34.0	front, rear, seat
+novi	2016	media	1	4.0	front, rear, power
+novi	2017	alta	1	7.0	front, rear, power
+novi	2017	bassa	5	32.4	front, rear, power
+novi	2017	media	70	39.68571428571428	front, rear, power
+novi	2018	alta	3	13.666666666666666	rear, front, power
+novi	2018	media	24	39.5	front, rear, power
+novi	2019	alta	9	97.33333333333333	front, rear, power
+novi	2019	media	3	96.0	front, rear, power
+novi	2020	alta	90	36.922222222222224	00, lincoln, new
+novi	2020	media	297	93.98653198653199	00, lincoln, new
+oakhurst	2016	bassa	1	54.0	control, power, transmission
+oakhurst	2017	alta	2	9.5	power, remote, control
+oakhurst	2017	bassa	24	58.541666666666664	power, rear, control
+oakhurst	2017	media	47	24.51063829787234	power, control, seat
+oakhurst	2018	alta	1	14.0	power, control, manual
+oakhurst	2018	bassa	3	22.0	front, rear, engine
+oakhurst	2018	media	15	32.266666666666666	power, control, front
+oakhurst	2019	bassa	10	20.3	front, rear, power
+oakhurst	2019	media	8	21.25	power, seat, front
+oakhurst	2020	alta	5	146.0	power, steering, remote
+oakhurst	2020	media	4	86.25	0, power, remote
+okemos	2013	bassa	1	15.0	audi, front, power
+okemos	2014	media	1	0.0	mirrors, front, exterior
+okemos	2015	bassa	1	14.0	front, rear, wheel
+okemos	2015	media	2	20.5	front, rear, steering
+okemos	2016	bassa	1	15.0	front, power, control
+okemos	2017	alta	2	21.5	front, steering, rear
+okemos	2017	bassa	2	85.0	front, power, steering
+okemos	2017	media	16	36.5	front, steering, wheel
+okemos	2018	alta	4	34.25	front, rear, power
+okemos	2018	bassa	1	12.0	rear, driver, front
+okemos	2018	media	9	35.111111111111114	front, steering, rear
+okemos	2019	alta	2	203.5	driver, comfort, seat
+okemos	2020	alta	19	162.47368421052633	front, rear, steering
+okemos	2020	media	13	113.92307692307692	front, power, steering
+okemos	2021	alta	1	11.0	front, rear, steering
+old bridge	2012	bassa	3	92.0	power, rear, air
+old bridge	2013	bassa	13	33.0	power, rear, bag
+old bridge	2014	bassa	9	35.55555555555556	power, air, bag
+old bridge	2015	alta	1	41.0	power, seat, rear
+old bridge	2015	bassa	8	41.25	power, bag, air
+old bridge	2015	media	1	115.0	power, air, bag
+old bridge	2016	bassa	6	16.5	air, bag, rear
+old bridge	2017	alta	1	5.0	power, rear, air
+old bridge	2017	bassa	15	44.53333333333333	power, bag, air
+old bridge	2017	media	4	38.75	power, air, seat
+old bridge	2018	bassa	1	0.0	bag, air, power
+old bridge	2018	media	1	20.0	power, rear, seat
+old saybrook	2007	bassa	1	22.0	front, rear, 4wheel
+old saybrook	2009	bassa	1	52.0	front, rear, air
+old saybrook	2011	bassa	2	24.0	front, rear, models
+old saybrook	2012	bassa	3	44.0	front, rear, inc
+old saybrook	2013	bassa	2	41.0	rear, front, system
+old saybrook	2013	media	1	11.0	front, rear, steering
+old saybrook	2014	bassa	2	27.0	front, rear, air
+old saybrook	2014	media	1	23.0	rear, front, power
+old saybrook	2015	bassa	5	51.6	rear, front, power
+old saybrook	2015	media	1	290.0	power, rear, seat
+old saybrook	2016	bassa	5	45.4	rear, front, power
+old saybrook	2017	bassa	1	68.0	front, rear, driver
+old saybrook	2017	media	3	157.33333333333334	rear, front, power
+palisades park	2012	bassa	1	41.0	vehicle, to, internet
+palisades park	2015	bassa	1	375.0	vehicle, to, internet
+palisades park	2018	media	2	127.5	vehicle, to, internet
+paramus	2004	bassa	1	5.0	rear, front, power
+paramus	2006	bassa	1	5.0	front, power, driver
+paramus	2009	alta	1	53.0	power, rear, passenger
+paramus	2010	bassa	1	27.0	front, power, rear
+paramus	2011	bassa	1	15.0	air, bags, power
+paramus	2012	bassa	2	7.0	front, power, rear
+paramus	2012	media	2	14.5	front, power, door
+paramus	2013	bassa	1	6.0	
+paramus	2014	alta	2	43.5	power, rear, steering
+paramus	2014	bassa	5	16.2	front, rear, steering
+paramus	2014	media	3	16.666666666666668	power, front, steering
+paramus	2015	media	3	15.666666666666666	power, front, driver
+paramus	2016	bassa	3	44.666666666666664	rear, power, front
+paramus	2016	media	7	23.285714285714285	front, power, seat
+paramus	2017	alta	14	31.714285714285715	front, power, driver
+paramus	2017	bassa	5	27.4	rear, front, power
+paramus	2017	media	69	37.028985507246375	power, front, rear
+paramus	2018	alta	12	22.666666666666668	front, power, driver
+paramus	2018	media	28	28.035714285714285	power, front, rear
+paramus	2019	alta	14	127.64285714285714	power, driver, front
+paramus	2019	media	9	48.111111111111114	rear, front, power
+paramus	2020	alta	147	69.33333333333333	power, driver, mirror
+paramus	2020	media	123	48.26829268292683	power, rear, driver
+paramus	2021	alta	6	16.833333333333332	driver, power, mirror
+paramus	2021	media	60	27.583333333333332	power, driver, rear
+passaic	2003	bassa	3	28.666666666666668	front, rear, power
+passaic	2006	bassa	2	64.5	front, rear, power
+passaic	2007	bassa	2	22.0	front, rear, type
+passaic	2008	bassa	1	27.0	front, rear, seat
+passaic	2009	bassa	5	35.2	front, rear, type
+passaic	2010	bassa	1	22.0	front, type, rear
+passaic	2011	bassa	3	55.333333333333336	front, rear, power
+passaic	2012	bassa	5	58.8	front, rear, type
+passaic	2013	bassa	3	34.666666666666664	front, rear, type
+passaic	2014	bassa	2	25.5	front, rear, type
+passaic	2015	bassa	1	14.0	front, type, rear
+passaic	2016	bassa	1	14.0	front, rear, type
+passaic	2018	bassa	1	6.0	front, rear, steering
+passaic	2020	media	1	22.0	power, airbag, front
+patchogue	2010	bassa	10	102.4	front, rear, system
+patchogue	2011	bassa	7	71.14285714285714	front, rear, system
+patchogue	2012	bassa	10	77.6	front, rear, pwr
+patchogue	2013	bassa	12	166.0	front, rear, inc
+patchogue	2013	media	1	178.0	2011, inc, system
+patchogue	2014	bassa	22	177.8181818181818	front, rear, and
+patchogue	2015	bassa	19	153.10526315789474	front, rear, and
+patchogue	2015	media	2	37.0	and, front, rear
+patchogue	2016	bassa	19	157.26315789473685	front, rear, and
+patchogue	2017	bassa	23	139.3913043478261	front, rear, and
+patchogue	2017	media	4	113.25	rear, and, front
+patchogue	2018	alta	1	36.0	and, rear, front
+patchogue	2018	bassa	13	100.0	front, rear, and
+patchogue	2018	media	2	18.5	and, rear, front
+patchogue	2019	bassa	4	82.25	front, rear, and
+patchogue	2020	bassa	1	47.0	rear, and, front
+paterson	1986	bassa	1	39.0	power, city, vehicle
+paterson	1999	bassa	1	159.0	vehicle, city, trucks
+paterson	2000	bassa	1	326.0	city, we, trucks
+paterson	2001	bassa	1	47.0	front, power, silk
+paterson	2002	bassa	3	263.6666666666667	trucks, mall, dealer
+paterson	2003	bassa	3	155.66666666666666	auto, city, silk
+paterson	2004	bassa	1	4.0	silk, mall, trucks
+paterson	2005	bassa	4	83.25	front, we, silk
+paterson	2005	media	1	124.0	seat, front, rear
+paterson	2006	bassa	3	50.666666666666664	power, steering, seat
+paterson	2007	bassa	15	60.266666666666666	front, rear, type
+paterson	2007	media	1	322.0	front, rear, type
+paterson	2008	bassa	8	101.25	front, rear, type
+paterson	2008	media	2	14.0	front, rear, type
+paterson	2009	bassa	11	52.0	front, rear, type
+paterson	2010	bassa	15	110.2	front, rear, type
+paterson	2011	bassa	32	123.28125	front, rear, type
+paterson	2011	media	2	94.5	front, rear, type
+paterson	2012	bassa	21	85.80952380952381	front, rear, type
+paterson	2013	bassa	26	74.88461538461539	front, rear, power
+paterson	2013	media	3	196.0	front, type, rear
+paterson	2014	bassa	19	77.89473684210526	front, rear, type
+paterson	2014	media	4	18.0	front, rear, type
+paterson	2015	bassa	7	61.142857142857146	front, rear, power
+paterson	2015	media	4	121.75	front, type, rear
+paterson	2016	bassa	1	29.0	power, steering, airbag
+paterson	2016	media	4	142.5	front, power, rear
+paterson	2017	bassa	2	110.5	front, type, rear
+paterson	2017	media	4	111.75	power, airbag, steering
+paterson	2018	bassa	1	36.0	airbag, front, we
+paterson	2018	media	2	35.0	airbag, power, we
+paterson	2019	media	1	222.0	power, airbag, we
+plainfield	1996	bassa	1	3.0	front, wheel, rear
+plainfield	2003	bassa	2	77.5	front, power, type
+plainfield	2004	bassa	1	210.0	power, rear, front
+plainfield	2007	bassa	2	15.5	front, rear, type
+plainfield	2008	bassa	2	25.5	front, rear, type
+plainfield	2009	bassa	1	27.0	front, rear, type
+plainfield	2010	bassa	3	91.33333333333333	front, rear, type
+plainfield	2011	bassa	11	55.63636363636363	front, rear, type
+plainfield	2012	bassa	3	85.0	front, rear, type
+plainfield	2013	bassa	18	61.5	front, rear, type
+plainfield	2014	bassa	7	33.0	front, rear, type
+plainfield	2015	bassa	5	27.2	front, rear, type
+plainfield	2016	bassa	4	28.75	front, rear, type
+plainfield	2017	bassa	3	24.0	front, rear, type
+plainview	1980	media	1	48.0	the, 1980, vi
+plainview	1987	alta	1	25.0	the, porsche, 1987
+plainview	1991	alta	1	20.0	the, targa, porsche
+plainview	1995	alta	1	74.0	the, 911, carrera
+plainview	1996	media	1	62.0	the, jaguar, xjs
+plainview	2007	alta	1	40.0	2006, pwr, frontrear
+plainview	2007	bassa	1	1.0	front, rear, system
+plainview	2009	media	2	80.0	the, inc, front
+plainview	2010	alta	1	69.0	inc, carrera, porsche
+plainview	2011	bassa	2	14.5	inc, front, system
+plainview	2014	alta	1	81.0	front, rear, and
+plainview	2014	bassa	2	43.0	front, rear, and
+plainview	2014	media	1	202.0	rear, and, front
+plainview	2015	media	4	3.75	rear, front, and
+plainview	2016	media	1	0.0	rear, front, and
+plainview	2017	alta	2	12.5	front, rear, and
+plainview	2017	media	1	47.0	front, rear, and
+plainview	2018	alta	1	4.0	front, rear, and
+plainview	2018	media	1	19.0	driver, rear, front
+plainview	2019	media	1	25.0	rear, front, and
+plainview	2020	alta	1	9.0	front, rear, and
+plantsville	2006	bassa	1	11.0	front, pwr, rear
+plantsville	2009	bassa	1	0.0	05, models, engine
+plantsville	2010	bassa	1	40.0	front, driver, passenger
+plantsville	2011	bassa	4	68.5	front, rear, power
+plantsville	2012	bassa	3	28.666666666666668	front, rear, inc
+plantsville	2013	bassa	4	51.75	rear, front, control
+plantsville	2014	bassa	5	62.4	rear, power, front
+plantsville	2014	media	1	11.0	rear, front, power
+plantsville	2015	bassa	6	31.166666666666668	rear, front, power
+plantsville	2015	media	1	18.0	rear, power, front
+plantsville	2016	bassa	6	120.16666666666667	rear, front, power
+plantsville	2016	media	3	81.0	rear, front, power
+plantsville	2017	bassa	3	149.0	rear, front, power
+plantsville	2017	media	2	4.0	rear, front, power
+plantsville	2018	media	1	80.0	power, front, rear
+pontiac	2002	bassa	1	38.0	power, front, seat
+pontiac	2004	bassa	2	69.0	power, drive, call
+pontiac	2005	bassa	2	73.0	power, air, conditioning
+pontiac	2009	bassa	1	57.0	power, air, control
+pontiac	2010	bassa	3	8.0	front, rear, power
+pontiac	2011	bassa	2	33.5	front, rear, type
+pontiac	2012	bassa	4	40.75	air, bags, power
+pontiac	2013	bassa	5	53.6	rear, power, front
+pontiac	2014	bassa	1	26.0	front, rear, type
+pontiac	2015	bassa	4	23.0	air, power, bags
+pontiac	2016	alta	1	103.0	air, power, bags
+pontiac	2016	bassa	11	137.0	air, bags, power
+pontiac	2016	media	3	86.66666666666667	front, rear, control
+pontiac	2017	bassa	17	68.17647058823529	air, power, bags
+pontiac	2017	media	11	76.0	power, air, control
+pontiac	2018	bassa	4	80.0	air, bags, power
+pontiac	2018	media	5	14.6	power, air, bags
+pontiac	2019	bassa	4	56.75	air, power, bags
+pontiac	2019	media	3	41.0	power, air, bags
+port jefferson station	2011	bassa	3	14.666666666666666	to, power, air
+port jefferson station	2012	bassa	2	8.0	power, rear, mirror
+port jefferson station	2012	media	1	7.0	seat, power, mirror
+port jefferson station	2013	media	1	12.0	air, power, to
+port jefferson station	2014	bassa	2	22.0	air, bag, to
+port jefferson station	2014	media	1	4.0	mirror, wheel, power
+port jefferson station	2016	bassa	2	14.5	air, bag, to
+port jefferson station	2016	media	1	7.0	to, air, bag
+port jefferson station	2017	bassa	2	98.0	to, air, bag
+port jefferson station	2017	media	32	25.0	bag, air, rear
+port jefferson station	2018	alta	2	14.0	to, price, this
+port jefferson station	2018	bassa	1	47.0	to, be, price
+port jefferson station	2018	media	8	46.125	to, air, bag
+port jefferson station	2019	alta	1	192.0	bag, power, air
+port jefferson station	2019	bassa	1	4.0	bag, air, to
+port jefferson station	2019	media	7	50.857142857142854	air, bag, rear
+poughkeepsie	2005	bassa	2	29.5	steering, power, airbag
+poughkeepsie	2007	bassa	1	27.0	power, steering, airbag
+queens village	2008	bassa	2	34.0	front, door, power
+queens village	2011	bassa	1	229.0	front, steering, wheel
+queens village	2012	bassa	1	22.0	front, rear, seat
+queens village	2013	bassa	2	188.5	front, power, rear
+queens village	2014	bassa	3	27.666666666666668	front, rear, power
+queens village	2015	bassa	4	142.25	front, rear, steering
+queens village	2016	bassa	1	272.0	front, rear, steering
+queens village	2016	media	8	121.25	front, rear, steering
+queens village	2017	bassa	10	149.4	front, rear, steering
+queens village	2017	media	8	51.125	front, rear, steering
+queens village	2018	bassa	3	180.0	front, rear, steering
+queens village	2018	media	5	174.2	front, rear, steering
+queens village	2019	bassa	1	112.0	front, seat, power
+queens village	2019	media	13	198.15384615384616	front, power, rear
+queens village	2020	alta	14	100.0	automatic, 8speed, transmission
+queens village	2020	media	58	75.84482758620689	automatic, siriusxm, power
+ramsey	2005	bassa	1	22.0	nl, driver, mirror
+ramsey	2006	bassa	1	8.0	nl, driver, seats
+ramsey	2008	bassa	1	13.0	nl, rear, driver
+ramsey	2009	bassa	1	7.0	nl, driver, rear
+ramsey	2010	bassa	3	12.333333333333334	nl, driver, lexus
+ramsey	2011	bassa	2	6.0	nl, driver, lexus
+ramsey	2012	bassa	3	6.333333333333333	nl, rear, wheel
+ramsey	2013	bassa	3	5.666666666666667	nl, power, rear
+ramsey	2013	media	2	0.0	nl, wheel, rear
+ramsey	2014	bassa	4	5.0	nl, power, rear
+ramsey	2014	media	1	6.0	nl, power, driver
+ramsey	2015	bassa	3	15.666666666666666	nl, seat, driver
+ramsey	2015	media	2	12.5	nl, driver, power
+ramsey	2016	alta	1	17.0	nl, rear, seat
+ramsey	2016	bassa	1	1.0	nl, power, driver
+ramsey	2016	media	3	27.666666666666668	nl, power, wheel
+ramsey	2017	bassa	5	25.0	nl, rear, driver
+ramsey	2017	media	74	18.35135135135135	nl, driver, wheel
+ramsey	2018	bassa	2	24.5	nl, rear, lexus
+ramsey	2018	media	16	15.5	nl, driver, rear
+ramsey	2019	alta	3	615.0	rear, nl, seat
+ramsey	2019	bassa	3	37.0	nl, driver, seat
+ramsey	2019	media	7	110.28571428571429	nl, driver, rear
+ramsey	2020	alta	43	43.7906976744186	nl, rear, power
+ramsey	2020	media	42	101.47619047619048	nl, wheel, driver
+redford	1987	bassa	1	84.0	available, amfm, 3
+redford	1993	bassa	1	49.0	power, wheel, amfm
+redford	2004	bassa	1	19.0	power, first, key
+redford	2006	bassa	1	68.0	power, right, one
+redford	2007	bassa	1	81.0	amfm, power, wheel
+redford	2008	bassa	1	12.0	power, active, abs
+redford	2010	bassa	1	210.0	power, amfm, wheel
+redford	2011	bassa	3	44.666666666666664	power, airbags, head
+redford	2012	bassa	3	15.0	power, airbags, amfm
+redford	2013	bassa	3	43.0	power, airbags, amfm
+redford	2014	bassa	3	38.333333333333336	power, airbags, wheel
+redford	2015	bassa	3	9.666666666666666	power, wheel, amfm
+redford	2016	alta	1	19.0	power, airbag, mode
+redford	2016	bassa	2	51.5	power, airbags, wheel
+redford	2016	media	1	15.0	airbags, power, head
+redford	2017	bassa	2	37.0	airbags, power, head
+redford	2018	media	1	50.0	airbags, power, wheel
+ringwood	2006	bassa	1	0.0	front, rear, power
+ringwood	2007	bassa	1	34.0	rear, front, type
+ringwood	2008	bassa	2	27.5	front, rear, type
+ringwood	2009	bassa	2	11.0	front, rear, type
+ringwood	2010	bassa	2	29.5	front, rear, type
+ringwood	2011	bassa	3	12.333333333333334	front, rear, type
+ringwood	2012	bassa	7	23.714285714285715	front, rear, type
+ringwood	2013	bassa	2	20.5	front, rear, type
+ringwood	2014	bassa	2	25.0	front, rear, type
+ringwood	2015	bassa	1	19.0	front, rear, type
+ringwood	2016	bassa	1	209.0	
+ringwood	2016	media	2	26.0	brake, front, width
+riverhead	2013	bassa	1	68.0	air, power, bag
+riverhead	2015	bassa	2	17.0	power, bag, air
+riverhead	2015	media	1	29.0	power, rear, seat
+riverhead	2016	media	2	17.0	air, bag, passenger
+riverhead	2017	bassa	8	34.5	air, bag, power
+riverhead	2017	media	15	38.333333333333336	power, bag, air
+riverhead	2018	media	8	57.5	power, air, bag
+riverhead	2019	media	1	59.0	air, bag, rear
+riverhead	2020	bassa	1	7.0	power, bag, air
+riverhead	2020	media	51	109.3529411764706	power, bag, air
+riverhead	2021	media	8	25.625	air, bag, power
+robbinsville	2004	bassa	1	0.0	front, power, audio
+robbinsville	2005	bassa	1	7.0	control, audio, front
+robbinsville	2007	bassa	1	3.0	front, rear, audio
+robbinsville	2008	bassa	1	0.0	rear, front, power
+robbinsville	2010	bassa	1	0.0	rear, front, seat
+robbinsville	2011	bassa	1	12.0	front, rear, power
+robbinsville	2012	bassa	2	1.0	front, rear, power
+robbinsville	2013	media	1	1.0	front, rear, power
+robbinsville	2014	media	3	30.333333333333332	front, rear, seat
+robbinsville	2015	bassa	3	6.333333333333333	front, rear, power
+robbinsville	2015	media	3	18.666666666666668	front, rear, audio
+robbinsville	2016	bassa	1	74.0	front, rear, audio
+robbinsville	2016	media	10	149.7	front, rear, power
+robbinsville	2017	bassa	17	42.94117647058823	front, rear, audio
+robbinsville	2017	media	40	54.25	front, rear, power
+robbinsville	2018	bassa	4	97.25	front, rear, seat
+robbinsville	2018	media	9	147.11111111111111	front, rear, and
+robbinsville	2019	alta	2	24.5	front, audio, rear
+robbinsville	2019	bassa	3	188.0	front, rear, audio
+robbinsville	2019	media	33	52.84848484848485	front, rear, audio
+robbinsville	2020	alta	2	11.5	front, rear, audio
+robbinsville	2020	media	10	28.6	front, rear, power
+rockville centre	2016	media	1	6.0	front, seat, power
+rockville centre	2017	bassa	1	13.0	front, control, steering
+rockville centre	2017	media	8	25.75	front, rear, power
+rockville centre	2018	bassa	1	49.0	front, steering, rear
+rockville centre	2018	media	2	28.0	rear, front, power
+rockville centre	2019	alta	1	34.0	power, rear, front
+rockville centre	2019	media	3	22.333333333333332	rear, front, power
+rockville centre	2020	alta	1	59.0	front, power, rear
+rockville centre	2020	media	18	53.333333333333336	front, rear, power
+roselle	2013	bassa	1	26.0	front, seat, and
+roselle	2014	bassa	1	18.0	front, rear, seat
+roselle	2015	bassa	1	36.0	front, seat, and
+roselle	2016	bassa	2	61.0	front, seat, rear
+roselle	2016	media	2	3.5	front, power, seat
+roselle	2017	bassa	23	17.26086956521739	front, rear, audio
+roselle	2017	media	5	19.0	front, seat, rear
+roselle	2018	bassa	5	17.6	front, rear, audio
+roselle	2018	media	4	25.0	rear, front, seat
+roselle	2019	bassa	2	92.0	front, rear, and
+roselle	2019	media	2	52.0	rear, front, seat
+roselle	2020	alta	1	55.0	front, power, seat
+roselle	2020	media	101	50.584158415841586	front, and, seat
+roselle	2021	alta	2	28.5	front, seat, rear
+roselle	2021	media	11	22.181818181818183	front, rear, and
+roselle park	2000	bassa	1	5.0	the, front, power
+roselle park	2002	bassa	1	13.0	the, power, clean
+roselle park	2004	bassa	1	56.0	front, the, power
+roselle park	2005	bassa	2	16.5	front, the, rear
+roselle park	2006	bassa	2	11.5	front, rear, seat
+roselle park	2007	bassa	1	0.0	front, rear, type
+roselle park	2008	bassa	1	8.0	front, rear, type
+roselle park	2009	bassa	1	43.0	front, rear, type
+roselle park	2010	bassa	1	4.0	front, rear, type
+roselle park	2011	bassa	1	20.0	front, rear, type
+roselle park	2012	bassa	3	29.666666666666668	front, rear, type
+roselle park	2013	bassa	2	5.5	rear, front, type
+roselle park	2014	bassa	4	17.75	front, rear, type
+roselle park	2015	bassa	3	22.0	front, rear, type
+roselle park	2017	alta	1	87.0	front, rear, type
+roselle park	2017	bassa	1	37.0	front, rear, type
+roselle park	2018	bassa	2	56.5	front, rear, type
+roseville	2004	bassa	2	9.5	front, steering, wheel
+roseville	2007	bassa	3	10.666666666666666	front, steering, rear
+roseville	2008	bassa	3	8.666666666666666	front, rear, power
+roseville	2009	bassa	1	40.0	front, seat, rear
+roseville	2010	bassa	2	13.0	front, power, steering
+roseville	2011	bassa	2	16.5	front, rear, steering
+roseville	2012	bassa	2	10.5	front, rear, door
+roseville	2012	media	2	30.5	front, power, steering
+roseville	2013	bassa	3	14.666666666666666	front, steering, free
+roseville	2014	bassa	5	29.4	front, rear, steering
+roseville	2015	bassa	7	24.285714285714285	front, rear, steering
+roseville	2016	bassa	3	20.333333333333332	front, rear, free
+roseville	2016	media	3	79.66666666666667	front, rear, free
+roseville	2017	bassa	32	27.71875	front, free, rear
+roseville	2017	media	13	55.61538461538461	front, rear, power
+roseville	2018	bassa	7	25.571428571428573	front, rear, steering
+roseville	2018	media	11	26.636363636363637	front, rear, power
+roseville	2019	bassa	1	384.0	front, rear, steering
+roseville	2019	media	2	50.0	front, rear, steering
+roseville	2020	alta	11	101.45454545454545	front, steering, rear
+roseville	2020	bassa	19	72.05263157894737	front, steering, wheel
+roseville	2020	media	150	138.65333333333334	front, rear, steering
+roseville	2021	media	42	33.95238095238095	front, steering, rear
+royal oak	2004	bassa	1	38.0	door, front, to
+royal oak	2005	bassa	1	48.0	front, power, wheel
+royal oak	2007	bassa	1	9.0	front, door, vehicle
+royal oak	2009	bassa	1	19.0	rear, front, steering
+royal oak	2009	media	1	11.0	front, door, steering
+royal oak	2010	bassa	4	14.5	front, door, rear
+royal oak	2011	bassa	2	18.5	front, steering, door
+royal oak	2013	bassa	1	70.0	front, door, power
+royal oak	2014	bassa	1	19.0	front, door, wheel
+royal oak	2015	bassa	1	7.0	rear, front, door
+royal oak	2016	bassa	2	8.5	front, door, rear
+royal oak	2017	bassa	5	51.2	front, rear, door
+royal oak	2017	media	2	22.5	front, rear, power
+royal oak	2018	bassa	2	43.5	front, rear, door
+royal oak	2018	media	5	37.2	front, rear, door
+royal oak	2019	media	5	26.4	front, door, rear
+royal oak	2020	bassa	2	8.0	front, driver, wheel
+royal oak	2020	media	15	170.13333333333333	front, rear, seat
+saddle brook	2010	bassa	1	123.0	front, rear, power
+saddle brook	2011	bassa	2	60.0	front, rear, type
+saddle brook	2012	bassa	5	94.2	front, rear, type
+saddle brook	2013	bassa	4	206.25	front, rear, type
+saddle brook	2014	bassa	3	131.0	front, rear, type
+saddle brook	2016	media	1	433.0	front, rear, type
+saint james	1997	bassa	1	12.0	power, we, charges
+saint james	2011	bassa	2	9.0	air, power, we
+saint james	2013	bassa	1	58.0	air, control, we
+saint james	2013	media	1	22.0	control, we, cars
+saint james	2015	bassa	2	48.0	control, air, we
+saint james	2015	media	2	26.5	we, power, air
+saint james	2016	bassa	2	30.0	air, we, bags
+saint james	2016	media	5	20.4	control, we, air
+saint james	2017	bassa	8	30.5	air, power, we
+saint james	2017	media	8	25.25	air, control, power
+saint james	2018	bassa	1	61.0	air, bags, we
+saint james	2018	media	1	10.0	control, power, air
+san juan	2020	alta	67	167.9402985074627	pack, rear, wheel
+san juan	2020	media	2	172.0	pack, protection, cargo
+shelby charter twp	2003	bassa	1	7.0	front, power, wheel
+shelby charter twp	2005	bassa	1	14.0	front, power, rear
+shelby charter twp	2006	bassa	3	20.0	front, rear, power
+shelby charter twp	2007	bassa	4	25.5	front, type, rear
+shelby charter twp	2008	bassa	1	26.0	rear, front, power
+shelby charter twp	2009	bassa	2	29.5	front, rear, type
+shelby charter twp	2010	bassa	6	48.5	front, rear, type
+shelby charter twp	2011	bassa	8	31.375	front, rear, type
+shelby charter twp	2011	media	4	41.25	front, rear, type
+shelby charter twp	2012	bassa	5	35.6	front, rear, type
+shelby charter twp	2013	bassa	9	25.0	front, rear, type
+shelby charter twp	2014	bassa	7	39.57142857142857	front, rear, type
+shelby charter twp	2014	media	1	44.0	front, rear, type
+shelby charter twp	2015	bassa	6	38.166666666666664	front, rear, type
+shelby charter twp	2016	bassa	2	4.0	front, rear, type
+shelby charter twp	2016	media	2	12.5	front, rear, type
+shelby charter twp	2017	alta	1	15.0	front, rear, type
+shelby charter twp	2017	bassa	1	20.0	front, rear, type
+shelby charter twp	2018	bassa	1	22.0	rear, front, type
+shelby charter twp	2018	media	1	47.0	front, rear, type
+shelby township	2013	media	1	202.0	nl, driver, seat
+shelby township	2015	bassa	2	30.0	system, power, nl
+shelby township	2015	media	1	7.0	rear, front, power
+shelby township	2016	bassa	1	21.0	nl, driver, rear
+shelby township	2016	media	4	23.25	front, steering, wheel
+shelby township	2017	bassa	2	33.0	front, nl, power
+shelby township	2017	media	44	34.56818181818182	nl, power, rear
+shelby township	2018	alta	2	7.5	front, rear, seats
+shelby township	2018	media	14	41.857142857142854	front, power, steering
+shelby township	2019	alta	2	40.5	rear, steering, wheel
+shelby township	2019	media	12	43.583333333333336	steering, front, power
+shelby township	2020	alta	17	174.47058823529412	front, steering, wheel
+shelby township	2020	media	11	88.27272727272727	front, power, steering
+shelby township	2021	alta	32	10.9375	front, steering, rear
+shelby township	2021	media	7	9.142857142857142	front, rear, power
+smithtown	2009	bassa	1	31.0	front, rear, inc
+smithtown	2011	bassa	2	22.0	rear, seat, front
+smithtown	2012	bassa	2	15.0	inc, front, rear
+smithtown	2013	bassa	3	52.333333333333336	front, inc, rear
+smithtown	2014	bassa	4	21.0	front, rear, and
+smithtown	2014	media	3	21.0	front, seat, and
+smithtown	2015	bassa	5	76.0	front, rear, and
+smithtown	2015	media	5	18.8	front, rear, power
+smithtown	2016	bassa	6	86.5	front, rear, and
+smithtown	2016	media	11	136.1818181818182	front, seat, rear
+smithtown	2017	alta	1	186.0	seat, power, front
+smithtown	2017	bassa	25	46.96	front, rear, and
+smithtown	2017	media	58	39.51724137931034	front, rear, and
+smithtown	2018	bassa	4	62.0	front, rear, and
+smithtown	2018	media	27	29.185185185185187	front, rear, and
+smithtown	2019	alta	3	264.6666666666667	seat, power, front
+smithtown	2019	bassa	2	70.5	front, rear, inc
+smithtown	2019	media	14	280.42857142857144	front, rear, and
+smithtown	2020	alta	85	76.96470588235294	, inc, front
+smithtown	2020	bassa	3	210.66666666666666	2020, yaris, hatchback
+smithtown	2020	media	114	115.54385964912281	, state, emissions
+smithtown	2021	alta	11	3.5454545454545454	
+smithtown	2021	media	6	12.666666666666666	
+somerville	2010	bassa	1	48.0	power, seat, rear
+somerville	2011	bassa	1	8.0	wheel, air, power
+somerville	2013	bassa	1	22.0	power, air, bag
+somerville	2014	bassa	6	21.166666666666668	power, rear, air
+somerville	2014	media	1	6.0	rear, inc, power
+somerville	2015	bassa	2	14.0	power, bag, air
+somerville	2015	media	5	30.6	power, rear, air
+somerville	2016	bassa	7	22.428571428571427	power, air, bag
+somerville	2016	media	5	26.8	air, rear, power
+somerville	2017	bassa	7	27.285714285714285	power, air, bag
+somerville	2017	media	27	21.77777777777778	power, rear, air
+somerville	2018	alta	5	377.0	power, mirror, seat
+somerville	2018	bassa	3	25.666666666666668	power, bag, air
+somerville	2018	media	16	79.4375	power, rear, air
+somerville	2019	alta	6	201.16666666666666	power, seat, rear
+somerville	2019	bassa	1	8.0	power, air, bag
+somerville	2019	media	25	157.04	power, rear, air
+somerville	2020	alta	231	77.70995670995671	power, rear, seat
+somerville	2020	bassa	1	323.0	power, air, bag
+somerville	2020	media	390	106.77435897435898	power, rear, air
+somerville	2021	media	5	13.2	door, air, bag
+south hackensack	2002	bassa	3	64.0	power, control, air
+south hackensack	2003	bassa	1	582.0	control, power, air
+south hackensack	2004	bassa	1	46.0	power, air, control
+south hackensack	2005	bassa	1	58.0	power, control, air
+south hackensack	2006	bassa	3	39.0	power, air, bags
+south hackensack	2007	alta	1	22.0	power, air, seats
+south hackensack	2007	bassa	4	96.0	power, air, control
+south hackensack	2008	bassa	2	13.0	control, air, power
+south hackensack	2009	bassa	4	31.75	power, air, control
+south hackensack	2010	bassa	6	43.0	power, control, air
+south hackensack	2011	bassa	6	18.833333333333332	air, control, power
+south hackensack	2011	media	2	17.0	control, power, air
+south hackensack	2012	bassa	9	26.666666666666668	air, power, control
+south hackensack	2012	media	3	28.666666666666668	control, power, air
+south hackensack	2013	bassa	14	92.78571428571429	air, power, control
+south hackensack	2013	media	1	30.0	air, control, power
+south hackensack	2014	bassa	8	128.875	air, power, control
+south hackensack	2014	media	4	27.0	air, control, power
+south hackensack	2015	bassa	15	40.53333333333333	air, control, bags
+south hackensack	2015	media	2	96.0	power, control, air
+south hackensack	2016	alta	1	11.0	air, power, bags
+south hackensack	2016	bassa	6	54.5	air, power, control
+south hackensack	2016	media	3	23.333333333333332	control, air, power
+south hackensack	2017	bassa	18	30.055555555555557	air, control, power
+south hackensack	2017	media	4	93.25	air, control, power
+south hackensack	2018	bassa	1	263.0	air, control, bags
+south hackensack	2018	media	2	16.0	power, air, control
+south hackensack	2019	bassa	1	102.0	control, power, air
+south hackensack	2019	media	1	6.0	power, air, control
+south river	1957	media	1	406.0	and, the, this
+south river	1974	bassa	1	406.0	this, sl, 450
+south river	1980	bassa	1	406.0	leather, this, with
+south river	1988	bassa	2	603.5	and, this, leather
+south river	1995	bassa	1	406.0	power, this, mirrors
+south river	1999	bassa	1	406.0	power, steering, leather
+south river	2000	bassa	1	738.0	power, control, this
+south river	2003	bassa	1	411.0	power, control, mirrors
+south river	2006	bassa	2	406.0	power, steering, and
+south river	2007	bassa	10	406.0	power, steering, mirrors
+south river	2007	media	1	406.0	power, steering, mirrors
+south river	2008	bassa	12	406.0	power, mirrors, steering
+south river	2008	media	2	406.0	power, steering, wheel
+south river	2009	bassa	3	406.0	power, steering, control
+south river	2009	media	1	406.0	power, control, mirrors
+south river	2010	bassa	9	406.0	power, control, steering
+south river	2010	media	5	406.0	power, control, and
+south river	2011	bassa	13	410.7692307692308	power, control, steering
+south river	2011	media	8	451.875	power, this, is
+south river	2012	bassa	17	426.6470588235294	power, control, steering
+south river	2012	media	9	478.1111111111111	power, control, wheel
+south river	2013	bassa	23	466.17391304347825	power, steering, control
+south river	2013	media	11	436.0	power, control, steering
+south river	2014	bassa	13	452.3076923076923	power, control, steering
+south river	2014	media	7	465.0	power, control, rear
+south river	2015	alta	2	420.5	rear, control, steering
+south river	2015	bassa	20	406.75	control, power, steering
+south river	2015	media	11	447.3636363636364	power, control, steering
+south river	2016	alta	1	406.0	rear, control, steering
+south river	2016	bassa	1	406.0	steering, rear, mirrors
+south river	2016	media	4	406.0	power, steering, control
+south river	2017	alta	1	708.0	power, rear, control
+south river	2017	bassa	2	406.0	rear, power, is
+south river	2017	media	2	406.0	power, and, steering
+south river	2018	media	1	406.0	control, rear, power
+spring valley	2006	bassa	1	6.0	front, steering, wheel
+spring valley	2008	bassa	1	4.0	front, power, steering
+spring valley	2011	alta	2	99.0	ferrari, steering, front
+spring valley	2011	bassa	1	6.0	front, door, seats
+spring valley	2012	bassa	1	19.0	front, steering, package
+spring valley	2013	bassa	3	21.666666666666668	front, power, steering
+spring valley	2014	bassa	3	18.333333333333332	front, steering, wheel
+spring valley	2014	media	2	26.5	front, steering, wheel
+spring valley	2015	alta	2	81.5	front, steering, wheel
+spring valley	2015	bassa	2	15.5	front, steering, system
+spring valley	2016	alta	1	31.0	front, rear, seat
+spring valley	2016	bassa	3	9.666666666666666	front, rear, steering
+spring valley	2017	alta	5	21.4	front, steering, wheel
+spring valley	2017	media	57	27.017543859649123	front, steering, wheel
+spring valley	2018	alta	3	25.333333333333332	rear, front, steering
+spring valley	2018	bassa	1	26.0	power, radio, display
+spring valley	2018	media	21	23.095238095238095	front, steering, wheel
+spring valley	2019	alta	3	137.33333333333334	ferrari, front, 2019
+spring valley	2019	media	1	7.0	front, rear, power
+spring valley	2020	alta	33	187.72727272727272	front, steering, rear
+spring valley	2020	media	44	129.20454545454547	front, steering, power
+spring valley	2021	alta	72	11.166666666666666	front, rear, steering
+spring valley	2021	media	40	11.225	front, rear, power
+springfield	2002	bassa	1	13.0	front, rear, pwr
+springfield	2005	bassa	1	28.0	front, rear, door
+springfield	2006	bassa	3	19.333333333333332	rear, front, system
+springfield	2007	bassa	3	34.0	rear, front, system
+springfield	2008	bassa	3	6.333333333333333	front, rear, control
+springfield	2009	bassa	6	30.5	rear, front, system
+springfield	2010	bassa	5	62.8	front, rear, air
+springfield	2011	bassa	7	41.857142857142854	front, rear, inc
+springfield	2012	bassa	4	39.5	front, rear, inc
+springfield	2012	media	1	87.0	front, rear, pwr
+springfield	2013	bassa	6	32.166666666666664	front, rear, inc
+springfield	2014	bassa	1	76.0	rear, front, inc
+springfield	2015	bassa	4	188.75	rear, front, power
+springfield	2016	bassa	4	244.25	front, rear, power
+springfield	2016	media	1	333.0	power, inc, front
+springfield	2017	bassa	27	88.55555555555556	rear, front, and
+springfield	2017	media	27	90.07407407407408	front, rear, and
+springfield	2018	bassa	2	138.5	front, rear, driver
+springfield	2018	media	3	40.0	front, rear, and
+springfield	2019	bassa	8	60.25	front, rear, power
+springfield	2019	media	1	74.0	power, front, rear
+springfield gardens	2011	bassa	2	384.5	front, inc, pwr
+springfield gardens	2012	bassa	1	596.0	front, rear, inc
+springfield gardens	2013	bassa	3	352.6666666666667	rear, front, seat
+springfield gardens	2014	bassa	1	185.0	front, power, rear
+springfield gardens	2015	bassa	1	34.0	front, rear, power
+springfield gardens	2016	bassa	5	162.0	front, rear, power
+springfield gardens	2017	bassa	14	56.92857142857143	rear, front, power
+springfield gardens	2018	bassa	2	57.5	rear, front, driver
+springfield gardens	2019	bassa	1	85.0	front, rear, air
+stamford	2002	bassa	1	7.0	nl, heated, rear
+stamford	2007	bassa	1	139.0	nl, driver, rear
+stamford	2010	bassa	2	3.5	nl, hyundai, driver
+stamford	2010	media	1	59.0	nl, power, rear
+stamford	2011	bassa	2	10.0	nl, driver, wheel
+stamford	2012	bassa	2	51.0	nl, mirror, rear
+stamford	2013	bassa	8	4.125	nl, driver, rear
+stamford	2014	bassa	13	22.76923076923077	nl, rear, hyundai
+stamford	2014	media	1	15.0	nl, seat, wheel
+stamford	2015	bassa	14	25.357142857142858	nl, rear, driver
+stamford	2016	bassa	17	41.705882352941174	nl, rear, driver
+stamford	2016	media	2	976.5	nl, rear, power
+stamford	2017	bassa	95	45.09473684210526	nl, driver, rear
+stamford	2017	media	40	28.825	nl, driver, rear
+stamford	2018	alta	1	33.0	heated, power, package
+stamford	2018	bassa	36	43.861111111111114	nl, hyundai, driver
+stamford	2018	media	14	38.92857142857143	nl, driver, rear
+stamford	2019	alta	4	368.25	nl, rear, seat
+stamford	2019	bassa	14	35.857142857142854	nl, hyundai, wheel
+stamford	2019	media	33	185.24242424242425	nl, driver, rear
+stamford	2020	alta	34	251.7058823529412	heated, power, rear
+stamford	2020	bassa	10	185.6	nl, hyundai, rear
+stamford	2020	media	225	173.82222222222222	nl, driver, rear
+stamford	2021	alta	65	34.246153846153845	front, seats, heated
+stamford	2021	media	40	20.675	nl, power, wheel
+staten island	2004	bassa	1	0.0	front, power, wheel
+staten island	2005	bassa	1	0.0	front, seat, power
+staten island	2006	bassa	2	0.0	front, rear, type
+staten island	2007	bassa	1	0.0	rear, front, power
+staten island	2009	bassa	1	7.0	front, rear, type
+sterling heights	2009	bassa	1	60.0	comma, front, rear
+sterling heights	2015	bassa	2	42.5	comma, engine, rear
+sterling heights	2016	bassa	1	7.0	front, black, comma
+sterling heights	2016	media	1	32.0	comma, rear, front
+sterling heights	2017	bassa	2	30.5	comma, box, rear
+sterling heights	2018	bassa	1	78.0	comma, box, driver
+sterling heights	2018	media	2	19.5	comma, front, rear
+sterling heights	2019	media	1	11.0	front, black, comma
+summit	2010	bassa	1	3.0	front, power, steering
+summit	2011	bassa	1	28.0	front, power, rear
+summit	2012	bassa	1	5.0	front, steering, control
+summit	2013	bassa	2	25.0	front, steering, power
+summit	2014	bassa	1	10.0	front, rear, radio
+summit	2016	media	2	25.5	power, front, rear
+summit	2017	bassa	4	30.25	front, rear, wheel
+summit	2017	media	20	23.65	front, rear, power
+summit	2018	bassa	2	40.0	front, rear, power
+summit	2018	media	1	18.0	front, rear, steering
+summit	2019	alta	3	78.0	front, air, bag
+summit	2019	media	2	15.0	front, power, rear
+summit	2020	alta	22	107.45454545454545	power, rear, front
+summit	2020	media	70	124.67142857142858	power, rear, front
+syosset	2008	bassa	1	99.0	power, rear, front
+syosset	2012	bassa	2	9.0	front, steering, seat
+syosset	2013	bassa	1	43.0	inc, control, front
+syosset	2014	alta	1	193.0	rear, power, and
+syosset	2014	media	1	38.0	front, rear, power
+syosset	2015	alta	1	332.0	rear, power, front
+syosset	2015	bassa	3	20.666666666666668	front, steering, rear
+syosset	2016	alta	2	186.5	rear, front, power
+syosset	2016	bassa	5	21.8	front, rear, power
+syosset	2016	media	7	39.0	rear, front, power
+syosset	2017	alta	3	216.33333333333334	rear, power, front
+syosset	2017	bassa	30	20.3	front, steering, wheel
+syosset	2017	media	43	36.74418604651163	rear, front, power
+syosset	2018	alta	4	84.0	rear, front, and
+syosset	2018	bassa	6	42.166666666666664	front, steering, wheel
+syosset	2018	media	12	30.166666666666668	rear, front, power
+syosset	2019	alta	1	38.0	rear, power, front
+syosset	2019	bassa	1	48.0	front, steering, rear
+syosset	2019	media	1	97.0	front, steering, seats
+syosset	2020	media	181	31.386740331491712	nissan, rear, front
+teterboro	1993	bassa	1	5.0	front, steering, wheel
+teterboro	1996	bassa	2	9.5	power, front, wheel
+teterboro	1997	bassa	1	189.0	front, power, 16
+teterboro	1999	bassa	3	42.0	front, power, steering
+teterboro	2001	bassa	1	46.0	front, power, seat
+teterboro	2002	bassa	3	50.0	front, power, seat
+teterboro	2003	bassa	4	28.0	front, power, seat
+teterboro	2004	bassa	9	39.111111111111114	front, power, rear
+teterboro	2005	bassa	6	46.0	front, power, seat
+teterboro	2006	bassa	8	115.5	front, rear, seat
+teterboro	2006	media	1	103.0	front, rear, power
+teterboro	2007	bassa	11	39.45454545454545	front, rear, type
+teterboro	2008	bassa	4	28.75	front, rear, type
+teterboro	2008	media	1	481.0	front, rear, type
+teterboro	2009	bassa	5	33.8	front, rear, type
+teterboro	2009	media	1	448.0	front, rear, side
+teterboro	2010	bassa	11	35.54545454545455	front, rear, type
+teterboro	2010	media	1	56.0	front, rear, type
+teterboro	2011	bassa	3	46.666666666666664	front, rear, type
+teterboro	2012	bassa	8	106.875	front, rear, type
+teterboro	2013	bassa	5	21.2	front, rear, type
+teterboro	2014	bassa	2	18.5	front, rear, type
+teterboro	2015	alta	1	7.0	rear, front, type
+teterboro	2015	bassa	1	77.0	rear, front, type
+teterboro	2016	bassa	3	14.666666666666666	front, rear, type
+teterboro	2016	media	1	43.0	front, type, rear
+teterboro	2017	bassa	3	17.333333333333332	front, rear, type
+teterboro	2018	bassa	1	19.0	front, rear, type
+teterboro	2018	media	1	39.0	rear, front, control
+teterboro	2020	media	1	235.0	
+toledo	2006	bassa	1	26.0	front, door, steering
+toledo	2007	bassa	1	45.0	front, power, rear
+toledo	2010	bassa	1	17.0	front, door, steering
+toledo	2011	bassa	2	5.5	front, rear, door
+toledo	2012	bassa	1	5.0	front, door, radio
+toledo	2014	bassa	1	0.0	front, door, power
+toledo	2015	bassa	2	15.5	front, steering, rear
+toledo	2016	bassa	2	27.0	front, rear, steering
+toledo	2017	bassa	35	35.94285714285714	front, rear, steering
+toledo	2017	media	12	28.0	front, power, rear
+toledo	2018	bassa	4	57.75	front, rear, seat
+toledo	2018	media	7	13.142857142857142	front, rear, steering
+toledo	2019	bassa	4	8.75	front, rear, system
+toledo	2019	media	5	26.8	front, rear, control
+toledo	2020	alta	1	48.0	front, nissanconnect, steering
+toledo	2020	bassa	2	29.5	front, radio, door
+toledo	2020	media	67	62.92537313432836	front, rear, steering
+totowa	1999	bassa	1	43.0	fees, power, vehicle
+totowa	2000	bassa	1	17.0	fees, vehicle, power
+totowa	2002	bassa	3	19.333333333333332	fees, power, prices
+totowa	2003	bassa	1	25.0	fees, power, vehicle
+totowa	2004	bassa	4	40.75	fees, power, prices
+totowa	2005	bassa	3	23.333333333333332	power, fees, prices
+totowa	2006	bassa	3	45.333333333333336	power, fees, air
+totowa	2008	bassa	6	25.5	fees, air, vehicle
+totowa	2009	bassa	4	17.0	fees, air, power
+totowa	2010	bassa	7	38.285714285714285	fees, air, power
+totowa	2011	bassa	2	10.5	air, power, fees
+totowa	2012	bassa	7	66.0	air, fees, control
+totowa	2013	bassa	5	30.4	air, fees, power
+totowa	2014	bassa	3	17.0	air, power, fees
+totowa	2015	bassa	1	42.0	air, power, fees
+totowa	2016	bassa	2	28.5	air, fees, control
+trenton	2011	bassa	1	33.0	black, 33, wrong
+trenton	2013	bassa	1	42.0	front, rear, seats
+trenton	2015	bassa	7	30.0	front, rear, audio
+trenton	2016	bassa	4	161.75	front, rear, audio
+trenton	2017	bassa	21	52.523809523809526	front, rear, audio
+trenton	2017	media	28	82.28571428571429	front, rear, power
+trenton	2018	bassa	17	74.0	front, rear, audio
+trenton	2018	media	10	105.3	front, rear, audio
+trenton	2019	alta	3	289.3333333333333	front, rear, audio
+trenton	2019	bassa	21	98.52380952380952	front, rear, audio
+trenton	2019	media	24	75.875	front, rear, audio
+trenton	2020	alta	2	11.0	front, rear, audio
+trenton	2020	bassa	2	299.0	front, rear, audio
+trenton	2020	media	76	57.276315789473685	front, rear, audio
+troy	2010	bassa	2	9.0	front, steering, wheel
+troy	2011	bassa	1	15.0	front, seat, power
+troy	2012	bassa	2	13.0	front, seats, power
+troy	2013	bassa	3	3.6666666666666665	front, rear, power
+troy	2013	media	1	14.0	front, power, steering
+troy	2014	bassa	3	9.0	front, rear, seat
+troy	2015	bassa	2	54.5	front, power, radio
+troy	2016	bassa	1	10.0	front, rear, seats
+troy	2016	media	3	24.0	front, rear, seats
+troy	2017	bassa	12	21.166666666666668	front, rear, system
+troy	2017	media	29	28.655172413793103	front, seat, rear
+troy	2018	alta	1	0.0	front, system, seats
+troy	2018	bassa	4	33.5	front, rear, system
+troy	2018	media	12	24.416666666666668	front, rear, power
+troy	2019	media	4	33.5	front, rear, wheel
+troy	2020	alta	5	109.0	front, rear, steering
+troy	2020	bassa	10	268.6	front, rear, steering
+troy	2020	media	322	108.01863354037268	front, rear, steering
+union	2010	bassa	1	3.0	rear, front, door
+union	2012	bassa	1	49.0	front, inc, rear
+union	2012	media	1	13.0	rear, front, steering
+union	2013	alta	1	34.0	rear, front, pwr
+union	2013	bassa	1	27.0	rear, front, air
+union	2014	bassa	2	32.5	power, rear, front
+union	2014	media	1	27.0	passenger, power, driver
+union	2015	bassa	1	27.0	rear, front, power
+union	2015	media	2	35.0	rear, front, power
+union	2016	bassa	5	42.0	rear, front, power
+union	2016	media	2	69.0	rear, power, front
+union	2017	bassa	16	49.3125	rear, front, power
+union	2017	media	17	39.76470588235294	rear, front, power
+union	2018	alta	1	8.0	rear, front, power
+union	2018	bassa	9	33.77777777777778	rear, front, power
+union	2018	media	8	38.25	rear, front, power
+union	2019	bassa	3	22.0	front, rear, driver
+union	2019	media	3	59.666666666666664	rear, front, and
+union	2020	bassa	1	22.0	front, rear, passenger
+union	2020	media	3	11.333333333333334	front, power, rear
+union city	2004	bassa	1	112.0	comma, front, includes
+union city	2005	bassa	1	29.0	comma, front, pwr
+union city	2007	bassa	2	26.5	rear, front, pwr
+union city	2008	bassa	2	58.5	comma, front, rear
+union city	2009	bassa	4	47.0	comma, front, rear
+union city	2010	bassa	9	45.55555555555556	comma, front, rear
+union city	2011	bassa	12	74.66666666666667	comma, front, rear
+union city	2012	bassa	8	75.875	comma, front, rear
+union city	2013	bassa	12	64.41666666666667	comma, front, rear
+union city	2014	bassa	10	92.0	front, rear, comma
+union city	2015	bassa	4	49.25	comma, front, rear
+union city	2015	media	1	389.0	airbag, vehicle, rear
+union city	2016	bassa	4	66.25	front, comma, rear
+valley stream	2013	bassa	2	26.5	vehicle, power, bag
+valley stream	2013	media	2	139.0	vehicle, power, inc
+valley stream	2014	bassa	3	38.333333333333336	vehicle, power, air
+valley stream	2014	media	2	18.5	power, vehicle, air
+valley stream	2015	bassa	3	23.666666666666668	vehicle, rear, power
+valley stream	2016	bassa	7	59.285714285714285	vehicle, power, air
+valley stream	2016	media	14	94.57142857142857	power, air, vehicle
+valley stream	2017	bassa	58	33.327586206896555	power, rear, vehicle
+valley stream	2017	media	65	27.4	power, front, rear
+valley stream	2018	bassa	11	40.18181818181818	vehicle, power, control
+valley stream	2018	media	18	31.333333333333332	power, front, rear
+valley stream	2019	media	5	35.6	power, front, rear
+valley stream	2020	media	240	38.1375	front, rear, steering
+valley stream	2021	alta	2	5.5	front, steering, door
+valley stream	2021	media	57	19.912280701754387	front, rear, steering
+van nuys	2020	alta	8	29.0	front, steering, wheel
+vernon rockville	2003	bassa	1	21.0	front, rear, air
+vernon rockville	2004	bassa	1	50.0	front, air, steering
+vernon rockville	2008	bassa	1	6.0	front, rear, system
+vernon rockville	2012	bassa	5	31.2	front, rear, air
+vernon rockville	2013	bassa	1	63.0	front, inc, passenger
+vernon rockville	2014	bassa	1	19.0	front, rear, driver
+vernon rockville	2015	bassa	3	45.666666666666664	rear, front, and
+vernon rockville	2016	bassa	1	53.0	front, rear, air
+wall township	2010	media	1	18.0	power, steering, control
+wall township	2011	bassa	1	61.0	premium, steering, power
+wall township	2011	media	1	201.0	porsche, power, control
+wall township	2012	bassa	2	13.0	power, steering, wheel
+wall township	2013	bassa	3	24.333333333333332	power, control, steering
+wall township	2013	media	1	74.0	rear, power, control
+wall township	2014	bassa	2	99.0	power, steering, wheel
+wall township	2015	bassa	9	20.77777777777778	power, steering, wheel
+wall township	2015	media	6	20.0	power, steering, rear
+wall township	2016	alta	3	348.0	power, steering, control
+wall township	2016	bassa	23	14.91304347826087	power, steering, wheel
+wall township	2016	media	15	35.266666666666666	power, rear, steering
+wall township	2017	alta	7	22.714285714285715	power, heated, steering
+wall township	2017	bassa	74	40.33783783783784	power, steering, control
+wall township	2017	media	145	34.0551724137931	power, steering, rear
+wall township	2018	alta	3	90.33333333333333	power, control, system
+wall township	2018	bassa	26	35.15384615384615	power, steering, wheel
+wall township	2018	media	70	35.92857142857143	power, steering, control
+wall township	2019	alta	10	47.9	power, rear, control
+wall township	2019	bassa	18	29.833333333333332	power, steering, control
+wall township	2019	media	98	43.39795918367347	power, steering, control
+wall township	2020	alta	4	31.25	power, steering, control
+wall township	2020	bassa	2	12.5	power, steering, kia
+wall township	2020	media	24	29.208333333333332	power, steering, rear
+walled lake	2008	bassa	2	4.5	front, rear, power
+walled lake	2013	bassa	1	7.0	remote, carfax, keyless
+walled lake	2014	bassa	1	13.0	steering, kbbcom, 2014
+walled lake	2014	media	1	28.0	remote, heated, mirrors
+walled lake	2015	bassa	5	23.4	front, rear, power
+walled lake	2016	bassa	2	20.0	front, rear, power
+walled lake	2017	bassa	3	30.666666666666668	front, rear, seat
+walled lake	2017	media	6	20.166666666666668	rear, front, power
+walled lake	2018	bassa	1	33.0	front, rear, power
+walled lake	2018	media	6	23.833333333333332	front, rear, power
+walled lake	2019	media	7	21.285714285714285	front, rear, power
+walled lake	2020	alta	15	130.53333333333333	front, and, seat
+walled lake	2020	media	156	78.07692307692308	front, seat, rear
+walled lake	2021	alta	4	3.75	front, and, with
+walled lake	2021	media	87	10.632183908045977	front, seat, rear
+wallingford	2005	bassa	3	52.0	front, rear, pwr
+wallingford	2006	bassa	1	70.0	pwr, rear, control
+wallingford	2007	bassa	1	47.0	rear, front, seat
+wallingford	2008	bassa	2	48.5	front, rear, pwr
+wallingford	2009	bassa	1	131.0	
+wallingford	2010	bassa	5	43.6	rear, front, system
+wallingford	2011	bassa	3	18.333333333333332	front, rear, inc
+wallingford	2012	bassa	2	7.5	inc, rear, front
+wallingford	2013	bassa	3	23.333333333333332	front, rear, inc
+wallingford	2014	bassa	6	29.0	rear, front, power
+wallingford	2015	bassa	9	47.888888888888886	rear, front, power
+wallingford	2015	media	1	24.0	
+wallingford	2016	bassa	8	36.75	front, rear, power
+wallingford	2017	bassa	9	27.333333333333332	front, rear, power
+wallingford	2017	media	3	88.0	front, rear, power
+wallingford	2018	bassa	4	35.5	front, rear, power
+wallingford	2019	bassa	8	69.375	rear, front, power
+wallingford	2020	bassa	8	62.375	front, rear, power
+wantage	2013	bassa	4	26.25	front, wheel, steering
+wantage	2014	bassa	3	33.666666666666664	front, the, all
+wantage	2015	bassa	3	15.333333333333334	front, the, rear
+wantage	2016	bassa	7	20.714285714285715	front, wheel, all
+wantage	2017	bassa	12	35.083333333333336	front, wheel, rear
+wantage	2017	media	7	30.0	wheel, front, rear
+wantage	2018	bassa	8	27.375	front, warranty, rear
+wantage	2018	media	1	46.0	front, warranty, passenger
+wantage	2019	bassa	4	20.5	front, wheel, rear
+wantagh	2004	bassa	1	1118.0	front, the, power
+wantagh	2010	bassa	1	874.0	front, rear, type
+wantagh	2014	bassa	1	714.0	front, rear, type
+wantagh	2015	media	1	11.0	rear, front, type
+wantagh	2016	bassa	2	92.5	front, rear, type
+wantagh	2017	bassa	11	29.363636363636363	front, rear, type
+wantagh	2017	media	3	39.0	front, rear, type
+wantagh	2018	bassa	3	36.0	front, rear, type
+wantagh	2018	media	1	14.0	front, rear, type
+wantagh	2019	media	1	76.0	front, rear, type
+warren	2004	bassa	2	58.0	inspection, conscience, maintenance
+warren	2005	alta	1	43.0	anywhere, around, enthusiastically
+warren	2006	bassa	1	21.0	behind, all, completed
+warren	2007	bassa	2	14.0	completed, all, behind
+warren	2008	bassa	2	50.5	wheel, temperature, seating
+warren	2009	bassa	3	7.333333333333333	drive, accommodates, active
+warren	2010	bassa	2	43.5	choose, controls, sound
+warren	2010	media	1	82.0	anywhere, around, condition
+warren	2011	bassa	2	90.0	spare, stability, sway
+warren	2013	bassa	1	42.0	so, none, we
+warren	2014	bassa	4	91.5	nada, maintenance, found
+warren	2015	media	1	15.0	required, completely, none
+warren	2016	alta	1	41.0	ride, anywhere, around
+warren	2016	bassa	3	120.33333333333333	service, well, maintenance
+warren	2016	media	3	199.0	one, every, safe
+warren	2017	alta	2	1181.0	front, rear, power
+warren	2017	bassa	1	6.0	next, diligently, safe
+warren	2017	media	14	378.07142857142856	front, steering, wheel
+warren	2018	alta	2	728.5	front, rear, steering
+warren	2018	bassa	4	80.0	ride, one, hightech
+warren	2018	media	13	242.46153846153845	front, power, rear
+warren	2019	alta	3	669.6666666666666	front, rear, power
+warren	2019	bassa	4	15.75	choose, owner, clean
+warren	2019	media	18	162.72222222222223	front, rear, power
+warren	2020	alta	49	136.48979591836735	heated, alert, rear
+warren	2020	media	65	109.8	, heated, rear
+waterbury	1999	media	1	42.0	rear, system, front
+waterbury	2003	bassa	1	18.0	system, control, front
+waterbury	2005	bassa	1	10.0	includes, front, rear
+waterbury	2006	bassa	1	12.0	front, rear, includes
+waterbury	2007	bassa	3	19.0	rear, power, front
+waterbury	2008	bassa	2	27.0	system, front, rear
+waterbury	2009	bassa	5	45.6	rear, front, pwr
+waterbury	2010	bassa	8	85.625	front, rear, seat
+waterbury	2010	media	2	39.5	rear, front, inc
+waterbury	2011	bassa	12	60.083333333333336	front, rear, inc
+waterbury	2012	bassa	14	64.28571428571429	front, rear, air
+waterbury	2012	media	1	20.0	rear, front, seat
+waterbury	2013	alta	1	32.0	rear, front, air
+waterbury	2013	bassa	21	62.666666666666664	front, rear, seat
+waterbury	2013	media	1	11.0	rear, front, inc
+waterbury	2014	bassa	29	68.10344827586206	rear, front, power
+waterbury	2014	media	1	8.0	rear, front, control
+waterbury	2015	bassa	20	82.0	front, rear, power
+waterbury	2015	media	7	57.285714285714285	front, rear, power
+waterbury	2016	bassa	18	92.5	front, rear, steering
+waterbury	2016	media	16	93.4375	front, power, rear
+waterbury	2017	alta	1	0.0	rear, alert, front
+waterbury	2017	bassa	112	59.464285714285715	front, rear, power
+waterbury	2017	media	113	43.1858407079646	front, rear, power
+waterbury	2018	bassa	15	73.86666666666666	front, rear, steering
+waterbury	2018	media	30	36.733333333333334	front, power, rear
+waterbury	2019	bassa	15	38.666666666666664	front, rear, steering
+waterbury	2019	media	16	27.0	front, rear, power
+waterbury	2020	bassa	1	270.0	control, rear, front
+waterbury	2020	media	7	18.142857142857142	front, rear, power
+waterford	2003	bassa	3	11.333333333333334	and, great, very
+waterford	2007	bassa	1	46.0	front, and, great
+waterford	2008	bassa	3	15.666666666666666	front, toyota, and
+waterford	2009	bassa	4	36.0	front, toyota, rear
+waterford	2010	bassa	2	49.0	toyota, front, new
+waterford	2011	bassa	1	40.0	front, rear, and
+waterford	2011	media	1	68.0	toyota, rear, top
+waterford	2012	media	2	0.0	toyota, front, new
+waterford	2013	bassa	4	28.0	front, rear, toyota
+waterford	2013	media	2	28.5	toyota, front, power
+waterford	2014	bassa	4	20.25	front, rear, toyota
+waterford	2014	media	2	8.0	toyota, front, steering
+waterford	2015	bassa	4	39.0	toyota, front, rear
+waterford	2015	media	4	30.5	toyota, front, new
+waterford	2016	media	1	48.0	black, toyota, top
+waterford	2017	bassa	5	28.4	toyota, rear, control
+waterford	2017	media	3	14.333333333333334	toyota, rear, front
+waterford	2018	bassa	7	29.571428571428573	toyota, rear, front
+waterford	2018	media	5	19.0	toyota, control, front
+waterford	2019	bassa	5	32.8	toyota, control, front
+waterford	2019	media	5	23.0	toyota, power, front
+waterford	2020	alta	2	29.5	toyota, front, rear
+waterford	2020	bassa	3	285.6666666666667	toyota, front, we
+waterford	2020	media	52	27.21153846153846	toyota, front, rear
+waterford	2021	alta	1	25.0	toyota, front, door
+waterford	2021	media	11	10.545454545454545	toyota, control, front
+wayne	1998	media	1	111.0	steering, power, edition
+wayne	2014	bassa	1	42.0	front, lincoln, power
+wayne	2015	bassa	1	10.0	rear, cx5, front
+wayne	2016	bassa	1	33.0	rear, front, power
+wayne	2017	bassa	1	54.0	front, rear, heated
+wayne	2017	media	30	23.566666666666666	heated, rear, front
+wayne	2018	media	3	23.0	front, heated, rear
+wayne	2019	alta	1	322.0	rear, front, steering
+wayne	2020	alta	66	98.33333333333333	front, steering, rear
+wayne	2020	media	121	66.3801652892562	front, steering, rear
+west babylon	1990	bassa	1	17.0	power, front, type
+west babylon	2003	bassa	2	10.5	power, front, rear
+west babylon	2004	bassa	3	14.666666666666666	front, power, rear
+west babylon	2005	bassa	1	6.0	power, front, rear
+west babylon	2006	bassa	2	45.0	front, rear, seat
+west babylon	2007	bassa	1	32.0	front, rear, type
+west babylon	2008	bassa	3	29.0	front, rear, type
+west babylon	2009	bassa	4	26.75	front, rear, type
+west babylon	2010	bassa	7	37.42857142857143	front, rear, type
+west babylon	2011	bassa	3	28.333333333333332	front, rear, type
+west babylon	2011	media	1	48.0	front, power, rear
+west babylon	2012	bassa	5	30.2	front, rear, type
+west babylon	2012	media	1	47.0	front, rear, type
+west babylon	2013	bassa	3	22.0	front, rear, type
+west babylon	2013	media	1	20.0	rear, front, type
+west babylon	2014	bassa	6	25.833333333333332	front, rear, type
+west babylon	2014	media	2	15.5	front, rear, type
+west babylon	2015	bassa	1	42.0	front, rear, type
+west babylon	2017	bassa	2	30.0	front, rear, type
+west babylon	2017	media	1	12.0	front, rear, type
+west babylon	2018	media	3	16.0	front, rear, type
+west hartford	2004	bassa	2	40.0	rear, front, door
+west hartford	2005	bassa	1	14.0	includes, front, passenger
+west hartford	2007	bassa	2	17.5	comma, rear, front
+west hartford	2008	bassa	2	14.0	comma, rear, front
+west hartford	2009	bassa	2	24.5	front, rear, system
+west hartford	2010	bassa	2	27.0	rear, front, steering
+west hartford	2011	bassa	3	38.666666666666664	front, rear, inc
+west hartford	2012	bassa	7	33.714285714285715	front, rear, door
+west hartford	2013	bassa	4	24.0	front, rear, inc
+west hartford	2014	bassa	4	58.0	rear, front, and
+west hartford	2015	bassa	3	22.0	front, rear, and
+west hartford	2016	bassa	1	84.0	comma, front, rear
+west hartford	2017	bassa	5	50.2	front, rear, and
+west islip	2011	bassa	1	12.0	front, rear, steering
+west islip	2013	bassa	1	15.0	front, rear, pwr
+west islip	2014	bassa	2	37.5	front, rear, power
+west islip	2014	media	2	7.5	rear, front, control
+west islip	2015	bassa	5	20.0	front, rear, power
+west islip	2015	media	1	50.0	power, front, rear
+west islip	2016	bassa	1	11.0	rear, front, power
+west islip	2016	media	2	16.5	rear, front, power
+west islip	2017	bassa	8	35.375	front, rear, power
+west islip	2017	media	25	46.72	rear, front, power
+west islip	2018	alta	2	17.5	front, rear, and
+west islip	2018	bassa	3	42.0	front, rear, driver
+west islip	2018	media	13	35.69230769230769	front, rear, power
+west islip	2019	bassa	5	284.4	front, rear, power
+west islip	2019	media	10	59.6	rear, front, power
+west islip	2020	alta	12	113.08333333333333	front, rear, power
+west islip	2020	media	119	63.26890756302521	front, rear, power
+west islip	2021	media	4	0.0	front, rear, control
+west nyack	2011	bassa	1	7.0	control, rear, front
+west nyack	2012	bassa	2	30.0	front, rear, pwr
+west nyack	2013	bassa	1	31.0	pwr, door, rear
+west nyack	2014	bassa	3	137.33333333333334	front, rear, system
+west nyack	2015	bassa	2	364.5	front, rear, and
+west nyack	2016	bassa	8	203.75	front, rear, and
+west nyack	2016	media	1	378.0	front, rear, and
+west nyack	2017	bassa	28	75.14285714285714	front, rear, driver
+west nyack	2017	media	5	102.6	rear, front, and
+west nyack	2018	bassa	22	50.27272727272727	front, rear, and
+west nyack	2018	media	5	160.8	front, rear, driver
+west nyack	2019	bassa	7	144.42857142857142	front, rear, driver
+west nyack	2019	media	5	148.4	rear, front, and
+west nyack	2020	bassa	7	57.142857142857146	front, rear, driver
+west nyack	2020	media	236	145.16101694915255	front, rear, and
+west nyack	2021	bassa	3	4.333333333333333	front, rear, driver
+west nyack	2021	media	20	15.9	front, rear, and
+west springfield	2007	bassa	1	10.0	power, mirror, rear
+west springfield	2010	bassa	2	16.5	power, bag, air
+west springfield	2011	bassa	3	15.333333333333334	air, power, bag
+west springfield	2012	bassa	1	7.0	mirror, air, bag
+west springfield	2013	bassa	1	6.0	bag, air, control
+west springfield	2013	media	1	0.0	power, air, bag
+west springfield	2014	bassa	9	14.777777777777779	power, air, bag
+west springfield	2014	media	1	28.0	power, bag, air
+west springfield	2015	bassa	4	17.75	power, rear, bag
+west springfield	2015	media	4	8.75	power, air, bag
+west springfield	2016	bassa	12	22.583333333333332	power, bag, air
+west springfield	2016	media	8	16.875	power, bag, air
+west springfield	2017	bassa	28	26.392857142857142	bag, air, power
+west springfield	2017	media	57	34.824561403508774	power, air, bag
+west springfield	2018	alta	4	18.0	power, seat, rear
+west springfield	2018	bassa	12	38.583333333333336	air, bag, power
+west springfield	2018	media	24	73.04166666666667	power, bag, air
+west springfield	2019	alta	3	41.333333333333336	power, rear, mirror
+west springfield	2019	bassa	5	23.6	air, bag, power
+west springfield	2019	media	17	204.2941176470588	air, bag, power
+west springfield	2020	alta	31	196.6451612903226	power, mirror, rear
+west springfield	2020	bassa	9	177.0	power, air, bag
+west springfield	2020	media	173	76.91329479768787	power, air, bag
+west springfield	2021	alta	9	13.0	power, rear, air
+west springfield	2021	media	20	10.15	power, bag, air
+westbury	2009	bassa	1	60.0	rear, seat, system
+westbury	2013	bassa	2	172.5	inc, rear, door
+westbury	2014	bassa	1	14.0	rear, front, driver
+westbury	2015	media	2	38.5	front, rear, control
+westbury	2016	bassa	5	133.0	rear, front, power
+westbury	2016	media	4	210.0	rear, front, driver
+westbury	2017	bassa	46	79.58695652173913	rear, front, power
+westbury	2017	media	56	50.07142857142857	rear, front, power
+westbury	2018	bassa	8	106.5	rear, front, driver
+westbury	2018	media	19	85.6842105263158	rear, front, power
+westbury	2019	media	7	80.71428571428571	rear, front, power
+westbury	2020	alta	4	118.25	rear, front, power
+westbury	2020	bassa	1	6.0	rear, front, driver
+westbury	2020	media	177	96.70056497175142	rear, front, power
+westbury	2021	alta	5	23.4	front, driver, power
+westbury	2021	media	8	6.625	rear, front, driver
+westport	2018	media	1	60.0	rear, front, and
+westport	2019	media	1	301.0	rear, front, vehicle
+westport	2020	alta	3	205.0	rear, front, and
+westport	2020	media	12	110.0	rear, front, and
+westport	2021	alta	4	30.5	
+white plains	2013	bassa	1	14.0	front, steering, wheel
+white plains	2016	bassa	4	126.5	front, steering, wheel
+white plains	2016	media	2	32.5	front, rear, power
+white plains	2017	alta	1	89.0	front, rear, steering
+white plains	2017	bassa	12	41.0	front, steering, rear
+white plains	2017	media	29	30.379310344827587	front, steering, rear
+white plains	2018	bassa	4	67.0	front, rear, steering
+white plains	2018	media	8	35.0	front, rear, power
+white plains	2019	bassa	1	70.0	front, control, warranty
+white plains	2020	media	42	101.0952380952381	front, rear, steering
+windsor locks	2012	bassa	1	11.0	power, front, bag
+windsor locks	2014	bassa	1	13.0	power, rear, locks
+windsor locks	2016	media	1	24.0	power, seat, rear
+windsor locks	2017	bassa	33	46.75757575757576	power, air, bag
+windsor locks	2017	media	7	44.0	power, driver, mirror
+windsor locks	2018	bassa	10	58.1	power, air, bag
+windsor locks	2019	bassa	40	31.95	power, air, bag
+windsor locks	2020	bassa	20	31.0	air, bag, power
+windsor locks	2020	media	4	23.25	air, bag, power
+wood-ridge	1996	bassa	2	32.0	power, discount, costs
+wood-ridge	1997	bassa	1	15.0	power, costs, cannot
+wood-ridge	1998	bassa	2	12.5	power, costs, discount
+wood-ridge	1999	bassa	3	50.333333333333336	power, discount, fees
+wood-ridge	2000	bassa	7	51.42857142857143	power, air, costs
+wood-ridge	2001	bassa	8	39.75	power, air, discount
+wood-ridge	2002	bassa	20	55.2	power, air, fees
+wood-ridge	2003	bassa	34	52.205882352941174	power, air, cannot
+wood-ridge	2004	bassa	49	65.75510204081633	power, air, fees
+wood-ridge	2005	bassa	66	51.77272727272727	power, air, cannot
+wood-ridge	2006	bassa	72	53.02777777777778	power, air, discount
+wood-ridge	2007	bassa	109	61.93577981651376	power, air, fees
+wood-ridge	2008	bassa	106	59.66981132075472	power, air, bags
+wood-ridge	2009	bassa	65	58.52307692307692	air, power, bags
+wood-ridge	2010	bassa	88	50.38636363636363	air, power, bags
+wood-ridge	2011	bassa	47	55.59574468085106	air, power, bags
+wood-ridge	2012	bassa	32	42.34375	air, power, bags
+wood-ridge	2013	bassa	25	63.12	air, power, bags
+wood-ridge	2013	media	1	8.0	air, power, bags
+wood-ridge	2014	bassa	9	54.888888888888886	air, power, bags
+wood-ridge	2015	bassa	3	65.0	air, bags, power
+woodbridge	2013	bassa	1	1.0	front, rear, type
+woodbridge	2015	bassa	1	17.0	front, rear, type
+woodbridge	2015	media	1	7.0	front, rear, power
+woodbridge	2016	media	2	12.5	front, rear, type
+woodbridge	2017	media	5	19.0	front, rear, type
+woodbridge	2018	bassa	1	5.0	front, rear, steering
+woodbridge	2018	media	14	14.357142857142858	front, rear, type
+woodbridge	2019	bassa	1	24.0	front, rear, type
+woodbridge	2019	media	12	8.0	front, rear, type
+woodbridge	2020	media	1	19.0	front, rear, type
+woodbury	2011	alta	1	244.0	inc, pwr, power
+woodbury	2012	bassa	5	51.6	front, inc, rear
+woodbury	2012	media	1	40.0	rear, inc, front
+woodbury	2013	bassa	10	70.7	inc, front, rear
+woodbury	2013	media	3	49.333333333333336	inc, rear, front
+woodbury	2014	alta	2	189.0	rear, front, power
+woodbury	2014	bassa	9	35.666666666666664	rear, front, power
+woodbury	2014	media	8	66.875	rear, front, power
+woodbury	2015	bassa	6	92.66666666666667	rear, front, power
+woodbury	2015	media	4	170.75	rear, front, power
+woodbury	2016	bassa	2	41.0	rear, front, power
+woodbury	2016	media	2	39.0	rear, power, front
+woodbury	2017	bassa	4	28.75	rear, power, front
+woodbury	2017	media	8	89.375	rear, power, front
+woodbury	2018	media	1	45.0	power, front, rear
+woodside	2007	bassa	1	10.0	comma, front, available
+woodside	2010	bassa	1	18.0	rear, front, power
+woodside	2011	bassa	1	18.0	comma, engine, 05
+woodside	2012	bassa	1	242.0	rear, power, bag
+woodside	2013	bassa	2	153.5	power, front, rear
+woodside	2013	media	1	53.0	rear, air, power
+woodside	2014	bassa	1	38.0	front, power, passenger
+woodside	2015	bassa	1	157.0	front, power, passenger
+woodside	2015	media	1	144.0	power, vehicle, airbag
+woodside	2016	alta	1	396.0	power, air, rear
+woodside	2016	bassa	7	80.57142857142857	comma, rear, power
+woodside	2016	media	6	191.83333333333334	power, rear, seat
+woodside	2017	bassa	35	29.2	power, rear, air
+woodside	2017	media	34	55.14705882352941	power, rear, air
+woodside	2018	bassa	4	21.0	power, bag, air
+woodside	2018	media	6	43.166666666666664	power, rear, front
+woodside	2019	bassa	3	18.666666666666668	power, rear, front
+woodside	2019	media	11	60.27272727272727	comma, front, power
+woodside	2020	media	2	21.5	front, power, black
+yonkers	2012	bassa	1	21.0	front, rear, seat
+yonkers	2013	bassa	2	22.5	front, rear, power
+yonkers	2014	bassa	1	45.0	front, rear, power
+yonkers	2015	media	1	13.0	front, rear, seatbelts
+yonkers	2016	bassa	2	17.0	front, rear, power
+yonkers	2016	media	1	22.0	rear, front, seat
+yonkers	2017	bassa	5	22.0	front, rear, seat
+yonkers	2017	media	14	21.357142857142858	front, rear, seat
+yonkers	2018	bassa	4	28.0	front, rear, seat
+yonkers	2018	media	7	16.571428571428573	front, rear, seat
+yonkers	2019	bassa	1	22.0	front, rear, and
+yonkers	2019	media	1	55.0	front, rear, seat
+yonkers	2020	bassa	3	60.333333333333336	front, rear, airbags
+yonkers	2020	media	3	57.333333333333336	front, rear, seat
